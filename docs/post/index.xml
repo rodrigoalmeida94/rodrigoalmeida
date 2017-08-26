@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Rodrigo Almeida</title>
-    <link>rodrigoalmeida94.github.io/rodrigoalmeida/post/</link>
+    <link>https://rodrigoalmeida94.github.io/rodrigoalmeida/post/</link>
     <description>Recent content in Posts on Rodrigo Almeida</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Aug 2017 16:52:36 +0100</lastBuildDate>
     
-	<atom:link href="rodrigoalmeida94.github.io/rodrigoalmeida/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rodrigoalmeida94.github.io/rodrigoalmeida/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World!</title>
-      <link>rodrigoalmeida94.github.io/rodrigoalmeida/post/hello-world/</link>
+      <link>https://rodrigoalmeida94.github.io/rodrigoalmeida/post/hello-world/</link>
       <pubDate>Fri, 25 Aug 2017 16:52:36 +0100</pubDate>
       
-      <guid>rodrigoalmeida94.github.io/rodrigoalmeida/post/hello-world/</guid>
+      <guid>https://rodrigoalmeida94.github.io/rodrigoalmeida/post/hello-world/</guid>
       <description>&lt;p&gt;Hi! I&amp;rsquo;m not usually excited to meet new people, I&amp;rsquo;m kind of shy and a bit of an introvert, but if you got so far into this text, you&amp;rsquo;re probably a really nice person, so if you want to know more about me or my work, check out my facebook profile or my linkedin page.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
