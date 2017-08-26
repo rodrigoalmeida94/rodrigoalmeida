@@ -1,4 +1,4 @@
-baseurl = "rodrigoalmeida94.github.io/rodrigoalmeida/"
+baseurl = "https://rodrigoalmeida94.github.io/rodrigoalmeida/"
 languageCode = "en-us"
 title = "Rodrigo Almeida"
 theme = "hugo-strata-theme"
