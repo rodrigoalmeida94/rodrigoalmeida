@@ -14,7 +14,7 @@ publishDir = "docs"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Rodrigo Almeida"
-	description = ""
+	description = "My personal website.  (Becoming) an Agriculture Geo-Information and Remote Sensing specialist."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -49,8 +49,8 @@ publishDir = "docs"
 
 	[params.about]
 		hide  = false
-		title = "About"
-		content = ""
+		title = "About me"
+		content = "My name is Rodrigo and I am (becoming) an **Agriculture Geo-Information and Remote Sensing specialist**. Everyone can agree that nothing gets done in an empty stomach so I intend to contribute to a more secure and sustainable agriculture sector, taking advantage of the latest technological tools at our disposal. Below is a brief overview of my education background, my professional experience and also some non-profits I've worked with over the years. If you have any questions or remarks feel free to contact me."
 
 	[params.portfolio]
 		hide  = false
@@ -151,7 +151,7 @@ publishDir = "docs"
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "About"
+	name = "About me"
 	url  = "/"
 	weight = 30
 
