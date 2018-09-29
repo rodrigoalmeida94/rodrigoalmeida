@@ -14,7 +14,7 @@ publishDir = "docs"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Rodrigo Almeida"
-	description = "My personal website.  (Becoming) an Agriculture Geo-Information and Remote Sensing specialist."
+	description = "(Becoming) an Agriculture Geo-Information and Remote Sensing specialist."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -77,6 +77,16 @@ publishDir = "docs"
 			# The images and thumbnails are stored under static/images
 			# Create and change subfolders as you like
 			[[params.portfolio2.gallery]]
+				image = "LogoPlanet.jpg"
+				thumb = "LogoPlanet.jpg"
+				title = "Pre-Sales Engineer"
+				description = "[Planet](https://www.planet.com), from July 2018."
+			[[params.portfolio2.gallery]]
+				image = "LogoPlanet.jpg"
+				thumb = "LogoPlanet.jpg"
+				title = "Intern in Pre-Sales"
+				description = "[Planet](https://www.planet.com), from April 2018 to July 2018."
+			[[params.portfolio2.gallery]]
 				image = "LogoAgroop.jpg"
 				thumb = "LogoAgroop.jpg"
 				title = "Account Manager and Agronomist"
@@ -120,10 +130,10 @@ publishDir = "docs"
 		content = "If you have a brilliant idea or an engaging project that you belive will benefit from my skills and expertise, or if you're just looking for an opinion, don't hold back, contact me."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "Wageningen, Netherlands"
+		gmaps_address = "Berlin, Germany"
 		address = [
-			"Wageningen",
-			"The Netherlands"
+			"Berlin",
+			"Germany"
 		]
 		# phone = ""
 
