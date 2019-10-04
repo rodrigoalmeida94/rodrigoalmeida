@@ -14,7 +14,7 @@ publishDir = "docs"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Rodrigo Almeida"
-	description = "(Becoming) an Agriculture Geo-Information and Remote Sensing specialist."
+	description = "Geo-Information and Remote Sensing specialist."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -50,7 +50,7 @@ publishDir = "docs"
 	[params.about]
 		hide  = false
 		title = "About me"
-		content = "My name is Rodrigo and I am (becoming) an **Agriculture Geo-Information and Remote Sensing specialist**. Everyone can agree that nothing gets done in an empty stomach so I intend to contribute to a more secure and sustainable agriculture sector, taking advantage of the latest technological tools at our disposal. Below is a brief overview of my education background, my professional experience and also some non-profits I've worked with over the years. If you have any questions or remarks feel free to contact me."
+		content = "My name is Rodrigo and I am a **Geo-Information and Remote Sensing specialist**. I enjoy working on hard things that matter to everyone and I like to work with people that care deeply about what they do. Satellite imagery has an incredible potential impact on increasing transparency, efficiency and development all across the world, as long and we do it right. I intend to make sure of it. Below is a brief overview of my education background, my professional experience and also some non-profits I've worked with over the years. If you have any questions or remarks feel free to contact me."
 
 	[params.portfolio]
 		hide  = false
@@ -62,7 +62,7 @@ publishDir = "docs"
 			image = "LogoWUR.jpg"
 			thumb = "LogoWUR.jpg"
 			title = "MSc Geo-Information Science"
-			description = "Master’s degree, Geo-Information Science, since 2016, with a 8,1 / 10 average score at Wageningen University and Research, The Netherlands."
+			description = "Master’s degree, *Cum laude*, Geo-Information Science, from 2016 to 2019, with a 8,6 / 10 average score at Wageningen University and Research, The Netherlands."
 
 		[[params.portfolio.gallery]]
 			image = "LogoISA.jpg"
@@ -77,10 +77,15 @@ publishDir = "docs"
 			# The images and thumbnails are stored under static/images
 			# Create and change subfolders as you like
 			[[params.portfolio2.gallery]]
+				image = "LogoUp42.jpg"
+				thumb = "LogoUp42.jpg"
+				title = "Data Science Engineer"
+				description = "[UP42](https://www.up42.com), from August 2019."
+			[[params.portfolio2.gallery]]
 				image = "LogoPlanet.jpg"
 				thumb = "LogoPlanet.jpg"
 				title = "Pre-Sales Engineer"
-				description = "[Planet](https://www.planet.com), from July 2018."
+				description = "[Planet](https://www.planet.com), from July 2018 to August 2019."
 			[[params.portfolio2.gallery]]
 				image = "LogoPlanet.jpg"
 				thumb = "LogoPlanet.jpg"
