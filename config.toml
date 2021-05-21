@@ -52,77 +52,83 @@ publishDir = "docs"
 		title = "About me"
 		content = "My name is Rodrigo and I am a **Geo-Information and Remote Sensing specialist**. I enjoy working on hard things that matter to everyone and I like to work with people that care deeply about what they do. Satellite imagery has an incredible potential impact on increasing transparency, efficiency and development all across the world, as long and we do it right. I intend to make sure of it. Below is a brief overview of my education background, my professional experience and also some non-profits I've worked with over the years. If you have any questions or remarks feel free to contact me."
 
-	[params.portfolio]
-		hide  = false
-		title = "Education"
-
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "LogoWUR.jpg"
-			thumb = "LogoWUR.jpg"
-			title = "MSc Geo-Information Science"
-			description = "Master’s degree, *Cum laude*, Geo-Information Science, from 2016 to 2019, with a 8,6 / 10 average score at Wageningen University and Research, The Netherlands."
-
-		[[params.portfolio.gallery]]
-			image = "LogoISA.jpg"
-			thumb = "LogoISA.jpg"
-			title = "BSc Agriculture Engineering"
-			description = "Bachelor's degree, Agriculture Engineering, from 2012 to 2015, with a 14,1 / 20 average score at *Instituto Superior de Agronomia - Universidade de Lisboa*, Portugal."
-
-		[params.portfolio2]
+		[params.portfolio]
 			hide  = false
 			title = "Professional Experience"
 
 			# The images and thumbnails are stored under static/images
 			# Create and change subfolders as you like
-			[[params.portfolio2.gallery]]
+			[[params.portfolio.gallery]]
+				image = "LogoUp42.jpg"
+				thumb = "LogoUp42.jpg"
+				title = "Senior Data Science Engineer"
+				description = "[UP42](https://www.up42.com), from January 2021."
+			[[params.portfolio.gallery]]
 				image = "LogoUp42.jpg"
 				thumb = "LogoUp42.jpg"
 				title = "Data Science Engineer"
-				description = "[UP42](https://www.up42.com), from August 2019."
-			[[params.portfolio2.gallery]]
+				description = "[UP42](https://www.up42.com), from August 2019 to December 2020."
+			[[params.portfolio.gallery]]
 				image = "LogoPlanet.jpg"
 				thumb = "LogoPlanet.jpg"
 				title = "Pre-Sales Engineer"
 				description = "[Planet](https://www.planet.com), from July 2018 to August 2019."
-			[[params.portfolio2.gallery]]
+			[[params.portfolio.gallery]]
 				image = "LogoPlanet.jpg"
 				thumb = "LogoPlanet.jpg"
 				title = "Intern in Pre-Sales"
 				description = "[Planet](https://www.planet.com), from April 2018 to July 2018."
-			[[params.portfolio2.gallery]]
+			[[params.portfolio.gallery]]
 				image = "LogoAgroop.jpg"
 				thumb = "LogoAgroop.jpg"
 				title = "Account Manager and Agronomist"
 				description = "[Agroop](https://www.agroop.net), from October 2015 to August 2016."
-			[[params.portfolio2.gallery]]
+			[[params.portfolio.gallery]]
 					image = "LogoMapfre.jpg"
 					thumb = "LogoMapfre.jpg"
 					title = "Sales Operator (part-time)"
 					description = "MAPFRE Insurance, from May 2014 to May 2015."
 
-					[params.portfolio3]
-						hide  = false
-						title = "Non-Profit Experience"
+		[params.portfolio2]
+			hide  = false
+			title = "Education"
 
-						# The images and thumbnails are stored under static/images
-						# Create and change subfolders as you like
-						[[params.portfolio3.gallery]]
-							image = "LogoSpectrum.jpg"
-							thumb = "LogoSpectrum.jpg"
-							title = "Public Relations Manager"
-							description = "[Spectrum – Student Chaplaincy and Platform](https://spectrum-wageningen.com), since October 2016."
-						[[params.portfolio3.gallery]]
-								image = "LogoCGA.jpg"
-								thumb = "LogoCGA.jpg"
-								title = "Marketing and Community Manager, Board Member"
-								description = "[*Clube de Ginástica de Almada*](http://www.ginastica-almada.pt), from September 2012 to August 2017."
-						[[params.portfolio3.gallery]]
-								image = "LogoNagro.jpg"
-								thumb = "LogoNagro.jpg"
-								title = "President of the Board, Vice-President and Board Member"
-								description = "[*Núcleo de Agronómica do Instituto Superior de Agronomia*](http://nagro.isa.ulisboa.pt), from March 2014 to September 2015"
+			# The images and thumbnails are stored under static/images
+			# Create and change subfolders as you like
+			[[params.portfolio2.gallery]]
+				image = "LogoWUR.jpg"
+				thumb = "LogoWUR.jpg"
+				title = "MSc Geo-Information Science"
+				description = "Master’s degree, *Cum laude*, Geo-Information Science, from 2016 to 2019, with a 8,6 / 10 average score at Wageningen University and Research, The Netherlands."
+
+			[[params.portfolio2.gallery]]
+				image = "LogoISA.jpg"
+				thumb = "LogoISA.jpg"
+				title = "BSc Agriculture Engineering"
+				description = "Bachelor's degree, Agriculture Engineering, from 2012 to 2015, with a 14,1 / 20 average score at *Instituto Superior de Agronomia - Universidade de Lisboa*, Portugal."
+
+
+		[params.portfolio3]
+			hide  = false
+			title = "Non-Profit Experience"
+
+			# The images and thumbnails are stored under static/images
+			# Create and change subfolders as you like
+			[[params.portfolio3.gallery]]
+				image = "LogoSpectrum.jpg"
+				thumb = "LogoSpectrum.jpg"
+				title = "Public Relations Manager"
+				description = "[Spectrum – Student Chaplaincy and Platform](https://spectrum-wageningen.com), since October 2016."
+			[[params.portfolio3.gallery]]
+					image = "LogoCGA.jpg"
+					thumb = "LogoCGA.jpg"
+					title = "Marketing and Community Manager, Board Member"
+					description = "[*Clube de Ginástica de Almada*](http://www.ginastica-almada.pt), from September 2012 to August 2017."
+			[[params.portfolio3.gallery]]
+					image = "LogoNagro.jpg"
+					thumb = "LogoNagro.jpg"
+					title = "President of the Board, Vice-President and Board Member"
+					description = "[*Núcleo de Agronómica do Instituto Superior de Agronomia*](http://nagro.isa.ulisboa.pt), from March 2014 to September 2015"
 
 
 	[params.recentposts]
