@@ -33,7 +33,7 @@ publishDir = "docs"
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**Rodrigo Almeida**"
 		# The icons will be shown if you enter your username
-		twitter = "Almatos"
+		twitter = "rodrigo_gtiff"
 		github = "rodrigoalmeida94"
 		gitlab = ""
 		dribbble = ""
