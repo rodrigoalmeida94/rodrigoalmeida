@@ -59,10 +59,15 @@ publishDir = "docs"
 			# The images and thumbnails are stored under static/images
 			# Create and change subfolders as you like
 			[[params.portfolio.gallery]]
+				image = "Logo_DevSeed.jpg"
+				thumb = "Logo_DevSeed.jpg"
+				title = "Software Engineer"
+				description = "[Development Seed](https://developmentseed.org/), from August 2021 to November 2022."
+			[[params.portfolio.gallery]]
 				image = "LogoUp42.jpg"
 				thumb = "LogoUp42.jpg"
 				title = "Senior Data Science Engineer"
-				description = "[UP42](https://www.up42.com), from January 2021."
+				description = "[UP42](https://www.up42.com), from January 2021 to August 2021."
 			[[params.portfolio.gallery]]
 				image = "LogoUp42.jpg"
 				thumb = "LogoUp42.jpg"
