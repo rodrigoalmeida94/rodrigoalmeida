@@ -1,187 +1,50 @@
-baseurl = "https://rodrigoalmeida94.github.io/rodrigoalmeida/"
-languageCode = "en-us"
 title = "Rodrigo Almeida"
-theme = "hugo-strata-theme"
-disqusShortname = "rodrigo-almeida"
-# Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
-# Define how many posts should appear on a site
-paginate = 5
+baseURL = "https://rodrigoalmeida94.github.io/rodrigoalmeida/"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-publishDir = "docs"
+math = false          # enable KaTeX (https://katex.org/) globally
+googleAnalytics = ""  # add your tracking id
 
 [params]
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Rodrigo Almeida"
-	description = "Geo-Information and Remote Sensing specialist."
+  author = "Rodrigo Almeida"
+  description = "Geo-Information and Remote Sensing specialist."
+  favicon = "./favicon.ico"  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = "© 2024 Rodrigo Almeida"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    fontSize = "14pt"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#8ae234"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:rodrio.almeida94@outlook.pt"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/rodrigoalmeida94"
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/rodrigomalmeida/"
 
-	# Format dates with Go's time formatting
-	date_format = "2006-01-02"
+[permalinks]
+  "/" = "/:filename"
 
-	# Add read time estimates in the format "X min read"
-	show_read_time = true
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 2
 
-	# Add custom assets with their paths relative to the static folder
-	custom_js   = []
-	custom_css  = []
-
-
-	[params.sidebar]
-		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.jpg"
-		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Rodrigo Almeida**"
-		# The icons will be shown if you enter your username
-		twitter = "rodrigo_gtiff"
-		github = "rodrigoalmeida94"
-		gitlab = ""
-		dribbble = ""
-		facebook = "rodralmatos"
-		googleplus = ""
-		flickr = ""
-		linkedin = "https://www.linkedin.com/in/rodrigomalmeida/"
-
-		copyright = [
-			"&copy; Rodrigo Almeida",
-		]
-
-
-	[params.about]
-		hide  = false
-		title = "About me"
-		content = "My name is Rodrigo and I am a **Geo-Information and Remote Sensing specialist**. I enjoy working on hard things that matter to everyone and I like to work with people that care deeply about what they do. Satellite imagery has an incredible potential impact on increasing transparency, efficiency and development all across the world, as long and we do it right. I intend to make sure of it. Below is a brief overview of my education background, my professional experience and also some non-profits I've worked with over the years. If you have any questions or remarks feel free to contact me."
-
-		[params.portfolio]
-			hide  = false
-			title = "Professional Experience"
-
-			# The images and thumbnails are stored under static/images
-			# Create and change subfolders as you like
-			[[params.portfolio.gallery]]
-				image = "Logo_DevSeed.jpg"
-				thumb = "Logo_DevSeed.jpg"
-				title = "Software Engineer"
-				description = "[Development Seed](https://developmentseed.org/), from August 2021 to November 2022."
-			[[params.portfolio.gallery]]
-				image = "LogoUp42.jpg"
-				thumb = "LogoUp42.jpg"
-				title = "Senior Data Science Engineer"
-				description = "[UP42](https://www.up42.com), from January 2021 to August 2021."
-			[[params.portfolio.gallery]]
-				image = "LogoUp42.jpg"
-				thumb = "LogoUp42.jpg"
-				title = "Data Science Engineer"
-				description = "[UP42](https://www.up42.com), from August 2019 to December 2020."
-			[[params.portfolio.gallery]]
-				image = "LogoPlanet.jpg"
-				thumb = "LogoPlanet.jpg"
-				title = "Pre-Sales Engineer"
-				description = "[Planet](https://www.planet.com), from July 2018 to August 2019."
-			[[params.portfolio.gallery]]
-				image = "LogoPlanet.jpg"
-				thumb = "LogoPlanet.jpg"
-				title = "Intern in Pre-Sales"
-				description = "[Planet](https://www.planet.com), from April 2018 to July 2018."
-			[[params.portfolio.gallery]]
-				image = "LogoAgroop.jpg"
-				thumb = "LogoAgroop.jpg"
-				title = "Account Manager and Agronomist"
-				description = "[Agroop](https://www.agroop.net), from October 2015 to August 2016."
-			[[params.portfolio.gallery]]
-					image = "LogoMapfre.jpg"
-					thumb = "LogoMapfre.jpg"
-					title = "Sales Operator (part-time)"
-					description = "MAPFRE Insurance, from May 2014 to May 2015."
-
-		[params.portfolio2]
-			hide  = false
-			title = "Education"
-
-			# The images and thumbnails are stored under static/images
-			# Create and change subfolders as you like
-			[[params.portfolio2.gallery]]
-				image = "LogoWUR.jpg"
-				thumb = "LogoWUR.jpg"
-				title = "MSc Geo-Information Science"
-				description = "Master’s degree, *Cum laude*, Geo-Information Science, from 2016 to 2019, with a 8,6 / 10 average score at Wageningen University and Research, The Netherlands."
-
-			[[params.portfolio2.gallery]]
-				image = "LogoISA.jpg"
-				thumb = "LogoISA.jpg"
-				title = "BSc Agriculture Engineering"
-				description = "Bachelor's degree, Agriculture Engineering, from 2012 to 2015, with a 14,1 / 20 average score at *Instituto Superior de Agronomia - Universidade de Lisboa*, Portugal."
-
-
-		[params.portfolio3]
-			hide  = false
-			title = "Non-Profit Experience"
-
-			# The images and thumbnails are stored under static/images
-			# Create and change subfolders as you like
-			[[params.portfolio3.gallery]]
-				image = "LogoSpectrum.jpg"
-				thumb = "LogoSpectrum.jpg"
-				title = "Public Relations Manager"
-				description = "[Spectrum – Student Chaplaincy and Platform](https://spectrum-wageningen.com), since October 2016."
-			[[params.portfolio3.gallery]]
-					image = "LogoCGA.jpg"
-					thumb = "LogoCGA.jpg"
-					title = "Marketing and Community Manager, Board Member"
-					description = "[*Clube de Ginástica de Almada*](http://www.ginastica-almada.pt), from September 2012 to August 2017."
-			[[params.portfolio3.gallery]]
-					image = "LogoNagro.jpg"
-					thumb = "LogoNagro.jpg"
-					title = "President of the Board, Vice-President and Board Member"
-					description = "[*Núcleo de Agronómica do Instituto Superior de Agronomia*](http://nagro.isa.ulisboa.pt), from March 2014 to September 2015"
-
-
-	[params.recentposts]
-		hide  = false
-		title = "Recent blog posts"
-
-	[params.contact]
-		hide  = false
-		title = "Contact me"
-		content = "If you have a brilliant idea or an engaging project that you belive will benefit from my skills and expertise, or if you're just looking for an opinion, don't hold back, contact me."
-
-		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "Berlin, Germany"
-		address = [
-			"Berlin",
-			"Germany"
-		]
-		# phone = ""
-
-		# Since this template is static, the contact form uses www.formspree.io as a
-		# proxy. The form makes a POST request to their servers to send the actual
-		# email. Visitors can send up to a 1000 emails each month for free.
-	    #
-	    # What you need to do for the setup?
-	    #
-	    # - set your email address under 'email' below
-	    # - upload the generated site to your server
-	    # - send a dummy email yourself to confirm your account
-	    # - click the confirm link in the email from www.formspree.io
-	    # - you're done. Happy mailing!
-		email = "rodrigo.almeida94@outlook.pt"
-
-		[params.contact.form]
-			# Set custom strings for the form if your native
-			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send message"
-
-
-# Menu links that appear on the left sidebar
-[[menu.main]]
-	name = "About me"
-	url  = "/"
-	weight = 30
-
-[[menu.main]]
-	name = "Blog"
-	url  = "post/"
-	weight = 30
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
