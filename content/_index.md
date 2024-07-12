@@ -2,19 +2,94 @@
 title = "About"
 +++
 
-## About Me
+## About me
 
 {{< figure class="avatar" src="./avatar.jpg" alt="avatar">}}
 
-In construction.
+Hi there!
+
+I am a **Geo-Information, AI and Cloud engineer**. 🛰️ 🌍 🤖
+
+I enjoy working on hard things that matter to everyone and I like to work with people that care deeply about what they do. 
+
+Satellite imagery and geo-information broadly has an incredible potential impact on increasing transparency, efficiency and development all across the world, as long and we do it right. I intend to help make it rigth. 
+
+Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years. 
+
+If you have any questions or remarks feel free to reach out - I am always happy to chat! 
 
 ## Experience
+##### [🏢 Jua.ai](https://www.jua.ai) | November 2022 -- June 2024
+###### 📌 Engineering Manager, Data team | Mar 2023 -- Jun 2024
+- Leading a team of 2 engineers and working closely with product.
+- Ingest 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).
+- Create live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.
 
+###### 📌 Senior Data Engineer | Nov 2022 – Mar 2023
+- Using Zarr and Dask, created a pipeline to downscale weather forecasts to 1x1 km at the global level, 4x a day, using a deep learning model.
+- Developed live ingestion pipelines for multiple weather data sources (reanalysis data and observation data), using AWS Step Functions.
+
+##### [🏢 Development Seed](https://developmentseed.org) | August 2021 – October 2023
+###### 📌 Cloud Software Engineer
+- Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes.
+- Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale.
+
+##### [🏢 UP42, an Airbus company](https://up42.com) | September 2019 -- July 2021
+###### 📌 Senior Data Science Engineer | Jan 2021 – Jul 2021
+- Using FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.
+- Developing full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.
+
+###### 📌 Data Science Engineer | Sep 2019 – Dec 2021
+- Developing processing chains for geospatial data in Python with Docker.
+- Build requirements for compatibility service of different geospatial processing chains.
+- Conceptualise and train deep learning model for land cover classification with satellite images using TensorFlow.
+
+##### [🏢 Planet](https://planet.com) | April 2018 -- August 2019
+###### 📌 Pre-Sales Engineer | Jul 2018 – Aug 2019
+- Technical consultancy for prospective customers.
+- Developing internal tools for reporting and data visualisation.
+
+###### 📌 Internship | Apr 2018 – Jun 2018
+- Evaluate global performance of CNN for ship detection in satellite imagery using an automated approach.
+
+##### [🏢 Wageningen University and Research](https://wur.nl) | Sep 2017 – Feb 2018
+###### 📌 Teaching Assistant
+- Geoscripting
+- Programming in Python
+
+##### [🏢 Agroop](https://agroop.net) | October 2015 – August 2016
+###### 📌 Account Manager and Agronomist
+- Agronomic technical assistance to customers.
+- Support development team with user requirement reports.
 
 ## Education
+#### 🎓 MSc Geo-Information Science | 2016 -- 2019
+[🏫 Wageningen University and Research - WUR](https://wur.nl)
 
+*cum laude*, 8.6/10 average score
+
+- MSc thesis | *Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study* - [full text](https://library.wur.nl/WebQuery/theses/2249437)
+- Assistant in conferences - KLV Alumni reunions, Competence 2016 and AGILE 2017
+
+
+#### 🎓 BSc Agriculture Engineering | 2012 -- 2015
+[🏫 Instituto Superior de Agronomia - ISA, Lisbon University](https://wur.nl) 
+
+14.1/20 average score
+
+## Volunteering
+- Since Oct 2023: Mediator and organisation member of the Touch Rugby team – Berlin Bruisers
+- Oct 2016 – Aug 2018: Public Relations Manager, Spectrum – Student Chaplaincy and Platform
+- Sep 2012 - Aug 2017: Marketing and Communication Manager, Gymnastics Club of Almada
+- Dec 2014 – Sept 2015: President of the Board, Agronomy Student’s Association of ISA
 
 ## Publications
+Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor
+https://doi.org/10.1007/s13580-020-00316-9
 
+Super-resolution of multispectral satellite images using convolutional neural networks
+https://doi.org/10.48550/arXiv.2002.00580
 
+A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards
+https://doi.org/10.3390/s19020372
 
