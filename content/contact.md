@@ -2,6 +2,8 @@
 title = "Contact | Rodrigo Almeida 🛰️🌍🤖"
 +++
 
+# Contact me
+
 * Email: [rodrigo.almeida94@outlook.pt](mailto:rodrigo.almeida94@outlook.pt)
 
 ---

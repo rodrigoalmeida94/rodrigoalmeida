@@ -2,7 +2,7 @@
 title = "About | Rodrigo Almeida 🛰️🌍🤖"
 +++
 
-## About me
+# About me
 
 Hi there!
 
@@ -17,6 +17,8 @@ Satellite imagery and geo-information broadly has an incredible potential impact
 Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years. 
 
 If you have any questions or remarks feel free to reach out - I am always happy to chat! 
+
+--- 
 
 ## Experience
 ##### [🏢 Jua.ai](https://www.jua.ai) | November 2022 -- June 2024
@@ -62,6 +64,8 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 - Agronomic technical assistance to customers.
 - Support development team with user requirement reports.
 
+---
+
 ## Education
 #### 🎓 MSc Geo-Information Science | 2016 -- 2019
 [🏫 Wageningen University and Research - WUR](https://wur.nl)
@@ -77,11 +81,15 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 
 14.1/20 average score
 
+---
+
 ## Volunteering
 - Since Oct 2023: Mediator and organisation member of the Touch Rugby team – Berlin Bruisers
 - Oct 2016 – Aug 2018: Public Relations Manager, Spectrum – Student Chaplaincy and Platform
 - Sep 2012 - Aug 2017: Marketing and Communication Manager, Gymnastics Club of Almada
 - Dec 2014 – Sept 2015: President of the Board, Agronomy Student’s Association of ISA
+
+---
 
 ## Publications
 1. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
