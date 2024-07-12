@@ -5,10 +5,11 @@ disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = ""  # add your tracking id
+enableRobotsTXT = true
 
 [params]
   author = "Rodrigo Almeida"
-  description = "Geo-Information and Remote Sensing specialist."
+  description = "Geo-Information, AI and Cloud Engineer"
   favicon = "./favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
@@ -17,7 +18,7 @@ googleAnalytics = ""  # add your tracking id
     fontFamily = "Inconsolata"
     fontSize = "14pt"
     pageWidth = "750px"
-    avatarSize = "90px"
+    avatarSize = "160px"
     colorBlack = "#222222"
     colorRed = "#8ae234"
   [[params.socialIcons]]

@@ -1,14 +1,14 @@
 +++
-title = "About"
+title = "About | Rodrigo Almeida 🛰️🌍🤖"
 +++
 
 ## About me
 
-{{< figure class="avatar" src="./avatar.jpg" alt="avatar">}}
-
 Hi there!
 
-I am a **Geo-Information, AI and Cloud engineer**. 🛰️ 🌍 🤖
+I am a **Geo-Information, AI and Cloud Engineer**. 🛰️ 🌍 🤖
+
+{{< figure class="avatar" src="./avatar.jpg" alt="avatar">}}
 
 I enjoy working on hard things that matter to everyone and I like to work with people that care deeply about what they do. 
 
@@ -31,8 +31,8 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 
 ##### [🏢 Development Seed](https://developmentseed.org) | August 2021 – October 2023
 ###### 📌 Cloud Software Engineer
-- Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes.
-- Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale.
+- Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. [Cerulean App](https://cerulean.skytruth.org)
+- Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. [Similarity Search App](https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/)
 
 ##### [🏢 UP42, an Airbus company](https://up42.com) | September 2019 -- July 2021
 ###### 📌 Senior Data Science Engineer | Jan 2021 – Jul 2021
@@ -84,12 +84,10 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 - Dec 2014 – Sept 2015: President of the Board, Agronomy Student’s Association of ISA
 
 ## Publications
-Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor
-https://doi.org/10.1007/s13580-020-00316-9
+1. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
 
-Super-resolution of multispectral satellite images using convolutional neural networks
-https://doi.org/10.48550/arXiv.2002.00580
+1. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
 
-A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards
-https://doi.org/10.3390/s19020372
+1. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
+
 
