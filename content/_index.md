@@ -31,7 +31,7 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 - Using Zarr and Dask, created a pipeline to downscale weather forecasts to 1x1 km at the global level, 4x a day, using a deep learning model.
 - Developed live ingestion pipelines for multiple weather data sources (reanalysis data and observation data), using AWS Step Functions.
 
-##### [🏢 Development Seed](https://developmentseed.org) | August 2021 – October 2023
+##### [🏢 Development Seed](https://developmentseed.org) | August 2021 – October 2022
 ###### 📌 Cloud Software Engineer
 - Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. [Cerulean App](https://cerulean.skytruth.org)
 - Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. [Similarity Search App](https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/)
