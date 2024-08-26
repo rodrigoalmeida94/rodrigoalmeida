@@ -1,5 +1,5 @@
 +++
-title = "Contact | Rodrigo Almeida 🛰️🌍🤖"
+title = "Rodrigo Almeida 🛰️🌍🤖 | Contact"
 +++
 
 # Contact me

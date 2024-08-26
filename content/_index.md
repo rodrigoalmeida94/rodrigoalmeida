@@ -1,8 +1,6 @@
 +++
-title = "About | Rodrigo Almeida 🛰️🌍🤖"
+title = "Rodrigo Almeida 🛰️🌍🤖 | About"
 +++
-
-# About me
 
 Hi there!
 
