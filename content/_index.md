@@ -1,5 +1,5 @@
 +++
-title = "Rodrigo Almeida 🛰️🌍🤖 | About"
+title = "Rodrigo Almeida 🛰️🌍🤖s"
 +++
 
 Hi there!
