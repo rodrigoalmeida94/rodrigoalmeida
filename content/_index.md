@@ -19,6 +19,12 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 --- 
 
 ## Experience
+##### [🏢 Fraunhofer HHI](https://www.hhi.fraunhofer.de/en/index.html) | since February 2025
+###### 📌 Machine Learning Researcher, Applied AI group
+- Climate and Weather AI applications
+
+##### 🌳 Sabatical | August 2024 -- January 2025
+
 ##### [🏢 Jua.ai](https://www.jua.ai) | November 2022 -- June 2024
 ###### 📌 Engineering Manager, Data team | Mar 2023 -- Jun 2024
 - Leading a team of 2 engineers and working closely with product.
