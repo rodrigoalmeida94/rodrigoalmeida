@@ -1,16 +1,14 @@
 +++
-title = "Rodrigo Almeida 🛰️🌍🤖"
+title = "Rodrigo Almeida 🛰️🌦️🌍🤖"
 +++
 
 Hi there!
 
-I am a **Geo-Information, AI and Cloud Engineer**. 🛰️ 🌍 🤖
+I am a **Geo-Information, AI and Cloud Engineer** focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. 🛰️ 🌦️ 🌍 🤖
 
 {{< figure class="avatar" src="./avatar.jpg" alt="avatar">}}
 
-I enjoy working on hard things that matter to everyone and I like to work with people that care deeply about what they do. 
-
-Satellite imagery and geo-information broadly has an incredible potential impact on increasing transparency, efficiency and development all across the world, as long and we do it right. I intend to help make it rigth. 
+I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world. I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.
 
 Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years. 
 
@@ -21,6 +19,7 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 ## Experience
 ##### [🏢 Fraunhofer HHI](https://www.hhi.fraunhofer.de/en/index.html) | since February 2025
 ###### 📌 Machine Learning Researcher, Applied AI group
+- Uncertainty quantification of global AI weather models, evaluating on extreme events
 - Climate and Weather AI applications
 
 ##### 🌳 Sabatical | August 2024 -- January 2025
@@ -88,7 +87,7 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 ---
 
 ## Volunteering
-- Since Oct 2023: Mediator and organisation member of the Touch Rugby team – Berlin Bruisers
+- Oct 2023 - Sep 2025: Mediator and organisation member of the Touch Rugby team – Berlin Bruisers
 - Oct 2016 – Aug 2018: Public Relations Manager, Spectrum – Student Chaplaincy and Platform
 - Sep 2012 - Aug 2017: Marketing and Communication Manager, Gymnastics Club of Almada
 - Dec 2014 – Sept 2015: President of the Board, Agronomy Student’s Association of ISA
@@ -96,10 +95,12 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 ---
 
 ## Publications
-1. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
+1. On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification, [DOI:10.48550/arXiv.2511.17176](https://doi.org/10.48550/arXiv.2511.17176)
 
-1. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
+2. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
 
-1. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
+3. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
+
+4. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
 
 
