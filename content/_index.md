@@ -8,11 +8,13 @@ I am a **Geo-Information, AI and Cloud Engineer** focused on one of the biggest 
 
 {{< figure class="avatar" src="./avatar.jpg" alt="avatar">}}
 
-I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world. I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.
+I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.
 
-Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years. 
+I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.
 
-If you have any questions or remarks feel free to reach out - I am always happy to chat! 
+Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years.
+
+If you have any questions or remarks feel free to reach out - I am always happy to chat!
 
 --- 
 
@@ -99,8 +101,6 @@ If you have any questions or remarks feel free to reach out - I am always happy 
 
 2. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
 
-3. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
+3. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
 
-4. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
-
-
+4. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
