@@ -9,13 +9,9 @@
     <!-- Open Graph -->
     <!-- Open Graph -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    {{ if .IsHome }}
     <meta property="og:title" content="{{ .Site.Params.author }} | AI for Weather & Climate">
-    {{ else }}
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-    {{ end }}
     <meta property="og:description"
-        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+        content="Rodrigo Almeida is a Geo-Information, AI and Cloud Engineer using Artificial Intelligence to understand, predict and adapt to our changing climate.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     {{ with .Site.Params.social_image }}
@@ -28,7 +24,7 @@
     <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
     <meta name="twitter:title" content="{{ .Title }}">
     <meta name="twitter:description"
-        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+        content="Rodrigo Almeida is a Geo-Information, AI and Cloud Engineer using Artificial Intelligence to understand, predict and adapt to our changing climate.">
     {{ with .Site.Params.social_image }}
     <meta name="twitter:image" content="{{ . | absURL }}">
     {{ end }}
