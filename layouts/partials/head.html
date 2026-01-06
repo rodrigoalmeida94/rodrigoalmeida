@@ -7,7 +7,13 @@
     <link rel="canonical" href="{{ .Permalink }}">
 
     <!-- Open Graph -->
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    {{ if .IsHome }}
+    <meta property="og:title" content="{{ .Site.Params.author }} | AI for Weather & Climate">
+    {{ else }}
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    {{ end }}
     <meta property="og:description"
         content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="website">
