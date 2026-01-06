@@ -125,6 +125,25 @@ title = "Rodrigo Almeida"
 
 ---
 
+## Publications
+1. On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification, [DOI:10.48550/arXiv.2511.17176](https://doi.org/10.48550/arXiv.2511.17176)
+
+2. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
+
+3. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
+
+4. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
+
+---
+
+## Conferences and Workshops
+
+1.  NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning, Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods, https://www.climatechange.ai/papers/neurips2025/22, Poster presentation, San Diego, 7 Dec 2025
+
+2.  3rd Workshop on Machine Learning for the Earth System, Can AI weather models capture rare events? A case study of the 2022 Pakistan floods, Oral presentation, Bonn, 25 Aug 2025
+
+---
+
 ## Volunteering
 <div class="timeline">
 <div class="timeline-item">
@@ -143,14 +162,3 @@ title = "Rodrigo Almeida"
 <p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Student’s Association of ISA | Dec 2014 ─ Sep 2015</p>
 </div>
 </div>
-
----
-
-## Publications
-1. On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification, [DOI:10.48550/arXiv.2511.17176](https://doi.org/10.48550/arXiv.2511.17176)
-
-2. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
-
-3. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
-
-4. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)

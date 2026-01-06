@@ -1,6 +1,46 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#222222">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:description"
+        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{ with .Site.Params.social_image }}
+    <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+    <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description"
+        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    {{ with .Site.Params.social_image }}
+    <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ end }}
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "{{ .Site.Params.author }}",
+        "url": "{{ .Site.BaseURL }}",
+        "sameAs": [
+            {{ range $index, $element := .Site.Params.socialIcons }}{{ if $index }}, {{ end }}"{{ $element.url }}"{{ end }}
+        ],
+        "jobTitle": "{{ .Site.Params.description }}",
+        "image": "{{ .Site.Params.social_image | absURL }}"
+    }
+    </script>
 
     <title>{{ .Title }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
