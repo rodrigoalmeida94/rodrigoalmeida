@@ -14,7 +14,7 @@ enableRobotsTXT = true
   favicon = "./favicon.svg"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   twitter = "@rodrigo_gtiff"
-  social_image = "./social.jpeg"
+  social_image = "./social.webp"
   [params.footer]
     text = "© 2026 Rodrigo Almeida"
   [params.style]  # appearance options (can be omitted)
