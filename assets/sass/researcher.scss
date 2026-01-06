@@ -1,0 +1,426 @@
+// Sizes
+$max-width: 750px;
+
+$avatar-size: 90px;
+
+// Variables
+$font-family: 'Inconsolata', monospace;
+$background-color: #222222;
+$text-color: #e6e6e6;
+$red: #FF5555; // RobbyRussell Arrow Red
+$green: #50FA7B; // Vibrant Green
+$blue: #8BE9FD; // Cyan for directory (Dracula/Zsh style)
+$black: #222222;
+$prompt-color: $green; // Using the new green for prompt
+
+// Font
+$font-size: 14pt;
+
+// Margins
+$y-small: 0.6rem;
+$y-medium: 1.0rem;
+
+// Base Overrides
+html,
+body {
+    font-family: $font-family;
+    background-color: $background-color;
+    color: $text-color;
+    height: 100%;
+}
+
+// Ensure background consistency
+#footer,
+.navbar,
+.container {
+    background-color: $background-color !important;
+}
+
+// Typography
+a {
+    @extend %link-default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @extend %heading-default;
+}
+
+// Prompt Styling
+.prompt-user {
+    color: $red;
+    font-weight: bold;
+}
+
+.prompt-path {
+    color: $blue;
+    font-weight: bold;
+}
+
+.prompt-command {
+    color: $green;
+
+    // Git Status Granular Colors
+    .git-prefix,
+    .git-suffix {
+        color: $blue;
+    }
+
+    .git-branch {
+        color: $red;
+    }
+
+    .git-dirty {
+        color: #f1fa8c; // Dracula/Zsh Yellow
+        font-weight: bold;
+        margin-left: 5px;
+    }
+}
+
+// Placeholders
+%link-default {
+    color: $red;
+    text-decoration: none;
+
+    .prompt-user {
+        color: $red;
+        font-weight: bold;
+    }
+
+    .prompt-path {
+        color: $blue;
+        font-weight: bold;
+    }
+
+    .prompt-command {
+        color: $green;
+    }
+
+    & * {
+        color: $red;
+    }
+
+    &:hover {
+        color: $red;
+        text-decoration: underline;
+        background-color: rgba(51, 255, 0, 0.1);
+    }
+}
+
+%link-dark {
+    color: $text-color;
+    text-decoration: none;
+
+    & * {
+        color: $text-color;
+    }
+
+    &:hover {
+        color: $red;
+        text-decoration: underline;
+    }
+}
+
+%table-cell {
+    border: 1px solid #444;
+    padding: 6px 12px;
+    text-align: left;
+}
+
+%heading-default {
+    color: $red;
+    font-size: medium;
+    font-weight: bold;
+    margin: $y-medium 0 $y-small 0;
+}
+
+// Style
+body {
+    background-color: $black;
+}
+
+* {
+    color: $text-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: $max-width;
+}
+
+.navbar-brand {
+    @extend %link-default;
+    font-size: 1.5rem;
+
+    &:before {
+        content: "> ";
+    }
+}
+
+.nav-link {
+    @extend %link-default;
+}
+
+#content {
+    a {
+        @extend %link-default;
+    }
+
+    p {
+        margin-bottom: $y-small;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $red;
+        font-size: medium;
+        font-weight: bold;
+        margin: $y-medium 0 $y-small 0;
+    }
+
+    @for $i from 1 through 4 {
+        h#{$i} {
+            font-size: 1.2rem + 0.2 * (4 - $i);
+            border-bottom: 1px dashed $red;
+            padding-bottom: 0.2rem;
+            display: inline-block;
+        }
+    }
+
+    img {
+        display: block;
+        margin: $y-medium auto;
+        max-width: 100%;
+        border: 2px solid $text-color;
+    }
+
+    .avatar-container {
+        border: 2px solid $red;
+        padding: 5px;
+        display: inline-block;
+        float: left;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+
+        img {
+            display: block;
+            border-radius: 0;
+            max-width: 100%;
+            height: auto;
+            border: none;
+            margin: 0;
+        }
+    }
+
+    .timeline {
+        position: relative;
+        border-left: 2px solid #444;
+        margin-left: 10px;
+        padding-left: 20px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        // Timeline dot
+        &:before {
+            content: "";
+            position: absolute;
+            left: -27px;
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            background-color: $black;
+            border: 2px solid $red;
+        }
+
+        h5 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: $red;
+        }
+
+        h6 {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: $text-color;
+            font-weight: normal;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: $text-color;
+        }
+    }
+
+    ol {
+        counter-reset: list;
+        list-style: none;
+        padding-left: 2rem;
+
+        &>li {
+            display: table-row;
+        }
+
+        &>li:before {
+            content: "[" counter(list, decimal) "] ";
+            counter-increment: list;
+            display: table-cell;
+            text-align: right;
+            padding-right: .5em;
+            color: $red;
+        }
+    }
+
+    .container>ol,
+    .footnotes>ol {
+        padding-left: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 2rem;
+
+        &>li {
+            position: relative;
+        }
+
+        &>li:before {
+            content: "*";
+            position: absolute;
+            left: -1.5em;
+            color: $red;
+        }
+    }
+
+    .container>ul,
+    .footnotes>ul {
+        padding-left: 0;
+    }
+
+    table {
+        margin: $y-medium auto;
+        width: 100%;
+        border-collapse: collapse;
+
+        & th {
+            @extend %table-cell;
+            font-weight: bold;
+            color: $red;
+            border-bottom: 2px solid $red;
+        }
+
+        & td {
+            @extend %table-cell;
+        }
+
+        & tr:nth-child(2n) {
+            background-color: $background-color;
+        }
+    }
+
+    blockquote {
+        border-left: 4px solid $red;
+        font-style: italic;
+        margin: $y-medium 0;
+        padding: 8px 8px;
+        background-color: $background-color;
+    }
+
+    code {
+        color: $red;
+        background-color: $background-color;
+        border: 1px solid #444;
+        border-radius: 0;
+        padding: 0px 4px;
+    }
+
+    pre code {
+        all: unset;
+        display: block;
+        padding: 1rem;
+        border: 1px dashed #444;
+    }
+
+    .highlight {
+        margin: $y-medium auto;
+
+        &>pre {
+            padding: 8px 8px;
+        }
+    }
+}
+
+#footer {
+    // border-top: 1px solid #444; // Removed to avoid double line
+    padding-top: 1rem;
+    padding-bottom: 4rem; // Added padding as requested
+    font-size: 0.9rem;
+
+    a {
+        @extend %link-dark;
+    }
+
+    .status-line {
+        color: #666;
+    }
+}
+
+// Contact Page JSON Styles
+.terminal-output {
+    font-family: 'Inconsolata', monospace;
+    color: $text-color;
+    margin-top: 2rem;
+}
+
+.command-line {
+    margin-bottom: 1rem;
+}
+
+.json-output {
+    background-color: transparent; // Blend with main background
+}
+
+.indent {
+    padding-left: 2rem;
+}
+
+.json-brace {
+    color: $text-color; // White/Grey
+}
+
+.json-key {
+    color: $blue; // Cyan/Blue for keys
+    font-weight: bold;
+}
+
+.json-string {
+    color: $green; // Green for string values
+
+    a {
+        color: $green;
+        text-decoration: underline;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}

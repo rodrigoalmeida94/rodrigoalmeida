@@ -1,98 +1,148 @@
 +++
-title = "Rodrigo Almeida 🛰️🌦️🌍🤖"
+title = "Rodrigo Almeida"
 +++
 
-Hi there!
-
-I am a **Geo-Information, AI and Cloud Engineer** focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. 🛰️ 🌦️ 🌍 🤖
-
-{{< figure class="avatar" src="./avatar.jpg" alt="avatar">}}
-
-I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.
-
-I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.
-
-Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years.
-
-If you have any questions or remarks feel free to reach out - I am always happy to chat!
-
---- 
+<div class="clearfix mb-5">
+    <div class="avatar-container">
+        <img src="./avatar.jpg" class="img-fluid" alt="avatar">
+    </div>
+    <p>Hi there!</p>
+    <p>I am a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #FF5555;"></i></p>
+    <p>I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.</p>
+    <p>I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.</p>
+    <p>Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years.</p>
+    <p>If you have any questions or remarks feel free to reach out - I am always happy to chat!</p>
+</div>
 
 ## Experience
-##### [🏢 Fraunhofer HHI](https://www.hhi.fraunhofer.de/en/index.html) | since February 2025
-###### 📌 Machine Learning Researcher, Applied AI group
-- Uncertainty quantification of global AI weather models, evaluating on extreme events
-- Climate and Weather AI applications
+<div class="timeline">
+    <div class="timeline-item">
+        <h5><a href="https://www.hhi.fraunhofer.de/en/index.html"><i class="fas fa-building" style="color: #8BE9FD;"></i> Fraunhofer HHI</a> | Feb 2025 ─ Present</h5>
+        <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Machine Learning Researcher, Applied AI group</h6>
+        <ul>
+            <li>Uncertainty quantification of global AI weather models, evaluating on extreme events</li>
+            <li>Climate and Weather AI applications</li>
+        </ul>
+    </div>
+    
+<div class="timeline-item">
+    <h5><i class="fas fa-mug-hot" style="color: #F1FA8C;"></i> Sabatical | Aug 2024 ─ Jan 2025</h5>
+</div>
 
-##### 🌳 Sabatical | August 2024 -- January 2025
+<div class="timeline-item">
+<h5><a href="https://www.jua.ai"><i class="fas fa-building" style="color: #8BE9FD;"></i> Jua.ai</a> | Nov 2022 ─ Jun 2024</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Engineering Manager, Data team | Mar 2023 ─ Jun 2024</h6>
+<ul>
+<li>Leading a team of 2 engineers and working closely with product.</li>
+<li>Ingest 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).</li>
+<li>Create live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.</li>
+</ul>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Senior Data Engineer | Nov 2022 ─ Mar 2023</h6>
+<ul>
+<li>Using Zarr and Dask, created a pipeline to downscale weather forecasts to 1x1 km at the global level, 4x a day, using a deep learning model.</li>
+<li>Developed live ingestion pipelines for multiple weather data sources (reanalysis data and observation data), using AWS Step Functions.</li>
+</ul>
+</div>
 
-##### [🏢 Jua.ai](https://www.jua.ai) | November 2022 -- June 2024
-###### 📌 Engineering Manager, Data team | Mar 2023 -- Jun 2024
-- Leading a team of 2 engineers and working closely with product.
-- Ingest 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).
-- Create live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.
+<div class="timeline-item">
+<h5><a href="https://developmentseed.org"><i class="fas fa-building" style="color: #8BE9FD;"></i> Development Seed</a> | Aug 2021 ─ Oct 2022</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Cloud Software Engineer</h6>
+<ul>
+<li>Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. <a href="https://cerulean.skytruth.org">Cerulean App</a></li>
+<li>Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <a href="https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/">Similarity Search App</a></li>
+</ul>
+</div>
 
-###### 📌 Senior Data Engineer | Nov 2022 – Mar 2023
-- Using Zarr and Dask, created a pipeline to downscale weather forecasts to 1x1 km at the global level, 4x a day, using a deep learning model.
-- Developed live ingestion pipelines for multiple weather data sources (reanalysis data and observation data), using AWS Step Functions.
+<div class="timeline-item">
+<h5><a href="https://up42.com"><i class="fas fa-building" style="color: #8BE9FD;"></i> UP42, an Airbus company</a> | Sep 2019 ─ Jul 2021</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Senior Data Science Engineer | Jan 2021 ─ Jul 2021</h6>
+<ul>
+<li>Using FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.</li>
+<li>Developing full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.</li>
+</ul>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Data Science Engineer | Sep 2019 ─ Dec 2021</h6>
+<ul>
+<li>Developing processing chains for geospatial data in Python with Docker.</li>
+<li>Build requirements for compatibility service of different geospatial processing chains.</li>
+<li>Conceptualise and train deep learning model for land cover classification with satellite images using TensorFlow.</li>
+</ul>
+</div>
 
-##### [🏢 Development Seed](https://developmentseed.org) | August 2021 – October 2022
-###### 📌 Cloud Software Engineer
-- Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. [Cerulean App](https://cerulean.skytruth.org)
-- Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. [Similarity Search App](https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/)
+<div class="timeline-item">
+<h5><a href="https://planet.com"><i class="fas fa-building" style="color: #8BE9FD;"></i> Planet</a> | Apr 2018 ─ Aug 2019</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Pre-Sales Engineer | Jul 2018 ─ Aug 2019</h6>
+<ul>
+<li>Technical consultancy for prospective customers.</li>
+<li>Developing internal tools for reporting and data visualisation.</li>
+</ul>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Internship | Apr 2018 ─ Jun 2018</h6>
+<ul>
+<li>Evaluate global performance of CNN for ship detection in satellite imagery using an automated approach.</li>
+</ul>
+</div>
 
-##### [🏢 UP42, an Airbus company](https://up42.com) | September 2019 -- July 2021
-###### 📌 Senior Data Science Engineer | Jan 2021 – Jul 2021
-- Using FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.
-- Developing full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.
+<div class="timeline-item">
+<h5><a href="https://wur.nl"><i class="fas fa-building" style="color: #8BE9FD;"></i> Wageningen University and Research</a> | Sep 2017 ─ Feb 2018</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Teaching Assistant</h6>
+<ul>
+<li>Geoscripting</li>
+<li>Programming in Python</li>
+</ul>
+</div>
 
-###### 📌 Data Science Engineer | Sep 2019 – Dec 2021
-- Developing processing chains for geospatial data in Python with Docker.
-- Build requirements for compatibility service of different geospatial processing chains.
-- Conceptualise and train deep learning model for land cover classification with satellite images using TensorFlow.
-
-##### [🏢 Planet](https://planet.com) | April 2018 -- August 2019
-###### 📌 Pre-Sales Engineer | Jul 2018 – Aug 2019
-- Technical consultancy for prospective customers.
-- Developing internal tools for reporting and data visualisation.
-
-###### 📌 Internship | Apr 2018 – Jun 2018
-- Evaluate global performance of CNN for ship detection in satellite imagery using an automated approach.
-
-##### [🏢 Wageningen University and Research](https://wur.nl) | Sep 2017 – Feb 2018
-###### 📌 Teaching Assistant
-- Geoscripting
-- Programming in Python
-
-##### [🏢 Agroop](https://agroop.net) | October 2015 – August 2016
-###### 📌 Account Manager and Agronomist
-- Agronomic technical assistance to customers.
-- Support development team with user requirement reports.
+<div class="timeline-item">
+<h5><a href="https://agroop.net"><i class="fas fa-building" style="color: #8BE9FD;"></i> Agroop</a> | Oct 2015 ─ Aug 2016</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Account Manager and Agronomist</h6>
+<ul>
+<li>Agronomic technical assistance to customers.</li>
+<li>Support development team with user requirement reports.</li>
+</ul>
+</div>
+</div>
 
 ---
 
 ## Education
-#### 🎓 MSc Geo-Information Science | 2016 -- 2019
-[🏫 Wageningen University and Research - WUR](https://wur.nl)
+<div class="timeline">
+<div class="timeline-item">
+<h5><i class="fas fa-graduation-cap" style="color: #F1FA8C;"></i> MSc Geo-Information Science | 2016 ─ 2019</h5>
+<h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Wageningen University and Research - WUR</a></h6>
+<ul>
+<li><em>cum laude</em>, 8.6/10 average score</li>
+<li>MSc thesis | <em>Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</em> - <a href="https://library.wur.nl/WebQuery/theses/2249437">full text</a></li>
+<li>Assistant in conferences - KLV Alumni reunions, Competence 2016 and AGILE 2017</li>
+</ul>
+</div>
 
-*cum laude*, 8.6/10 average score
-
-- MSc thesis | *Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study* - [full text](https://library.wur.nl/WebQuery/theses/2249437)
-- Assistant in conferences - KLV Alumni reunions, Competence 2016 and AGILE 2017
-
-
-#### 🎓 BSc Agriculture Engineering | 2012 -- 2015
-[🏫 Instituto Superior de Agronomia - ISA, Lisbon University](https://wur.nl) 
-
-14.1/20 average score
+<div class="timeline-item">
+<h5><i class="fas fa-graduation-cap" style="color: #F1FA8C;"></i> BSc Agriculture Engineering | 2012 ─ 2015</h5>
+<h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Instituto Superior de Agronomia - ISA, Lisbon University</a></h6>
+<ul>
+<li>14.1/20 average score</li>
+</ul>
+</div>
+</div>
 
 ---
 
 ## Volunteering
-- Oct 2023 - Sep 2025: Mediator and organisation member of the Touch Rugby team – Berlin Bruisers
-- Oct 2016 – Aug 2018: Public Relations Manager, Spectrum – Student Chaplaincy and Platform
-- Sep 2012 - Aug 2017: Marketing and Communication Manager, Gymnastics Club of Almada
-- Dec 2014 – Sept 2015: President of the Board, Agronomy Student’s Association of ISA
+<div class="timeline">
+<div class="timeline-item">
+<p><i class="fas fa-handshake" style="color: #50FA7B;"></i> Mediator and organisation member of the Touch Rugby team – Berlin Bruisers | Oct 2023 ─ Sep 2025</p>
+</div>
+
+<div class="timeline-item">
+<p><i class="fas fa-handshake" style="color: #50FA7B;"></i> Public Relations Manager, Spectrum – Student Chaplaincy and Platform | Oct 2016 ─ Aug 2018</p>
+</div>
+
+<div class="timeline-item">
+<p><i class="fas fa-handshake" style="color: #50FA7B;"></i> Marketing and Communication Manager, Gymnastics Club of Almada | Sep 2012 ─ Aug 2017</p>
+</div>
+
+<div class="timeline-item">
+<p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Student’s Association of ISA | Dec 2014 ─ Sep 2015</p>
+</div>
+</div>
 
 ---
 

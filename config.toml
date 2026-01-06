@@ -13,7 +13,7 @@ enableRobotsTXT = true
   favicon = "./favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "© 2024 Rodrigo Almeida"
+    text = "© 2026 Rodrigo Almeida"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     fontSize = "14pt"
@@ -39,11 +39,11 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    name = "About"
+    name = "about.md"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Contact"
+    name = "contact.json"
     url = "/contact"
     weight = 2
 

@@ -1,0 +1,32 @@
+<div id="footer" class="mb-5">
+    <hr style="border-top: 1px dashed #444;">
+    {{ if .Site.Params.socialIcons }}
+    <div class="container text-center">
+        {{ range $item := .Site.Params.socialIcons }}
+        <a href="{{ $item.url }}" class="{{ $item.icon }}" title="{{ $item.title }}" style="margin: 0 10px;"></a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="container text-center mt-3">
+        <span class="status-line">
+            [ OK ] System Online | Uptime: <span id="uptime">Loading...</span> |
+            {{ with .Site.Params.footer }}
+            <a href="{{ .url | absURL }}" title="{{ .text }}" {{ if .blank }}target="_blank" {{ end }}>{{ .text }}</a>
+            {{ end }}
+        </span>
+    </div>
+</div>
+
+<script>
+    // Simple uptime counter simulation
+    const start = new Date();
+    setInterval(() => {
+        const now = new Date();
+        const diff = Math.floor((now - start) / 1000);
+        const h = Math.floor(diff / 3600).toString().padStart(2, '0');
+        const m = Math.floor((diff % 3600) / 60).toString().padStart(2, '0');
+        const s = (diff % 60).toString().padStart(2, '0');
+        document.getElementById('uptime').innerText = `${h}:${m}:${s}`;
+    }, 1000);
+</script>
