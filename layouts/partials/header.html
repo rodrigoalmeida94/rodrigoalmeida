@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col-12" style="font-family: 'Inconsolata', monospace;">
             <div>
-                <span class="prompt-user">➜</span> <span class="prompt-path">~{{ .RelPermalink }}</span> <span
+                <span class="prompt-user">➜</span> <span class="prompt-path">~/{{ .Site.Params.terminal_path }}{{ if not
+                    (in .RelPermalink .Site.Params.terminal_path) }}{{ .RelPermalink }}{{ end }}</span> <span
                     class="prompt-command"><span class="git-prefix">git:(</span><span
                         class="git-branch">main</span><span class="git-suffix">)</span> <span
                         class="git-dirty">✗</span></span>

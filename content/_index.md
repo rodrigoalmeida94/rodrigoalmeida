@@ -2,6 +2,12 @@
 title = "Rodrigo Almeida"
 +++
 
+<div class="terminal-output">
+    <div class="command-line">
+        <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">cat about.md</span>
+    </div>
+</div>
+
 <div class="clearfix mb-5">
     <div class="avatar-container">
         <img src="./avatar.jpg" class="img-fluid" alt="avatar">

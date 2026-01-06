@@ -10,6 +10,7 @@ enableRobotsTXT = true
 [params]
   author = "Rodrigo Almeida"
   description = "Geo-Information, AI and Cloud Engineer"
+  terminal_path = "rodrigoalmeida" # directory name shown in the CLI prompt
   favicon = "./favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   twitter = "@rodrigo_gtiff"
@@ -35,6 +36,10 @@ enableRobotsTXT = true
     icon = "fab fa-linkedin"
     title = "LinkedIn"
     url = "https://www.linkedin.com/in/rodrigomalmeida/"
+  [[params.socialIcons]]
+    icon = "fab fa-bluesky"
+    title = "Bluesky"
+    url = "https://bsky.app/profile/rodrigo-gtiff.bsky.social"
 
 [permalinks]
   "/" = "/:filename"
