@@ -22,8 +22,8 @@ enableRobotsTXT = true
     fontSize = "14pt"
     pageWidth = "750px"
     avatarSize = "160px"
-    colorBlack = "#222222"
-    colorRed = "#8ae234"
+    colorBlack = "#ffffff"
+    colorRed = "#50FA7B"
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"

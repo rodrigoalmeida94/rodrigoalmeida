@@ -13,12 +13,29 @@ title = "Rodrigo Almeida"
         <img src="./rodrigo-almeida-geo-ai-cloud-engineer.jpg" class="img-fluid" alt="Rodrigo Almeida Geo-Information, AI and Cloud Engineer">
     </div>
     <p>Hi there!</p>
-    <p>I’m <strong>Rodrigo Almeida</strong>, a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #FF5555;"></i></p>
+    <p>I’m <strong>Rodrigo Almeida</strong>, a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #BD93F9;"></i></p>
     <p>I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.</p>
     <p>I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.</p>
     <p>Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years.</p>
     <p>If you have any questions or remarks feel free to reach out - I am always happy to chat!</p>
 </div>
+
+## Skills
+
+<span class="badge-cli badge-python"><i class="fab fa-python"></i> Python</span>
+<span class="badge-cli badge-ml"><i class="fas fa-brain"></i> Machine Learning</span>
+<span class="badge-cli badge-dl"><i class="fas fa-network-wired"></i> Deep Learning</span>
+<span class="badge-cli badge-cv"><i class="fas fa-eye"></i> Computer Vision</span>
+<span class="badge-cli badge-cloud"><i class="fas fa-cloud"></i> Cloud Engineering</span>
+<span class="badge-cli badge-aws"><i class="fab fa-aws"></i> AWS</span>
+<span class="badge-cli badge-gcp"><i class="fab fa-google"></i> GCP</span>
+<span class="badge-cli badge-docker"><i class="fab fa-docker"></i> Docker</span>
+<span class="badge-cli badge-k8s"><i class="fas fa-cubes"></i> Kubernetes</span>
+<span class="badge-cli badge-geo"><i class="fas fa-globe-americas"></i> Geospatial Analysis</span>
+<span class="badge-cli badge-gdal"><i class="fas fa-database"></i> GDAL</span>
+<span class="badge-cli badge-postgis"><i class="fas fa-layer-group"></i> PostGIS</span>
+<span class="badge-cli badge-cicd"><i class="fas fa-sync-alt"></i> CI/CD</span>
+
 
 ## Experience
 <div class="timeline">
@@ -32,7 +49,7 @@ title = "Rodrigo Almeida"
     </div>
     
 <div class="timeline-item">
-    <h5><i class="fas fa-mug-hot" style="color: #F1FA8C;"></i> Sabatical | Aug 2024 ─ Jan 2025</h5>
+    <h5><i class="fas fa-tree" style="color: #F1FA8C;"></i> Sabatical | Aug 2024 ─ Jan 2025</h5>
 </div>
 
 <div class="timeline-item">
@@ -132,21 +149,47 @@ title = "Rodrigo Almeida"
 ---
 
 ## Publications
-1. On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification, [DOI:10.48550/arXiv.2511.17176](https://doi.org/10.48550/arXiv.2511.17176)
+<div class="timeline">
+    <div class="timeline-item">
+        <h5><a href="https://doi.org/10.48550/arXiv.2511.17176"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification</a></h5>
+        <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2511.17176</h6>
+    </div>
 
-2. Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor, [DOI:10.1007/s13580-020-00316-9](https://doi.org/10.1007/s13580-020-00316-9)
+<div class="timeline-item">
+    <h5><a href="https://doi.org/10.1007/s13580-020-00316-9"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</a></h5>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.1007/s13580-020-00316-9</h6>
+</div>
 
-3. A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards, [DOI:10.3390/s19020372](https://doi.org/10.3390/s19020372)
+<div class="timeline-item">
+    <h5><a href="https://doi.org/10.3390/s19020372"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</a></h5>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.3390/s19020372</h6>
+</div>
 
-4. Super-resolution of multispectral satellite images using convolutional neural networks, [DOI:10.48550/arXiv.2002.00580](https://doi.org/10.48550/arXiv.2002.00580)
+<div class="timeline-item">
+    <h5><a href="https://doi.org/10.48550/arXiv.2002.00580"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Super-resolution of multispectral satellite images using convolutional neural networks</a></h5>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2002.00580</h6>
+</div>
+</div>
 
 ---
 
 ## Conferences and Workshops
 
-1.  NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning, Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods, https://www.climatechange.ai/papers/neurips2025/22, Poster presentation, San Diego, 7 Dec 2025
+<div class="timeline">
+    <div class="timeline-item">
+        <h5><a href="https://www.climatechange.ai/papers/neurips2025/22"><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning</a> | 7 Dec 2025</h5>
+        <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
+        <p><em>Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods</em></p>
+        <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> San Diego, USA</p>
+    </div>
 
-2.  3rd Workshop on Machine Learning for the Earth System, Can AI weather models capture rare events? A case study of the 2022 Pakistan floods, Oral presentation, Bonn, 25 Aug 2025
+<div class="timeline-item">
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://cesoc.net/machine-learning-for-the-earth-system-programme/">3rd Workshop on Machine Learning for the Earth System</a> | 25 Aug 2025</h5>
+    <h6><i class="fas fa-microphone" style="color: #8BE9FD;"></i> Oral presentation</h6>
+    <p><em>Can AI weather models capture rare events? A case study of the 2022 Pakistan floods</em></p>
+    <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> Bonn, Germany</p>
+</div>
+</div>
 
 ---
 
