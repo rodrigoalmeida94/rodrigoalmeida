@@ -549,3 +549,38 @@ body {
 }
 
 // Red
+
+// FastAPI Teal
+.badge-fastapi {
+    @include badge-color(#009688);
+}
+
+// TensorFlow Orange
+.badge-tensorflow {
+    @include badge-color(#FF6F00);
+}
+
+// Dask Orange-Red
+.badge-dask {
+    @include badge-color(#E95420);
+}
+
+// Pulumi Purple
+.badge-pulumi {
+    @include badge-color(#8A3391);
+}
+
+// Prefect Blue
+.badge-prefect {
+    @include badge-color(#0565F2);
+}
+
+// PyTorch Orange/Red
+.badge-pytorch {
+    @include badge-color(#EE4C2C);
+}
+
+// Zarr Purple/Pink
+.badge-zarr {
+    @include badge-color(#BC2F75);
+}

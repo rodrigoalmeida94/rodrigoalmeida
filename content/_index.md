@@ -13,11 +13,11 @@ title = "Rodrigo Almeida"
         <img src="./rodrigo-almeida-geo-ai-cloud-engineer.jpg" class="img-fluid" alt="Rodrigo Almeida Geo-Information, AI and Cloud Engineer">
     </div>
     <p>Hi there!</p>
-    <p>I’m <strong>Rodrigo Almeida</strong>, a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #BD93F9;"></i></p>
+    <p>I’m <strong>Rodrigo Almeida</strong>, a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenges and opportunities of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #BD93F9;"></i></p>
     <p>I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.</p>
     <p>I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.</p>
-    <p>Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years.</p>
-    <p>If you have any questions or remarks feel free to reach out - I am always happy to chat!</p>
+    <p>Here is a brief overview of my professional experience, my education background and also some non-profits I've worked with over the years.</p>
+    <p>If you have any questions or remarks, feel free to reach out - I am always happy to chat!</p>
 </div>
 
 ## Skills
@@ -30,12 +30,16 @@ title = "Rodrigo Almeida"
 <span class="badge-cli badge-aws"><i class="fab fa-aws"></i> AWS</span>
 <span class="badge-cli badge-gcp"><i class="fab fa-google"></i> GCP</span>
 <span class="badge-cli badge-docker"><i class="fab fa-docker"></i> Docker</span>
-<span class="badge-cli badge-k8s"><i class="fas fa-cubes"></i> Kubernetes</span>
 <span class="badge-cli badge-geo"><i class="fas fa-globe-americas"></i> Geospatial Analysis</span>
 <span class="badge-cli badge-gdal"><i class="fas fa-database"></i> GDAL</span>
 <span class="badge-cli badge-postgis"><i class="fas fa-layer-group"></i> PostGIS</span>
 <span class="badge-cli badge-cicd"><i class="fas fa-sync-alt"></i> CI/CD</span>
-
+<span class="badge-cli badge-fastapi"><i class="fas fa-bolt"></i> FastAPI</span>
+<span class="badge-cli badge-pytorch"><i class="fas fa-cubes"></i> PyTorch</span>
+<span class="badge-cli badge-dask"><i class="fas fa-project-diagram"></i> Dask</span>
+<span class="badge-cli badge-pulumi"><i class="fas fa-cloud-upload-alt"></i> Pulumi</span>
+<span class="badge-cli badge-prefect"><i class="fas fa-tasks"></i> Prefect</span>
+<span class="badge-cli badge-zarr"><i class="fas fa-cubes"></i> Zarr</span>
 
 ## Experience
 <div class="timeline">
@@ -49,16 +53,16 @@ title = "Rodrigo Almeida"
     </div>
     
 <div class="timeline-item">
-    <h5><i class="fas fa-tree" style="color: #F1FA8C;"></i> Sabatical | Aug 2024 ─ Jan 2025</h5>
+    <h5><i class="fas fa-tree" style="color: #F1FA8C;"></i> Sabbatical | Aug 2024 ─ Jan 2025</h5>
 </div>
 
 <div class="timeline-item">
 <h5><a href="https://www.jua.ai"><i class="fas fa-building" style="color: #8BE9FD;"></i> Jua.ai</a> | Nov 2022 ─ Jun 2024</h5>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Engineering Manager, Data team | Mar 2023 ─ Jun 2024</h6>
 <ul>
-<li>Leading a team of 2 engineers and working closely with product.</li>
-<li>Ingest 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).</li>
-<li>Create live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.</li>
+<li>Led a team of 2 engineers and worked closely with product.</li>
+<li>Ingested 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).</li>
+<li>Created live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.</li>
 </ul>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Senior Data Engineer | Nov 2022 ─ Mar 2023</h6>
 <ul>
@@ -72,7 +76,7 @@ title = "Rodrigo Almeida"
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Cloud Software Engineer</h6>
 <ul>
 <li>Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. <a href="https://cerulean.skytruth.org">Cerulean App</a></li>
-<li>Developing an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <a href="https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/">Similarity Search App</a></li>
+<li>Developed an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <a href="https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/">Similarity Search App</a></li>
 </ul>
 </div>
 
@@ -80,14 +84,14 @@ title = "Rodrigo Almeida"
 <h5><a href="https://up42.com"><i class="fas fa-building" style="color: #8BE9FD;"></i> UP42, an Airbus company</a> | Sep 2019 ─ Jul 2021</h5>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Senior Data Science Engineer | Jan 2021 ─ Jul 2021</h6>
 <ul>
-<li>Using FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.</li>
-<li>Developing full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.</li>
+<li>Used FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.</li>
+<li>Developed full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.</li>
 </ul>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Data Science Engineer | Sep 2019 ─ Dec 2021</h6>
 <ul>
-<li>Developing processing chains for geospatial data in Python with Docker.</li>
-<li>Build requirements for compatibility service of different geospatial processing chains.</li>
-<li>Conceptualise and train deep learning model for land cover classification with satellite images using TensorFlow.</li>
+<li>Developed processing chains for geospatial data in Python with Docker.</li>
+<li>Built requirements for compatibility service of different geospatial processing chains.</li>
+<li>Conceptualised and trained deep learning model for land cover classification with satellite images using TensorFlow.</li>
 </ul>
 </div>
 
@@ -96,11 +100,11 @@ title = "Rodrigo Almeida"
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Pre-Sales Engineer | Jul 2018 ─ Aug 2019</h6>
 <ul>
 <li>Technical consultancy for prospective customers.</li>
-<li>Developing internal tools for reporting and data visualisation.</li>
+<li>Developed internal tools for reporting and data visualisation.</li>
 </ul>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Internship | Apr 2018 ─ Jun 2018</h6>
 <ul>
-<li>Evaluate global performance of CNN for ship detection in satellite imagery using an automated approach.</li>
+<li>Evaluated global performance of CNN for ship detection in satellite imagery using an automated approach.</li>
 </ul>
 </div>
 
@@ -118,7 +122,7 @@ title = "Rodrigo Almeida"
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Account Manager and Agronomist</h6>
 <ul>
 <li>Agronomic technical assistance to customers.</li>
-<li>Support development team with user requirement reports.</li>
+<li>Supported the development team with user requirement reports.</li>
 </ul>
 </div>
 </div>
@@ -131,9 +135,9 @@ title = "Rodrigo Almeida"
 <h5><i class="fas fa-graduation-cap" style="color: #F1FA8C;"></i> MSc Geo-Information Science | 2016 ─ 2019</h5>
 <h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Wageningen University and Research - WUR</a></h6>
 <ul>
-<li><em>cum laude</em>, 8.6/10 average score</li>
-<li>MSc thesis | <em>Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</em> - <a href="https://library.wur.nl/WebQuery/theses/2249437">full text</a></li>
-<li>Assistant in conferences - KLV Alumni reunions, Competence 2016 and AGILE 2017</li>
+<li><em>Cum laude</em>, 8.6/10 average score</li>
+<li>MSc thesis: <em><a href="https://library.wur.nl/WebQuery/theses/2249437">Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</a></em></li>
+<li>Assistant in conferences: KLV Alumni reunions, Competence 2016 and AGILE 2017</li>
 </ul>
 </div>
 
@@ -208,6 +212,6 @@ title = "Rodrigo Almeida"
 </div>
 
 <div class="timeline-item">
-<p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Student’s Association of ISA | Dec 2014 ─ Sep 2015</p>
+<p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Students' Association of ISA | Dec 2014 ─ Sep 2015</p>
 </div>
 </div>

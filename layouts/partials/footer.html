@@ -10,8 +10,13 @@
 
     <div class="container text-center mt-3">
         <span class="status-line">
-            [ OK ] System Online | Uptime: <span id="uptime">Loading...</span> |
-            {{ with .Site.Params.footer }}
+            <p>
+                [ OK ] System Online | Uptime: <span id="uptime">Loading...</span> | Made with <i class="fas fa-heart"
+                    style="color: #FF79C6;"></i> together with Gemini 3
+            </p>
+            <p>
+                {{ with .Site.Params.footer }}
+            </p>
             <a href="{{ .url | absURL }}" title="{{ .text }}" {{ if .blank }}target="_blank" {{ end }}>{{ .text }}</a>
             {{ end }}
         </span>

@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [params]
   author = "Rodrigo Almeida"
-  description = "Rodrigo Almeida is a Geo-Information, AI and Cloud Engineer focused on using AI to understand, predict and adapt to a changing climate."
+  description = "AI for Weather & Climate"
   terminal_path = "rodrigoalmeida" # directory name shown in the CLI prompt
   favicon = "./favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
