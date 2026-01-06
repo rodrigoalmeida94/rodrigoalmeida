@@ -83,7 +83,7 @@ h6 {
 
 // Placeholders
 %link-default {
-    color: $red;
+    color: $green;
     text-decoration: none;
 
     .prompt-user {
@@ -101,11 +101,11 @@ h6 {
     }
 
     & * {
-        color: $red;
+        color: $green;
     }
 
     &:hover {
-        color: $red;
+        color: $green;
         text-decoration: underline;
         background-color: rgba(51, 255, 0, 0.1);
     }
@@ -132,7 +132,7 @@ h6 {
 }
 
 %heading-default {
-    color: $red;
+    color: $text-color;
     font-size: medium;
     font-weight: bold;
     margin: $y-medium 0 $y-small 0;
@@ -182,7 +182,7 @@ body {
     h4,
     h5,
     h6 {
-        color: $red;
+        color: $text-color;
         font-size: medium;
         font-weight: bold;
         margin: $y-medium 0 $y-small 0;
@@ -191,7 +191,7 @@ body {
     @for $i from 1 through 4 {
         h#{$i} {
             font-size: 1.2rem + 0.2 * (4 - $i);
-            border-bottom: 1px dashed $red;
+            border-bottom: 1px dashed;
             padding-bottom: 0.2rem;
             display: inline-block;
         }
@@ -254,7 +254,7 @@ body {
         h5 {
             margin-top: 0;
             font-size: 1.1rem;
-            color: $red;
+            color: $text-color;
         }
 
         h6 {
@@ -424,3 +424,128 @@ body {
         }
     }
 }
+
+;
+
+// Custom CLI Badge Style
+.badge-cli {
+    background-color: #333;
+    /* Dark default background */
+    color: #f8f8f2;
+    /* Light text */
+    border: none;
+    border-radius: 4px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.0rem;
+    padding: 8px 14px;
+    margin: 6px;
+    display: inline-block;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+
+    i {
+        margin-right: 8px;
+        transition: color 0.2s;
+    }
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        color: #222;
+        /* Dark text on hover (if background is bright) */
+
+        i {
+            color: #222;
+        }
+    }
+}
+
+// Color Modifiers for Button-like appearance
+@mixin badge-color($color) {
+    border-left: 4px solid $color; // Branch indicator style tick
+
+    i {
+        color: $color;
+    }
+
+    &:hover {
+        background-color: $color;
+        border-left: 4px solid $color; // Keep the border or blend it
+        color: #222; // Contrast text on hover
+
+        i {
+            color: #222;
+        }
+    }
+}
+
+.badge-python {
+    @include badge-color(#3776AB);
+}
+
+// Python Blue
+.badge-ml {
+    @include badge-color(#FF79C6);
+}
+
+// Pink
+.badge-dl {
+    @include badge-color(#BD93F9);
+}
+
+// Purple
+.badge-cv {
+    @include badge-color(#8BE9FD);
+}
+
+// Cyan
+.badge-cloud {
+    @include badge-color(#6272A4);
+}
+
+// Grey/Blue
+.badge-aws {
+    @include badge-color(#FF9900);
+}
+
+// AWS Orange
+.badge-gcp {
+    @include badge-color(#4285F4);
+}
+
+// GCP Blue
+.badge-docker {
+    @include badge-color(#2496ED);
+}
+
+// Docker Blue
+.badge-k8s {
+    @include badge-color(#326CE5);
+}
+
+// K8s Blue
+.badge-geo {
+    @include badge-color(#50FA7B);
+}
+
+// Green
+.badge-gdal {
+    @include badge-color(#F1FA8C);
+}
+
+// Yellow
+.badge-postgis {
+    @include badge-color(#336791);
+}
+
+// PostGIS Blue
+.badge-cicd {
+    @include badge-color(#FF5555);
+}
+
+// Red
