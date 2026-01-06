@@ -42,7 +42,8 @@
     }
     </script>
 
-    <title>{{ .Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Params.author }} | {{ .Site.Params.description }}{{ else }}{{ .Title }} | {{
+        .Site.Params.author }}{{ end }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
     <meta name="author" content='{{ .Site.Params.author }}'>
 

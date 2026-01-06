@@ -10,10 +10,10 @@ title = "Rodrigo Almeida"
 
 <div class="clearfix mb-5">
     <div class="avatar-container">
-        <img src="./avatar.jpg" class="img-fluid" alt="avatar">
+        <img src="./rodrigo-almeida-geo-ai-cloud-engineer.jpg" class="img-fluid" alt="Rodrigo Almeida Geo-Information, AI and Cloud Engineer">
     </div>
     <p>Hi there!</p>
-    <p>I am a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #FF5555;"></i></p>
+    <p>I’m <strong>Rodrigo Almeida</strong>, a <strong>Geo-Information, AI and Cloud Engineer</strong> focused on one of the biggest challenge/opportunity of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: #8BE9FD;"></i> <i class="fas fa-cloud-sun" style="color: #F1FA8C;"></i> <i class="fas fa-globe-europe" style="color: #50FA7B;"></i> <i class="fas fa-robot" style="color: #FF5555;"></i></p>
     <p>I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.</p>
     <p>I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.</p>
     <p>Here is a brief overview of my professsional experience, my education background and also some non-profits I've worked with over the years.</p>

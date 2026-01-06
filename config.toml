@@ -9,12 +9,12 @@ enableRobotsTXT = true
 
 [params]
   author = "Rodrigo Almeida"
-  description = "Geo-Information, AI and Cloud Engineer"
+  description = "Rodrigo Almeida is a Geo-Information, AI and Cloud Engineer focused on using AI to understand, predict and adapt to a changing climate."
   terminal_path = "rodrigoalmeida" # directory name shown in the CLI prompt
   favicon = "./favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   twitter = "@rodrigo_gtiff"
-  social_image = "avatar.jpg"
+  social_image = "rodrigo-almeida-geo-ai-cloud-engineer.jpg"
   [params.footer]
     text = "© 2026 Rodrigo Almeida"
   [params.style]  # appearance options (can be omitted)
