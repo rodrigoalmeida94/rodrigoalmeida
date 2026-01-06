@@ -13,7 +13,8 @@ title = "Rodrigo Almeida 🛰️🌍🤖 | Contact"
             <br>
             <span class="json-key">"title"</span>: <span class="json-string">"Geo-Information, AI and Cloud Engineer"</span>,
             <br>
-            <span class="json-key">"email"</span>: <span class="json-string"><a href="mailto:rodrigo.almeida94@outlook.pt">"rodrigo.almeida94@outlook.pt"</a></span>,
+            <span class="json-key">"email"</span>: <span class="json-string"><a href="mailto:rodrigo.almeida94@outlook.pt" id="email-link">"rodrigo.almeida94@outlook.pt"</a></span>,
+            <button onclick="copyEmail()" style="background: none; border: 1px dashed #50FA7B; color: #50FA7B; cursor: pointer; font-size: 0.8rem; margin-left: 10px;">➜ pbcopy &lt; email.txt</button>
             <br>
             <span class="json-key">"profiles"</span>: <span class="json-brace">{</span>
             <div class="indent">

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container">
+    {{ if ne .File.BaseFileName "contact" }}
+    <div class="terminal-metadata mb-4">
+        <div class="command-line">
+            <span class="prompt-user">➜</span> <span class="prompt-path">~/{{ .Type }}</span> <span
+                class="prompt-command">cat {{ if .File }}{{ .File.LogicalName }}{{ else }}{{ urlize .Title
+                }}.log{{ end }}</span>
+        </div>
+        <div class="terminal-output mt-2" style="border-left: 2px solid #444; padding-left: 15px; color: #888;">
+            <div><span style="color: #BD93F9;">Title:</span> <span style="color: #e6e6e6; font-weight: bold;">{{ .Title
+                    }}</span></div>
+            <div><span style="color: #BD93F9;">Date:</span> <span style="color: #e6e6e6;">{{ .Date.Format "2006-01-02"
+                    }}</span></div>
+            {{ if .Params.tags }}
+            <div><span style="color: #BD93F9;">Tags:</span> <span style="color: #e6e6e6;">[{{ range $i, $tag :=
+                    .Params.tags }}{{ if $i }}, {{ end }}{{ $tag }}{{ end }}]</span></div>
+            {{ end }}
+            <div style="margin-top: 5px; border-top: 1px dashed #444; width: 50px;"></div>
+        </div>
+    </div>
+    {{ end }}
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

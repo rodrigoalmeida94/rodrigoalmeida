@@ -14,6 +14,10 @@
                 [ OK ] System Online | Uptime: <span id="uptime">Loading...</span> | Made with <i class="fas fa-heart"
                     style="color: #FF79C6;"></i> together with Gemini 3
             </p>
+            <p style="font-size: 0.8rem; opacity: 0.7;">
+                [ Hint: Press <strong>'h'</strong> for command help | <strong>'p'</strong>: projects,
+                <strong>'b'</strong>: blog, <strong>'c'</strong>: contact, <strong>'a'</strong>: home ]
+            </p>
             <p>
                 {{ with .Site.Params.footer }}
             </p>
@@ -24,14 +28,48 @@
 </div>
 
 <script>
-    // Simple uptime counter simulation
-    const start = new Date();
-    setInterval(() => {
+    // Interactive Terminal Features
+    document.addEventListener('keydown', function (e) {
+        // Only trigger if no input is focused
+        if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
+
+        // Simple 'help' command simulator
+        if (e.key === 'h') {
+            alert("Available Commands:\n[h] - Show this help\n[a] - Home (About)\n[p] - Projects\n[b] - Blog (Posts)\n[c] - Contact");
+        }
+        if (e.key === 'a') window.location.href = "/rodrigoalmeida/";
+        if (e.key === 'p') window.location.href = "/rodrigoalmeida/projects/";
+        if (e.key === 'b') window.location.href = "/rodrigoalmeida/posts/";
+        if (e.key === 'c') window.location.href = "/rodrigoalmeida/contact/";
+    });
+
+    function copyEmail() {
+        const email = "rodrigo.almeida94@outlook.pt";
+        navigator.clipboard.writeText(email).then(() => {
+            alert("Email copied to clipboard (pbcopy status: exit 0)");
+        });
+    }
+</script>
+
+<script>
+    const systemStart = new Date('2020-01-01T00:00:00');
+
+    function updateUptime() {
         const now = new Date();
-        const diff = Math.floor((now - start) / 1000);
-        const h = Math.floor(diff / 3600).toString().padStart(2, '0');
-        const m = Math.floor((diff % 3600) / 60).toString().padStart(2, '0');
-        const s = (diff % 60).toString().padStart(2, '0');
-        document.getElementById('uptime').innerText = `${h}:${m}:${s}`;
-    }, 1000);
+        const totalDiff = Math.floor((now - systemStart) / 1000);
+
+        const days = Math.floor(totalDiff / 86400);
+        const hours = Math.floor((totalDiff % 86400) / 3600);
+        const minutes = Math.floor((totalDiff % 3600) / 60);
+        const seconds = totalDiff % 60;
+
+        const uptimeStr = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        const uptimeEl = document.getElementById('uptime');
+        if (uptimeEl) {
+            uptimeEl.innerText = uptimeStr;
+        }
+    }
+
+    setInterval(updateUptime, 1000);
+    updateUptime();
 </script>

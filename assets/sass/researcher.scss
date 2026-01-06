@@ -11,7 +11,47 @@ $red: #FF5555; // RobbyRussell Arrow Red
 $green: #50FA7B; // Vibrant Green
 $blue: #8BE9FD; // Cyan for directory (Dracula/Zsh style)
 $black: #222222;
-$prompt-color: $green; // Using the new green for prompt
+$prompt-color: $green;
+
+// Animations
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1.2rem;
+    background-color: $green;
+    margin-left: 4px;
+    vertical-align: middle;
+    animation: blink 1s step-end infinite;
+}
+
+// CRT Effect
+.crt::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
 
 // Font
 $font-size: 14pt;
@@ -437,162 +477,191 @@ body {
     }
 }
 
-;
 
-// Custom CLI Badge Style
+// Custom CLI Badge Style (Oh My Zsh / Powerline look)
 .badge-cli {
-    background-color: #333;
-    /* Dark default background */
-    color: #f8f8f2;
-    /* Light text */
-    border: none;
-    border-radius: 4px;
-    font-family: 'Inconsolata', monospace;
-    font-size: 1.0rem;
-    padding: 8px 14px;
-    margin: 6px;
-    display: inline-block;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: inline-flex;
+    align-items: center;
     position: relative;
-    overflow: hidden;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    margin: 6px 15px 6px 5px;
+    padding: 0 10px 0 12px;
+    font-family: $font-family;
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: default;
+    transition: all 0.2s;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+
+    // The "Arrow" tip
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -10px;
+        width: 0;
+        height: 0;
+        border-top: 0.9rem solid transparent;
+        border-bottom: 0.9rem solid transparent;
+        border-left: 10px solid #444;
+        transition: border-left-color 0.2s;
+        z-index: 2;
+    }
 
     i {
-        margin-right: 8px;
-        transition: color 0.2s;
+        margin-right: 10px;
+        font-size: 1.1rem;
     }
 
     &:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-        color: #222;
-        /* Dark text on hover (if background is bright) */
-
-        i {
-            color: #222;
-        }
+        transform: translate(2px, -2px);
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.3);
     }
 }
 
-// Color Modifiers for Button-like appearance
-@mixin badge-color($color) {
-    border-left: 4px solid $color; // Branch indicator style tick
+// Color Modifiers for Powerline appearance
+@mixin badge-color($bg) {
+    background-color: $bg;
+    color: #222; // Contrast text on vibrant backgrounds
+
+    &::after {
+        border-left-color: $bg;
+    }
 
     i {
-        color: $color;
+        color: #222;
     }
 
     &:hover {
-        background-color: $color;
-        border-left: 4px solid $color; // Keep the border or blend it
-        color: #222; // Contrast text on hover
+        background-color: lighten($bg, 10%);
 
-        i {
-            color: #222;
+        &::after {
+            border-left-color: lighten($bg, 10%);
         }
     }
 }
 
 .badge-python {
     @include badge-color(#3776AB);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// Python Blue
 .badge-ml {
     @include badge-color(#FF79C6);
 }
 
-// Pink
 .badge-dl {
     @include badge-color(#BD93F9);
 }
 
-// Purple
 .badge-cv {
     @include badge-color(#8BE9FD);
 }
 
-// Cyan
 .badge-cloud {
     @include badge-color(#6272A4);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// Grey/Blue
 .badge-aws {
     @include badge-color(#FF9900);
 }
 
-// AWS Orange
 .badge-gcp {
     @include badge-color(#4285F4);
 }
 
-// GCP Blue
 .badge-docker {
     @include badge-color(#2496ED);
 }
 
-// Docker Blue
 .badge-k8s {
     @include badge-color(#326CE5);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// K8s Blue
 .badge-geo {
     @include badge-color(#50FA7B);
 }
 
-// Green
 .badge-gdal {
     @include badge-color(#F1FA8C);
 }
 
-// Yellow
 .badge-postgis {
     @include badge-color(#336791);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// PostGIS Blue
 .badge-cicd {
     @include badge-color(#FF5555);
 }
 
-// Red
-
-// FastAPI Teal
 .badge-fastapi {
     @include badge-color(#009688);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// TensorFlow Orange
 .badge-tensorflow {
     @include badge-color(#FF6F00);
 }
 
-// Dask Orange-Red
 .badge-dask {
     @include badge-color(#E95420);
 }
 
-// Pulumi Purple
 .badge-pulumi {
     @include badge-color(#8A3391);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// Prefect Blue
 .badge-prefect {
     @include badge-color(#0565F2);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
 
-// PyTorch Orange/Red
 .badge-pytorch {
     @include badge-color(#EE4C2C);
 }
 
-// Zarr Purple/Pink
 .badge-zarr {
     @include badge-color(#BC2F75);
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
 }
