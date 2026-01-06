@@ -212,6 +212,14 @@ body {
         margin-right: 2rem;
         margin-bottom: 1rem;
 
+        @media (max-width: 600px) {
+            float: none;
+            display: block;
+            width: fit-content;
+            margin: 0 auto 1.5rem auto;
+            text-align: center;
+        }
+
         img {
             display: block;
             border-radius: 0;
@@ -219,6 +227,10 @@ body {
             height: auto;
             border: none;
             margin: 0;
+
+            @media (max-width: 600px) {
+                margin: 0 auto;
+            }
         }
     }
 
