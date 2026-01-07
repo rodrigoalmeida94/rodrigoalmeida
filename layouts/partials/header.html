@@ -13,7 +13,7 @@
                     {{ with .Site.Menus.main }}
                     {{ $navbar_len := len . }}
                     {{ range $i, $nav_item := . }}
-                    <a class="nav-item nav-link mr-3" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+                    <a class="nav-item nav-link mr-3" href="{{ $nav_item.URL | relURL }}" title="{{ $nav_item.Name }}">
                         <span style="color: #50FA7B; font-weight: bold;">&gt;</span> {{ $nav_item.Name }}
                     </a>
                     {{ end }}

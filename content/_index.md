@@ -75,8 +75,8 @@ title = "Rodrigo Almeida"
 <h5><a href="https://developmentseed.org"><i class="fas fa-building" style="color: #8BE9FD;"></i> Development Seed</a> | Aug 2021 ─ Oct 2022</h5>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Cloud Software Engineer</h6>
 <ul>
-<li>Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. <a href="https://cerulean.skytruth.org">Cerulean App</a></li>
-<li>Developed an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <a href="https://www.earthdata.nasa.gov/dashboard/labs/similarity-search/explore/">Similarity Search App</a></li>
+<li>Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. <a href="{{< relref "projects/cerulean.md" >}}">Cerulean</a></li>
+<li>Developed an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <a href="{{< relref "projects/similarity-search.md" >}}">Similarity Search</a></li>
 </ul>
 </div>
 
@@ -136,7 +136,7 @@ title = "Rodrigo Almeida"
 <h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Wageningen University and Research - WUR</a></h6>
 <ul>
 <li><em>Cum laude</em>, 8.6/10 average score</li>
-<li>MSc thesis: <em><a href="https://library.wur.nl/WebQuery/theses/2249437">Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</a></em></li>
+<li>MSc thesis: <em><a href="{{< relref "projects/apples-drones.md" >}}">Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</a></em></li>
 <li>Assistant in conferences: KLV Alumni reunions, Competence 2016 and AGILE 2017</li>
 </ul>
 </div>
