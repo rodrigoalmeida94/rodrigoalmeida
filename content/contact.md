@@ -3,10 +3,9 @@ title = "Contact"
 description = "Get in touch with Rodrigo Almeida, a Geo-Information, AI and Cloud Engineer. Find my email, LinkedIn, GitHub, and other profiles here."
 +++
 
-<div class="terminal-output">
-    <div class="command-line">
-        <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">cat contact.json</span>
-    </div>
+<div class="command-line mb-4">
+    <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">cat contact.json</span>
+</div>
     <div class="json-output">
         <span class="json-brace">{</span>
         <div class="indent">
@@ -32,4 +31,4 @@ description = "Get in touch with Rodrigo Almeida, a Geo-Information, AI and Clou
         </div>
         <span class="json-brace">}</span>
     </div>
-</div>
+

@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+    <div class="terminal-output">
+        <div class="command-line mb-4">
+            <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">locate
+                page</span>
+        </div>
+        <div style="color: #FF5555; margin-bottom: 2rem;">
+            Error: 404 Page Not Found
+        </div>
+
+        <div class="ascii-art"
+            style="font-family: monospace; white-space: pre; line-height: 1.2; font-size: 12px; margin-bottom: 2rem; overflow-x: auto;">
+            <span style="color: #50FA7B"> _____
+                / \ </span>
+            <span style="color: #8BE9FD">| ___ |</span>
+            <span style="color: #8BE9FD">| / \ |</span> <span style="color: #FF5555">Error 404:</span>
+            <span style="color: #8BE9FD">| \___/ |</span> <span style="color: #F1FA8C">World Not Found</span>
+            <span style="color: #50FA7B">\_____/</span>
+        </div>
+
+        <p>It seems we've lost the signal. The page you are looking for has drifted out of orbit.</p>
+
+        <div class="command-line mt-4">
+            <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <a href="{{ " /" | relURL }}"
+                style="color: #50FA7B; text-decoration: none; border-bottom: 1px dashed #50FA7B;">cd ~</a>
+        </div>
+    </div>
+</div>
+{{ end }}

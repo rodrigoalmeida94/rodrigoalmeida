@@ -2,10 +2,8 @@
 title = "Rodrigo Almeida"
 +++
 
-<div class="terminal-output">
-    <div class="command-line">
-        <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">cat about.md</span>
-    </div>
+<div class="command-line mb-4">
+    <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">cat about.md</span>
 </div>
 
 <div class="clearfix mb-5">

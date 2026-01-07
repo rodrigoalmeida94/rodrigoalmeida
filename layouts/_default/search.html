@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="search-container">
+<div class="container">
 
     <div class="terminal-search-wrapper">
         <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">grep
@@ -16,12 +16,6 @@
 <script src="{{ $searchJS.RelPermalink }}"></script>
 
 <style>
-    .search-container {
-        max-width: 750px;
-        margin: 0 auto;
-        padding: 2rem 0;
-    }
-
     .terminal-search-wrapper {
         display: flex;
         align-items: center;

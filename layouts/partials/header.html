@@ -13,15 +13,16 @@
                     {{ with .Site.Menus.main }}
                     {{ $navbar_len := len . }}
                     {{ range $i, $nav_item := . }}
-                    <a class="nav-item nav-link mr-3" href="{{ $nav_item.URL | relURL }}" title="{{ $nav_item.Name }}">
+                    <a class="nav-item nav-link mr-2 px-2" href="{{ $nav_item.URL | relURL }}"
+                        title="{{ $nav_item.Name }}">
                         <span style="color: #50FA7B; font-weight: bold;">&gt;</span> {{ $nav_item.Name }}
                     </a>
                     {{ end }}
                     {{ end }}
-                    <a class="nav-item nav-link mr-3 ml-2 my-auto" href="search" title="Search">
+                    <a class="nav-item nav-link mr-2 ml-2 my-auto px-2" href="{{ "search" | relURL }}" title="Search">
                         <i class="fas fa-search" style="color: #50FA7B;"></i>
                     </a>
-                    <div class="theme-switch-wrapper ml-3 my-auto">
+                    <div class="theme-switch-wrapper ml-2 my-auto">
                         <label class="theme-switch" for="checkbox" title="Toggle Theme">
                             <input type="checkbox" id="checkbox" />
                             <div class="slider">
