@@ -43,6 +43,7 @@ title = "Rodrigo Almeida"
 
 ## Open Source Contributions
 
+<div class="clearfix" style="display: block;">
 <a href="https://github.com/nvidia/earth2studio/pull/500" target="_blank" class="contribution-item badge-link">
     <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #500</span>
     <span class="contribution-description">Add AIFS ENS</span>
@@ -66,6 +67,7 @@ title = "Rodrigo Almeida"
 <a href="https://github.com/pulls?q=is%3Apr+author%3Arodrigoalmeida94+is%3Aclosed+is%3Apublic" target="_blank" class="contribution-item badge-link">
     <span class="badge-cli badge-git-merged">...</span>
 </a>
+</div>
 
 ## Experience
 <div class="timeline">
