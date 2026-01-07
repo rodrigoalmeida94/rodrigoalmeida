@@ -1,5 +1,5 @@
 title = "Rodrigo Almeida"
-baseURL = "https://rodrigoalmeida94.github.io/rodrigoalmeida/"
+baseURL = "https://rodrigoalmeida.pt/"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
@@ -41,6 +41,11 @@ enableRobotsTXT = true
     icon = "fab fa-bluesky"
     title = "Bluesky"
     url = "https://bsky.app/profile/rodrigo-gtiff.bsky.social"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [permalinks]
   "/" = "/:filename"
