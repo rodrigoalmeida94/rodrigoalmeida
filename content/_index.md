@@ -181,23 +181,23 @@ title = "Rodrigo Almeida"
 ## Publications
 <div class="timeline">
     <div class="timeline-item">
-        <h5><a href="https://doi.org/10.48550/arXiv.2511.17176"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification</a></h5>
-        <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2511.17176</h6>
+        <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification</h5>
+        <h6><a href="https://doi.org/10.48550/arXiv.2511.17176" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2511.17176</a></h6>
     </div>
 
 <div class="timeline-item">
-    <h5><a href="https://doi.org/10.1007/s13580-020-00316-9"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</a></h5>
-    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.1007/s13580-020-00316-9</h6>
+    <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
+    <h6><a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.1007/s13580-020-00316-9</a></h6>
 </div>
 
 <div class="timeline-item">
-    <h5><a href="https://doi.org/10.3390/s19020372"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</a></h5>
-    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.3390/s19020372</h6>
+    <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</h5>
+    <h6><a href="https://doi.org/10.3390/s19020372" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.3390/s19020372</a></h6>
 </div>
 
 <div class="timeline-item">
-    <h5><a href="https://doi.org/10.48550/arXiv.2002.00580"><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Super-resolution of multispectral satellite images using convolutional neural networks</a></h5>
-    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2002.00580</h6>
+    <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Super-resolution of multispectral satellite images using convolutional neural networks</h5>
+    <h6><a href="https://doi.org/10.48550/arXiv.2002.00580" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2002.00580</a></h6>
 </div>
 </div>
 
