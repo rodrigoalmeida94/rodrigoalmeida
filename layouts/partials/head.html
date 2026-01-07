@@ -6,13 +6,22 @@
     <!-- Canonical -->
     <link rel="canonical" href="{{ .Permalink }}">
 
-    <!-- Open Graph -->
+    <!-- Dynamic Metadata -->
+    {{- $title := .Title -}}
+    {{- if .IsHome -}}
+    {{- $title = printf "%s | %s" .Site.Params.author .Site.Params.description -}}
+    {{- else if not (in .Title .Site.Params.author) -}}
+    {{- $title = printf "%s | %s" .Title .Site.Params.author -}}
+    {{- end -}}
+
+    {{- $description := .Description | default .Params.description | default .Site.Params.long_description | default
+    .Site.Params.description -}}
+
     <!-- Open Graph -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    <meta property="og:title" content="{{ .Site.Params.author }} | AI for Weather & Climate">
-    <meta property="og:description"
-        content="Rodrigo Almeida is a Geo-Information, AI and Cloud Engineer using Artificial Intelligence to understand, predict and adapt to our changing climate.">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
     {{ with .Site.Params.social_image }}
     <meta property="og:image" content="{{ . | absURL }}">
@@ -22,9 +31,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
     <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
-    <meta name="twitter:title" content="{{ .Title }}">
-    <meta name="twitter:description"
-        content="Rodrigo Almeida is a Geo-Information, AI and Cloud Engineer using Artificial Intelligence to understand, predict and adapt to our changing climate.">
+    <meta name="twitter:title" content="{{ $title }}">
+    <meta name="twitter:description" content="{{ $description }}">
     {{ with .Site.Params.social_image }}
     <meta name="twitter:image" content="{{ . | absURL }}">
     {{ end }}
@@ -44,9 +52,8 @@
     }
     </script>
 
-    <title>{{ if .IsHome }}{{ .Site.Params.author }} | {{ .Site.Params.description }}{{ else }}{{ .Title }} | {{
-        .Site.Params.author }}{{ end }}</title>
-    <meta name="description" content="{{ .Site.Params.description }}">
+    <title>{{ $title }}</title>
+    <meta name="description" content="{{ $description }}">
     <meta name="author" content='{{ .Site.Params.author }}'>
 
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
@@ -72,7 +79,7 @@
     {{ end -}}
 
     {{- if not hugo.IsServer -}}
-    {{- partial "googleanalytics.html" . -}}
+    {{- /* partial "googleanalytics.html" . */ -}}
     {{- end -}}
 
     {{ if .Params.noindex -}}

@@ -47,8 +47,8 @@ title = "Rodrigo Almeida"
         <h5><a href="https://www.hhi.fraunhofer.de/en/index.html"><i class="fas fa-building" style="color: #8BE9FD;"></i> Fraunhofer HHI</a> | Feb 2025 ─ Present</h5>
         <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Machine Learning Researcher, Applied AI group</h6>
         <ul>
-            <li>Uncertainty quantification of global AI weather models, evaluating on extreme events</li>
-            <li>Climate and Weather AI applications</li>
+            <li>Uncertainty quantification of global AI weather models, evaluating on extreme events.</li>
+            <li>Climate and Weather AI applications.</li>
         </ul>
     </div>
     

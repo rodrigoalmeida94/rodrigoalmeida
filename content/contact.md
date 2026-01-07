@@ -1,5 +1,6 @@
 +++
-title = "Rodrigo Almeida 🛰️🌍🤖 | Contact"
+title = "Contact"
+description = "Get in touch with Rodrigo Almeida, a Geo-Information, AI and Cloud Engineer. Find my email, LinkedIn, GitHub, and other profiles here."
 +++
 
 <div class="terminal-output">

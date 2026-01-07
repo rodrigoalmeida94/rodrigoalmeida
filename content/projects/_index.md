@@ -1,5 +1,6 @@
 +++
-title = "~/projects"
+title = "Projects"
+description = "Explore projects by Rodrigo Almeida in the fields of Geo-Information, Artificial Intelligence, and Cloud Engineering, focusing on climate and weather."
 +++
 
 <div class="command-line">
