@@ -22,25 +22,24 @@ title = "Rodrigo Almeida"
 
 ## Skills
 
-<span class="badge-cli badge-python"><i class="fab fa-python"></i> Python</span>
-<span class="badge-cli badge-ml"><i class="fas fa-brain"></i> Machine Learning</span>
-<span class="badge-cli badge-dl"><i class="fas fa-network-wired"></i> Deep Learning</span>
-<span class="badge-cli badge-cv"><i class="fas fa-eye"></i> Computer Vision</span>
-<span class="badge-cli badge-cloud"><i class="fas fa-cloud"></i> Cloud Engineering</span>
-<span class="badge-cli badge-aws"><i class="fab fa-aws"></i> AWS</span>
-<span class="badge-cli badge-gcp"><i class="fab fa-google"></i> GCP</span>
-<span class="badge-cli badge-docker"><i class="fab fa-docker"></i> Docker</span>
-<span class="badge-cli badge-geo"><i class="fas fa-globe-americas"></i> Geospatial Analysis</span>
-<span class="badge-cli badge-gdal"><i class="fas fa-database"></i> GDAL</span>
-<span class="badge-cli badge-postgis"><i class="fas fa-layer-group"></i> PostGIS</span>
-<span class="badge-cli badge-cicd"><i class="fas fa-sync-alt"></i> CI/CD</span>
-<span class="badge-cli badge-fastapi"><i class="fas fa-bolt"></i> FastAPI</span>
-<span class="badge-cli badge-pytorch"><i class="fas fa-cubes"></i> PyTorch</span>
-<span class="badge-cli badge-dask"><i class="fas fa-project-diagram"></i> Dask</span>
-<span class="badge-cli badge-pulumi"><i class="fas fa-cloud-upload-alt"></i> Pulumi</span>
-<span class="badge-cli badge-prefect"><i class="fas fa-tasks"></i> Prefect</span>
-<span class="badge-cli badge-zarr"><i class="fas fa-cubes"></i> Zarr</span>
-
+{{< badge "badge-python" "fab fa-python" >}} Python{{< /badge >}}
+{{< badge "badge-ml" "fas fa-brain" >}} Machine Learning{{< /badge >}}
+{{< badge "badge-dl" "fas fa-network-wired" >}} Deep Learning{{< /badge >}}
+{{< badge "badge-cv" "fas fa-eye" >}} Computer Vision{{< /badge >}}
+{{< badge "badge-cloud" "fas fa-cloud" >}} Cloud Engineering{{< /badge >}}
+{{< badge "badge-aws" "fab fa-aws" >}} AWS{{< /badge >}}
+{{< badge "badge-gcp" "fab fa-google" >}} GCP{{< /badge >}}
+{{< badge "badge-docker" "fab fa-docker" >}} Docker{{< /badge >}}
+{{< badge "badge-geo" "fas fa-globe-americas" >}} Geospatial Analysis{{< /badge >}}
+{{< badge "badge-gdal" "fas fa-database" >}} GDAL{{< /badge >}}
+{{< badge "badge-postgis" "fas fa-layer-group" >}} PostGIS{{< /badge >}}
+{{< badge "badge-cicd" "fas fa-sync-alt" >}} CI/CD{{< /badge >}}
+{{< badge "badge-fastapi" "fas fa-bolt" >}} FastAPI{{< /badge >}}
+{{< badge "badge-pytorch" "fas fa-cubes" >}} PyTorch{{< /badge >}}
+{{< badge "badge-dask" "fas fa-project-diagram" >}} Dask{{< /badge >}}
+{{< badge "badge-pulumi" "fas fa-cloud-upload-alt" >}} Pulumi{{< /badge >}}
+{{< badge "badge-prefect" "fas fa-tasks" >}} Prefect{{< /badge >}}
+{{< badge "badge-zarr" "fas fa-cubes" >}} Zarr{{< /badge >}}
 ## Open Source Contributions
 
 <div class="clearfix" style="display: block;">
@@ -56,13 +55,13 @@ title = "Rodrigo Almeida"
     <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> SkyTruth/cerulean-cloud #60</span>
     <span class="contribution-description">Prepare production deployment</span>
 </a>
+<a href="https://github.com/NASA-IMPACT/csdap-cumulus/pull/8" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NASA-IMPACT/csdap-cumulus #8</span>
+    <span class="contribution-description">Use AWS Cognito instead of TEA</span>
+</a>
 <a href="https://github.com/cogeotiff/rio-tiler/pull/431" target="_blank" class="contribution-item badge-link">
     <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> cogeo/rio-tiler #431</span>
     <span class="contribution-description">Use httpx</span>
-</a>
-<a href="https://github.com/up42/up42-py/pull/182" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> up42/up42-py #182</span>
-    <span class="contribution-description">Add CircleCI and GitHub action</span>
 </a>
 <a href="https://github.com/pulls?q=is%3Apr+author%3Arodrigoalmeida94+is%3Aclosed+is%3Apublic" target="_blank" class="contribution-item badge-link">
     <span class="badge-cli badge-git-merged">...</span>

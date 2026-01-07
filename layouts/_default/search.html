@@ -1,0 +1,108 @@
+{{ define "main" }}
+<div class="search-container">
+
+    <div class="terminal-search-wrapper">
+        <span class="prompt-user">➜</span> <span class="prompt-path">~</span> <span class="prompt-command">grep
+            -r</span>
+        <input type="text" id="search-input" placeholder="&quot;search query&quot;" aria-label="Search" autofocus>
+        <span class="blinking-cursor">_</span>
+    </div>
+
+    <div id="search-results" class="search-results"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+{{ $searchJS := resources.Get "js/search.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $searchJS.RelPermalink }}"></script>
+
+<style>
+    .search-container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    .terminal-search-wrapper {
+        display: flex;
+        align-items: center;
+        background-color: #222;
+        padding: 10px;
+        border: 2px solid #444;
+        font-family: 'Inconsolata', monospace;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .terminal-search-wrapper .prompt-user {
+        color: #FF5555;
+        margin-right: 8px;
+        font-weight: bold;
+    }
+
+    .terminal-search-wrapper .prompt-path {
+        color: #8BE9FD;
+        margin-right: 8px;
+        font-weight: bold;
+    }
+
+    .terminal-search-wrapper .prompt-command {
+        color: #50FA7B;
+        margin-right: 8px;
+    }
+
+    #search-input {
+        flex-grow: 1;
+        background: transparent;
+        border: none;
+        color: #f1fa8c;
+        /* Yellow text for input */
+        font-family: 'Inconsolata', monospace;
+        font-size: 1.2rem;
+        outline: none;
+        caret-color: transparent;
+        /* Hide default caret, we use custom one */
+    }
+
+    .blinking-cursor {
+        color: #50FA7B;
+        animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .search-result-item {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px dashed #444;
+    }
+
+    .search-result-item h3 {
+        margin-top: 0;
+    }
+
+    .search-result-item a {
+        color: #50FA7B;
+        text-decoration: none;
+    }
+
+    .search-result-item a:hover {
+        text-decoration: underline;
+        color: #FF5555;
+    }
+
+    .search-result-item p {
+        color: #ccc;
+        font-size: 0.9rem;
+    }
+</style>
+{{ end }}

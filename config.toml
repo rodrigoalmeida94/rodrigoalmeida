@@ -42,6 +42,9 @@ enableRobotsTXT = true
     title = "Bluesky"
     url = "https://bsky.app/profile/rodrigo-gtiff.bsky.social"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
