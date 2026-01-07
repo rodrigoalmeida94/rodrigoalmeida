@@ -27,7 +27,7 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
-    url = "mailto:rodrio.almeida94@outlook.pt"
+    url = "mailto:rodrigo.almeida94[at]outlook.pt"
   [[params.socialIcons]]
     icon = "fab fa-github"
     title = "GitHub"

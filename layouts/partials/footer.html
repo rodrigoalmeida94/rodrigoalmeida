@@ -3,7 +3,10 @@
     {{ if .Site.Params.socialIcons }}
     <div class="container text-center">
         {{ range $item := .Site.Params.socialIcons }}
-        <a href="{{ $item.url }}" class="{{ $item.icon }}" title="{{ $item.title }}" style="margin: 0 10px;"></a>
+        {{ $isEmail := eq $item.title "E-mail" }}
+        <a href="{{ if $isEmail }}#{{ else }}{{ $item.url }}{{ end }}"
+            class="{{ $item.icon }}{{ if $isEmail }} email-link-obfuscated{{ end }}" title="{{ $item.title }}" {{ if
+            $isEmail }}data-user="rodrigo.almeida94" data-domain="outlook.pt" {{ end }} style="margin: 0 10px;"></a>
         {{ end }}
     </div>
     {{ end }}
@@ -44,11 +47,28 @@
     });
 
     function copyEmail() {
-        const email = "rodrigo.almeida94@outlook.pt";
+        const user = "rodrigo.almeida94";
+        const domain = "outlook.pt";
+        const email = `${user}@${domain}`;
         navigator.clipboard.writeText(email).then(() => {
             alert("Email copied to clipboard (pbcopy status: exit 0)");
         });
     }
+
+    // Obfuscation helper
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.email-link-obfuscated').forEach(el => {
+            const user = el.getAttribute('data-user');
+            const domain = el.getAttribute('data-domain');
+            if (user && domain) {
+                const email = `${user}@${domain}`;
+                el.href = `mailto:${email}`;
+                if (el.innerText.includes('[at]')) {
+                    el.innerText = el.innerText.replace('[at]', '@');
+                }
+            }
+        });
+    });
 </script>
 
 <script>
