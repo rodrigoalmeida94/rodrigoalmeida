@@ -12,10 +12,15 @@
     {{ end }}
 
     <div class="container text-center mt-3">
-        <span class="status-line">
+        <div class="status-line" style="word-wrap: break-word; overflow-wrap: break-word;">
             <p>
-                [ OK ] System Online | Uptime: <span id="uptime">Loading...</span> | Made with <i class="fas fa-heart"
-                    style="color: #FF79C6;"></i> together with Gemini 3
+                [ OK ] System Online | Uptime: <span id="uptime">Loading...</span><br>
+                Built with <a href="https://gohugo.io" target="_blank"
+                    style="color: inherit; text-decoration: underline;">Hugo</a> |
+                <a href="https://github.com/rodrigoalmeida94/rodrigoalmeida" target="_blank"
+                    style="color: inherit; text-decoration: underline;"><i class="fab fa-github"></i> Source
+                    Code</a><br>
+                Made with <i class="fas fa-heart" style="color: #FF79C6;"></i> with Gemini 3
             </p>
             <p style="font-size: 0.8rem; opacity: 0.7;">
                 [ Hint: Press <strong>'h'</strong> for command help | <strong>'p'</strong>: projects,
@@ -23,10 +28,15 @@
             </p>
             <p>
                 {{ with .Site.Params.footer }}
+                {{ if .url }}
+                <a href="{{ .url | absURL }}" title="{{ .text }}" {{ if .blank }}target="_blank" {{ end }}>{{ .text
+                    }}</a>
+                {{ else }}
+                {{ .text }}
+                {{ end }}
+                {{ end }}
             </p>
-            <a href="{{ .url | absURL }}" title="{{ .text }}" {{ if .blank }}target="_blank" {{ end }}>{{ .text }}</a>
-            {{ end }}
-        </span>
+        </div>
     </div>
 </div>
 
