@@ -41,6 +41,32 @@ title = "Rodrigo Almeida"
 <span class="badge-cli badge-prefect"><i class="fas fa-tasks"></i> Prefect</span>
 <span class="badge-cli badge-zarr"><i class="fas fa-cubes"></i> Zarr</span>
 
+## Open Source Contributions
+
+<a href="https://github.com/nvidia/earth2studio/pull/500" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #500</span>
+    <span class="contribution-description">Add AIFS ENS</span>
+</a>
+<a href="https://github.com/nvidia/earth2studio/pull/256" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #256</span>
+    <span class="contribution-description">Add GraphCast (1 degree model)</span>
+</a>
+<a href="https://github.com/SkyTruth/cerulean-cloud/pull/60" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> SkyTruth/cerulean-cloud #60</span>
+    <span class="contribution-description">Prepare production deployment</span>
+</a>
+<a href="https://github.com/cogeotiff/rio-tiler/pull/431" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> cogeo/rio-tiler #431</span>
+    <span class="contribution-description">Use httpx</span>
+</a>
+<a href="https://github.com/up42/up42-py/pull/182" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> up42/up42-py #182</span>
+    <span class="contribution-description">Add CircleCI and GitHub action</span>
+</a>
+<a href="https://github.com/pulls?q=is%3Apr+author%3Arodrigoalmeida94+is%3Aclosed+is%3Apublic" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged">...</span>
+</a>
+
 ## Experience
 <div class="timeline">
     <div class="timeline-item">

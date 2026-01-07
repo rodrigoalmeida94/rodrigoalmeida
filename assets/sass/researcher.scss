@@ -633,11 +633,6 @@ body {
 
 .badge-prefect {
     @include badge-color(#0565F2);
-    color: #fff;
-
-    i {
-        color: #fff;
-    }
 }
 
 .badge-pytorch {
@@ -651,4 +646,64 @@ body {
     i {
         color: #fff;
     }
+}
+
+.badge-git-merged {
+    @include badge-color(#8957e5); // GitHub Merged Purple
+    color: #fff !important;
+
+    i {
+        color: #fff !important;
+    }
+}
+
+.badge-link {
+    text-decoration: none !important;
+    background-color: transparent !important;
+
+    &:hover {
+        text-decoration: none !important;
+        background-color: transparent !important;
+    }
+}
+
+.contribution-item {
+    margin-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding-right: 12px;
+    transition: all 0.2s;
+    text-decoration: none !important;
+    color: #fff !important;
+
+    &:hover,
+    &:visited,
+    &:active,
+    &:focus {
+        color: #fff !important;
+    }
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translate(2px, -2px);
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .badge-cli {
+        margin: 0 10px 0 0;
+        box-shadow: none;
+
+        &:hover {
+            transform: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.contribution-description {
+    font-size: 0.85rem;
+    color: #fff !important;
+    margin-left: 12px;
 }
