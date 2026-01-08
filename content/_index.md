@@ -20,27 +20,27 @@ title = "Rodrigo Almeida"
 
 ## Skills
 
-{{< badge "badge-python" "fab fa-python" >}} Python{{< /badge >}}
-{{< badge "badge-ml" "fas fa-brain" >}} Machine Learning{{< /badge >}}
-{{< badge "badge-dl" "fas fa-network-wired" >}} Deep Learning{{< /badge >}}
-{{< badge "badge-cv" "fas fa-eye" >}} Computer Vision{{< /badge >}}
-{{< badge "badge-cloud" "fas fa-cloud" >}} Cloud Engineering{{< /badge >}}
-{{< badge "badge-aws" "fab fa-aws" >}} AWS{{< /badge >}}
-{{< badge "badge-gcp" "fab fa-google" >}} GCP{{< /badge >}}
-{{< badge "badge-docker" "fab fa-docker" >}} Docker{{< /badge >}}
-{{< badge "badge-geo" "fas fa-globe-americas" >}} Geospatial Analysis{{< /badge >}}
+{{< badge "badge-xarray" "fas fa-cubes" >}} Xarray{{< /badge >}}
+{{< badge "badge-zarr" "fas fa-cubes" >}} Zarr{{< /badge >}}
+{{< badge "badge-parquet" "fas fa-columns" >}} Parquet{{< /badge >}}
 {{< badge "badge-gdal" "fas fa-database" >}} GDAL{{< /badge >}}
 {{< badge "badge-postgis" "fas fa-layer-group" >}} PostGIS{{< /badge >}}
-{{< badge "badge-cicd" "fas fa-sync-alt" >}} CI/CD{{< /badge >}}
-{{< badge "badge-fastapi" "fas fa-bolt" >}} FastAPI{{< /badge >}}
-{{< badge "badge-pytorch" "fas fa-cubes" >}} PyTorch{{< /badge >}}
-{{< badge "badge-dask" "fas fa-project-diagram" >}} Dask{{< /badge >}}
+{{< badge "badge-cv" "fas fa-eye" >}} Computer Vision{{< /badge >}}
+{{< badge "badge-dl" "fas fa-network-wired" >}} Deep Learning{{< /badge >}}
+{{< badge "badge-ml" "fas fa-brain" >}} Machine Learning{{< /badge >}}
+{{< badge "badge-geo" "fas fa-globe-americas" >}} Geospatial Analysis{{< /badge >}}
 {{< badge "badge-pulumi" "fas fa-cloud-upload-alt" >}} Pulumi{{< /badge >}}
 {{< badge "badge-prefect" "fas fa-tasks" >}} Prefect{{< /badge >}}
-{{< badge "badge-zarr" "fas fa-cubes" >}} Zarr{{< /badge >}}
-{{< badge "badge-xarray" "fas fa-cubes" >}} Xarray{{< /badge >}}
-{{< badge "badge-parquet" "fas fa-layer-groups" >}} Parquet{{< /badge >}}
-{{< badge "badge-slurm" "fas fa-glass" >}} Slurm{{< /badge >}}
+{{< badge "badge-slurm" "fas fa-server" >}} Slurm{{< /badge >}}
+{{< badge "badge-fastapi" "fas fa-bolt" >}} FastAPI{{< /badge >}}
+{{< badge "badge-dask" "fas fa-project-diagram" >}} Dask{{< /badge >}}
+{{< badge "badge-pytorch" "fas fa-cubes" >}} PyTorch{{< /badge >}}
+{{< badge "badge-docker" "fab fa-docker" >}} Docker{{< /badge >}}
+{{< badge "badge-aws" "fab fa-aws" >}} AWS{{< /badge >}}
+{{< badge "badge-gcp" "fab fa-google" >}} GCP{{< /badge >}}
+{{< badge "badge-cicd" "fas fa-sync-alt" >}} CI/CD{{< /badge >}}
+{{< badge "badge-cloud" "fas fa-cloud" >}} Cloud Engineering{{< /badge >}}
+{{< badge "badge-python" "fab fa-python" >}} Python{{< /badge >}}
 ## Open Source Contributions
 
 <div class="clearfix" style="display: block;">

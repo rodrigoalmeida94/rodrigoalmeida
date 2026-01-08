@@ -700,6 +700,33 @@ body {
     }
 }
 
+.badge-xarray {
+    @include badge-color(#4e9cd6); // Xarray Blue
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
+}
+
+.badge-parquet {
+    @include badge-color(#e74c3c); // Parquet Red
+    color: #fff;
+
+    i {
+        color: #fff;
+    }
+}
+
+.badge-slurm {
+    @include badge-color(#BD93F9); // Slurm Purple
+    color: #222;
+
+    i {
+        color: #222;
+    }
+}
+
 .badge-git-merged {
     @include badge-color(#8957e5); // GitHub Merged Purple
     color: #fff !important;
