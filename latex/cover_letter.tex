@@ -1,0 +1,113 @@
+\documentclass[a4paper,9pt]{article}
+\usepackage{fancyhdr}
+\usepackage[left=0.3in,top=0.25in,right=0.3in,bottom=0.3in,footskip=0.15in]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc} % Required for proper font selection
+\usepackage{inconsolata}
+\usepackage{calligra}
+
+% Metadata
+\hypersetup{
+    pdftitle={Rodrigo Almeida - Cover Letter},
+    pdfauthor={Rodrigo Almeida},
+    pdfsubject={Cover Letter},
+    pdfcreator={LaTeX with Hyperref},
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+}
+
+% Define timestamp command with default if not provided
+\providecommand{\cvtimestamp}{\today}
+
+% Footer setup
+\pagestyle{fancy}
+\fancyhf{} % Clear all header/footer fields
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\rfoot{\tiny\color{gray} Generated on \cvtimestamp}
+
+% Colors matches typical terminal themes
+\definecolor{promptcolor}{RGB}{87, 199, 255} % Light Blue for prompt
+\definecolor{commandcolor}{RGB}{255, 121, 198} % Pink for command
+\definecolor{headercolor}{RGB}{0, 100, 0} % Dark green
+\definecolor{linkcolor}{RGB}{64, 64, 64} % Dark Grey for links
+
+% Set default font family to typewriter
+\renewcommand{\familydefault}{\ttdefault}
+\renewcommand{\itdefault}{sl} % Inconsolata lacks true italics, use slanted instead
+\small
+
+% Section formatting - Terminal Prompt Style
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{6pt}
+
+% Variables for Cover Letter customization
+\newcommand{\recipientname}{Hiring Manager}
+\newcommand{\companyname}{Target Company}
+\newcommand{\jobtitle}{Job Title}
+
+\begin{document}
+
+% Header matches CV
+\begin{center}
+    {\Huge \textbf{Rodrigo Almeida}} \\ [2pt]
+    {\large Geo-Information, AI, and Cloud Engineer} \\ [2pt]
+    \small
+    \faMapMarker* \ Berlin, Germany \quad | \quad
+    \href{mailto:rodrigo.almeida94@outlook.pt}{\faEnvelope \ rodrigo.almeida94@outlook.pt} \quad | \quad
+    \href{https://rodrigoalmeida.me}{\faGlobe} \quad | \quad
+    \href{https://github.com/rodrigoalmeida94}{\faGithub} \quad | \quad
+    \href{https://linkedin.com/in/rodrigoalmeida94}{\faLinkedin}
+\end{center}
+
+\vspace{20pt}
+
+% Letter Info
+\noindent \today
+
+\vspace{10pt}
+
+\noindent \textbf{\recipientname} \\
+\noindent \textbf{\companyname}
+
+\vspace{10pt}
+
+\noindent \textbf{Re: Application for \jobtitle}
+
+\vspace{10pt}
+
+% Body
+\section*{\textcolor{promptcolor}{$\sim$} \textcolor{commandcolor}{\$ cat cover\_letter.txt}}
+
+\noindent Dear \recipientname,
+
+\vspace{10pt}
+
+\noindent I am writing to express my enthusiasm for the \jobtitle{} role at \companyname{}. As a Geo-Information, AI, and Cloud Engineer with extensive experience in building scalable geospatial data pipelines and developing deep learning models for weather and climate applications, I am confident in my ability to contribute effectively to your team.
+
+\vspace{10pt}
+
+\noindent [Paragraph highlighting specific relevant experience matching the job description. For example: "In my recent role at Jua.ai, I led a team of engineers to ingest over 500 TB of historical weather data, demonstrating my capability to handle large-scale data engineering challenges..."]
+
+\vspace{10pt}
+
+\noindent [Paragraph about why this company/role specifically. For example: "I have been impressed by \companyname{}'s commitment to..."]
+
+\vspace{10pt}
+
+\noindent Thank you for your time and consideration. I look forward to the opportunity to discuss how my technical skills and passion for geospatial AI can benefit \companyname{}.
+
+\vspace{20pt}
+
+\noindent Sincerely,
+
+\vspace{10pt}
+
+\noindent Rodrigo Almeida
+
+\end{document}
