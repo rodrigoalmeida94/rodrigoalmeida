@@ -82,6 +82,7 @@ title = "Rodrigo Almeida"
     
 <div class="timeline-item">
     <h5><i class="fas fa-tree" style="color: #F1FA8C;"></i> Sabbatical | Aug 2024 ─ Jan 2025</h5>
+    Building up my garden in the <a href="https://waldgarten-britz.de">Waldgarten Berlin</a> and playing Touch Rugby with the <a href="https://www.berlinbruisers.com">Berlin Bruisers</a>.
 </div>
 
 <div class="timeline-item">
