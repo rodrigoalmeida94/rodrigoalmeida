@@ -17,6 +17,9 @@ title = "Rodrigo Almeida"
     <p>Here is a brief overview of my professional experience, my education background and also some non-profits I've worked with over the years.</p>
     <p>If you have any questions or remarks, feel free to reach out - I am always happy to chat!</p>
 </div>
+<div class="clearfix mb-5 text-left" style="margin-top: 2rem;">
+    <a href="./RODRIGO_ALMEIDA_CV.pdf" class="btn-terminal" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+</div>
 
 ## Skills
 
@@ -243,7 +246,4 @@ title = "Rodrigo Almeida"
 <div class="timeline-item">
 <p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Students' Association of ISA | Dec 2014 ─ Sep 2015</p>
 </div>
-</div>
-<div class="clearfix mb-5 text-center" style="margin-top: 2rem;">
-    <a href="./RODRIGO_ALMEIDA_CV.pdf" class="btn-terminal" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
 </div>

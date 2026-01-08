@@ -59,11 +59,11 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "projects.md"
+    name = "projects.sh"
     url = "/projects"
     weight = 2
   [[menu.main]]
-    name = "blog.md"
+    name = "blog.log"
     url = "/posts"
     weight = 3
   [[menu.main]]
