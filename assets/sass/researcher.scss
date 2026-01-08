@@ -543,6 +543,24 @@ body {
         transform: translate(2px, -2px);
         box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.3);
     }
+
+    @media (max-width: 600px) {
+        height: auto;
+        line-height: normal;
+        padding: 6px 10px;
+        white-space: normal;
+        text-align: left;
+        margin-right: 5px;
+
+        &::after {
+            content: none;
+        }
+
+        i {
+            margin-right: 6px;
+            /* slightly reduce icon margin on mobile */
+        }
+    }
 }
 
 // Color Modifiers for Powerline appearance
