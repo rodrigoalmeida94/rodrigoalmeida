@@ -831,3 +831,24 @@ input:checked+.slider:before {
     transform: translateX(30px);
     background-color: var(--accent-blue);
 }
+
+// Terminal Button Style
+.btn-terminal {
+    background-color: transparent;
+    border: 2px solid var(--link-color);
+    color: var(--link-color);
+    border-radius: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-block;
+
+    &:hover {
+        background-color: var(--link-color);
+        color: var(--bg-color);
+        text-decoration: none;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    }
+}

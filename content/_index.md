@@ -38,6 +38,9 @@ title = "Rodrigo Almeida"
 {{< badge "badge-pulumi" "fas fa-cloud-upload-alt" >}} Pulumi{{< /badge >}}
 {{< badge "badge-prefect" "fas fa-tasks" >}} Prefect{{< /badge >}}
 {{< badge "badge-zarr" "fas fa-cubes" >}} Zarr{{< /badge >}}
+{{< badge "badge-xarray" "fas fa-cubes" >}} Xarray{{< /badge >}}
+{{< badge "badge-parquet" "fas fa-layer-groups" >}} Parquet{{< /badge >}}
+{{< badge "badge-slurm" "fas fa-glass" >}} Slurm{{< /badge >}}
 ## Open Source Contributions
 
 <div class="clearfix" style="display: block;">
@@ -239,4 +242,7 @@ title = "Rodrigo Almeida"
 <div class="timeline-item">
 <p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Students' Association of ISA | Dec 2014 ─ Sep 2015</p>
 </div>
+</div>
+<div class="clearfix mb-5 text-center" style="margin-top: 2rem;">
+    <a href="./RODRIGO_ALMEIDA_CV.pdf" class="btn-terminal" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
 </div>

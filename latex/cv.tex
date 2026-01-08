@@ -1,0 +1,169 @@
+\documentclass[a4paper,9pt]{article}
+\usepackage{fancyhdr}
+\usepackage[left=0.3in,top=0.25in,right=0.3in,bottom=0.3in,footskip=0.15in]{geometry}
+\usepackage{hyperref}
+
+% Metadata
+\hypersetup{
+    pdftitle={Rodrigo Almeida - CV},
+    pdfauthor={Rodrigo Almeida},
+    pdfsubject={Curriculum Vitae},
+    pdfkeywords={Geo-Information, AI, Cloud Engineer, CV, Weather, Climate},
+    pdfcreator={LaTeX with Hyperref},
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+}
+
+% Define timestamp command with default if not provided
+\providecommand{\cvtimestamp}{\today}
+
+% Footer setup
+\pagestyle{fancy}
+\fancyhf{} % Clear all header/footer fields
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\rfoot{\tiny\color{gray} Generated on \cvtimestamp}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc} % Required for proper font selection
+\usepackage{inconsolata}
+
+% Colors matches typical terminal themes
+\definecolor{promptcolor}{RGB}{87, 199, 255} % Light Blue for prompt
+\definecolor{commandcolor}{RGB}{255, 121, 198} % Pink for command
+\definecolor{headercolor}{RGB}{0, 100, 0} % Dark green
+\definecolor{linkcolor}{RGB}{64, 64, 64} % Dark Grey for links
+
+% Set default font family to typewriter
+\renewcommand{\familydefault}{\ttdefault}
+\renewcommand{\itdefault}{sl} % Inconsolata lacks true italics, use slanted instead
+\small
+
+% Section formatting - Terminal Prompt Style
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+% Custom commands
+\newcommand{\entry}[4]{
+  \noindent\textbf{#1} \hfill #2 \\
+  \textsl{#3} \hfill \textsl{#4}
+}
+
+\begin{document}
+% \pagestyle{empty} % Removed to allow fancyhdr footer
+
+% Header
+\begin{center}
+    {\Huge \textbf{Rodrigo Almeida}} \\ [2pt]
+    {\large Geo-Information, AI and Cloud Engineer} \\ [2pt]
+    \small
+    \faMapMarker* \ Berlin, Germany \quad | \quad
+    \href{mailto:rodrigo.almeida94@outlook.pt}{\faEnvelope \ rodrigo.almeida94@outlook.pt} \quad | \quad
+    \href{https://rodrigoalmeida.me}{\faGlobe} \quad | \quad
+    \href{https://github.com/rodrigoalmeida94}{\faGithub} \quad | \quad
+    \href{https://linkedin.com/in/rodrigoalmeida94}{\faLinkedin}
+\end{center}
+
+% Summary
+\section*{\textcolor{promptcolor}{$\sim$} \textcolor{commandcolor}{\$ cat summary.txt}}
+\noindent Focused on using AI to understand, predict, and adapt to a changing climate. Experienced in building scalable pipelines for weather data, training geospatial Deep Learning models, and leading engineering teams to solve complex, high-impact problems.
+
+% Publications & Open Source (Moved up)
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+    \section*{\textcolor{promptcolor}{$\sim$/publications} \textcolor{commandcolor}{\$ ls *.pdf}}
+    \begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+        \item \href{https://doi.org/10.48550/arXiv.2511.17176}{Predictive Skill of AI Weather Models for Extreme Events using Uncertainty Quantification} \textsl{(Pre-print)}
+        \item \href{https://doi.org/10.1007/s13580-020-00316-9}{Inferring Ethylene Distribution in Apple Orchard: A Pilot Study for Optimal Sampling} \textsl{(Journal)}
+        \item \href{https://doi.org/10.3390/s19020372}{Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection} \textsl{(Journal)}
+        \item \href{https://doi.org/10.48550/arXiv.2002.00580}{Super-resolution of multispectral satellite images using convolutional neural networks} \textsl{(Pre-print)}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \section*{\textcolor{promptcolor}{$\sim$/open-source} \textcolor{commandcolor}{\$ git log --oneline}}
+    \begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+        \item \href{https://github.com/brightbandtech/ExtremeWeatherBench/pull/284}{\textbf{brightbandtech/ExtremeWeatherBench}: Add ROCSS metric}
+        \item \href{https://github.com/nvidia/earth2studio/pull/500}{\textbf{NVIDIA/earth2studio}: Add AIFS ENS}
+        \item \href{https://github.com/nvidia/earth2studio/pull/256}{\textbf{NVIDIA/earth2studio}: Add GraphCast}
+        \item \href{https://github.com/SkyTruth/cerulean-cloud/pull/60}{\textbf{SkyTruth/cerulean}: Production deploy}
+        \item \href{https://github.com/NASA-IMPACT/csdap-cumulus/pull/8}{\textbf{NASA/cumulus}: Switch to AWS Cognito}
+        \item \href{https://github.com/cogeotiff/rio-tiler/pull/431}{\textbf{cogeo/rio-tiler}: Use httpx}
+        \item \href{https://github.com/up42/up42-py/pull/182}{\textbf{up42/up42-py}: Add CI/CD}
+        \item \href{https://github.com/calebrob6/land-cover/pull/4}{\textbf{calebrob6/land-cover}: Evaluation script to Python}
+    \end{itemize}
+\end{minipage}
+
+% Experience
+\section*{\textcolor{promptcolor}{$\sim$/experience} \textcolor{commandcolor}{\$ ls -t}}
+
+\entry{Fraunhofer HHI}{Berlin}{ML Researcher, Applied AI}{Feb 2025 -- Present}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Uncertainty quantification of global AI weather models, evaluating on extreme events.
+    \item Climate and Weather AI applications.
+\end{itemize}
+\vspace{2pt}
+
+\entry{Jua.ai}{Remote}{Eng. Manager, Data Team}{Mar 2023 -- Jun 2024}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Led a team of 2 engineers and worked closely with product.
+    \item Ingested 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).
+    \item Created live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.
+\end{itemize}
+\textsl{Senior Data Engineer} \hfill \textsl{Nov 2022 -- Mar 2023}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Using Zarr and Dask, created a pipeline to downscale weather forecasts to 1x1 km at the global level, 4x a day, using a deep learning model.
+    \item Developed live ingestion pipelines for multiple weather data sources (reanalysis data and observation data), using AWS Step Functions.
+\end{itemize}
+\vspace{2pt}
+
+\entry{Development Seed}{Remote}{Cloud Software Engineer}{Aug 2021 -- Oct 2022}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images.
+    \item Developed an ingestion pipeline \& search API that is able to handle millions of images and return similarity, at scale.
+\end{itemize}
+\vspace{2pt}
+
+\entry{UP42 (Airbus)}{Berlin}{Senior Data Science Engineer}{Jan 2021 -- Jul 2021}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Used FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.
+    \item Developed full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.
+\end{itemize}
+\textsl{Data Science Engineer} \hfill \textsl{Sep 2019 -- Dec 2021}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Developed processing chains for geospatial data in Python with Docker.
+    \item Built requirements for compatibility service of different geospatial processing chains.
+    \item Conceptualised and trained deep learning model for land cover classification with satellite images using TensorFlow.
+\end{itemize}
+\vspace{2pt}
+
+\entry{Planet}{Berlin}{Pre-Sales Engineer}{Jul 2018 -- Aug 2019}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Technical consultancy for prospective customers.
+    \item Developed internal tools for reporting and data visualisation.
+\end{itemize}
+\vspace{2pt}
+
+\entry{Agroop}{Lisbon}{Account Manager and Agronomist}{Oct 2015 -- Aug 2016}
+\begin{itemize}[leftmargin=15pt, nosep]
+    \item Agronomic technical assistance to customers.
+    \item Supported the development team with user requirement reports.
+\end{itemize}
+
+% Education
+\section*{\textcolor{promptcolor}{$\sim$/education} \textcolor{commandcolor}{\$ cat degrees}}
+\noindent \textbf{MSc Geo-Information Science} (\textsl{Cum laude}), Wageningen Univ. \hfill 2016 -- 2019 \\
+\noindent \textbf{BSc Agriculture Engineering}, ISA Lisbon Univ. \hfill 2012 -- 2015
+
+% Skills (Moved to bottom)
+\section*{\textcolor{promptcolor}{$\sim$} \textcolor{commandcolor}{\$ grep -r "Skills" .}}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item \textbf{Lang/Frameworks:} Python, FastAPI, PyTorch, Dask, Pulumi, Prefect
+    \item \textbf{Cloud/DevOps:} AWS, GCP, Docker, CI/CD, Terraform, Slurm
+    \item \textbf{AI/Data:} Xarray, Zarr, Parquet, GDAL, PostGIS, ML, DL, CV
+\end{itemize}
+
+\end{document}
