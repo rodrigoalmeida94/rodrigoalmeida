@@ -11,7 +11,7 @@ description = "Get in touch with Rodrigo Almeida, a Geo-Information, AI and Clou
         <div class="indent">
             <span class="json-key">"name"</span>: <span class="json-string">"Rodrigo Almeida"</span>,
             <br>
-            <span class="json-key">"title"</span>: <span class="json-string">"Geo-Information, AI and Cloud Engineer"</span>,
+            <span class="json-key">"title"</span>: <span class="json-string">"Geo-Information, AI Researcher and Cloud Engineer"</span>,
             <br>
             <span class="json-key">"email"</span>: <span class="json-string"><a href="#" id="email-link" class="email-link-obfuscated" data-user="rodrigo.almeida94" data-domain="outlook.pt">"rodrigo.almeida94[at]outlook.pt"</a></span>,
             <button onclick="copyEmail()" style="background: none; border: 1px dashed #50FA7B; color: #50FA7B; cursor: pointer; font-size: 0.8rem; margin-left: 10px;">➜ pbcopy &lt; email.txt</button>
