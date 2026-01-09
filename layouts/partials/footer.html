@@ -27,14 +27,7 @@
                 <strong>'b'</strong>: blog, <strong>'c'</strong>: contact, <strong>'a'</strong>: home ]
             </p>
             <p>
-                {{ with .Site.Params.footer }}
-                {{ if .url }}
-                <a href="{{ .url | absURL }}" title="{{ .text }}" {{ if .blank }}target="_blank" {{ end }}>{{ .text
-                    }}</a>
-                {{ else }}
-                {{ .text }}
-                {{ end }}
-                {{ end }}
+                &copy; {{ now.Year }} {{ .Site.Params.author }} | <a href="/impressum">Impressum</a>
             </p>
         </div>
     </div>
