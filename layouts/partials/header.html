@@ -13,13 +13,17 @@
                     {{ with .Site.Menus.main }}
                     {{ $navbar_len := len . }}
                     {{ range $i, $nav_item := . }}
-                    <a class="nav-item nav-link mr-2 px-2" href="{{ $nav_item.URL | relURL }}"
+                    <a class="nav-item nav-link mr-1 px-1" href="{{ $nav_item.URL | relURL }}"
                         title="{{ $nav_item.Name }}">
                         <span style="color: #50FA7B; font-weight: bold;">&gt;</span> {{ $nav_item.Name }}
                     </a>
                     {{ end }}
                     {{ end }}
-                    <a class="nav-item nav-link mr-2 ml-2 my-auto px-2" href="{{ "search" | relURL }}" title="Search">
+                    <a class="nav-item nav-link mr-1 ml-1 my-auto px-1 email-link-obfuscated" href="#" title="E-mail"
+                        data-user="rodrigo.almeida94" data-domain="outlook.pt">
+                        <i class="fas fa-envelope" style="color: #50FA7B;"></i>
+                    </a>
+                    <a class="nav-item nav-link mr-1 ml-1 my-auto px-1" href="{{ " search" | relURL }}" title="Search">
                         <i class="fas fa-search" style="color: #50FA7B;"></i>
                     </a>
                     <div class="theme-switch-wrapper ml-2 my-auto">
