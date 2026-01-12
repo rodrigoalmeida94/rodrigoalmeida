@@ -12,6 +12,7 @@ At Jua.ai, I worked on building a foundational AI model for the natural world. T
 ### Key Contributions
 
 - **Data Engineering**: Managed the ingestion of over 30 different sources of historical weather observation data into a common data warehouse (> 500 TB), leveraging **Zarr** and **Parquet** for efficient storage and access.
+- **Data Quality**: Lead efforts to assess data quality of weather observation data and cross-validate between sources.
 - **ETL Pipelines**: Built and maintained live ETL pipelines for weather data using **Prefect** and deployed on **GCP** and **AWS**.
 - **Model Downscaling**: Developed a deep learning pipeline using **Zarr** and **Dask** to downscale global weather forecasts to 1x1 km resolution, running 4 times daily.
 - **Leadership**: Led a team of 2 engineers, bridging the gap between technical implementation and product requirements.

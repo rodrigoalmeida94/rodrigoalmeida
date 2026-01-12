@@ -96,6 +96,7 @@ title = "Rodrigo Almeida"
 <li>Led a team of 2 engineers and worked closely with product.</li>
 <li>Ingested 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).</li>
 <li>Created live ETL pipelines for weather data using Prefect, deploying it in GCP and AWS.</li>
+<li>Lead efforts to assess data quality of weather observation data and cross-validate between sources.</li>
 <li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://techcrunch.com/2024/02/06/jua-raises-16m-to-build-a-foundational-ai-model-for-the-natural-world/" target="_blank">Jua raises $16M to build a foundational AI model for the natural world | TechCrunch</a></li>
 <li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://arxiv.org/abs/2507.09703" target="_blank">A Foundational Model for Weather and Climate | ArXiv</a></li>
 <li><i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/jua.md" >}}">View Project Details</a></li>
@@ -126,7 +127,7 @@ title = "Rodrigo Almeida"
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Data Science Engineer | Sep 2019 ─ Dec 2021</h6>
 <ul>
 <li>Developed processing chains for geospatial data in Python with Docker.</li>
-<li>Developed the <i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://github.com/up42/up42-py" target="_blank">up42-py</a> Python package for the UP42 API.</li>
+<li>Developed the <i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://github.com/up42/up42-py" target="_blank">up42-py</a> Python package for the UP42 API and contributed to <a href="https://github.com/up42/up42-blockutils" target="_blank">up42-blockutils</a>.</li>
 <li>Built requirements for compatibility service of different geospatial processing chains.</li>
 <li>Conceptualised and trained deep learning model for land cover classification with satellite images using TensorFlow.</li>
 <li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://arxiv.org/abs/2002.00580v2" target="_blank">Super-resolution of multispectral satellite images using convolutional neural networks | ArXiv</a></li>
@@ -139,6 +140,8 @@ title = "Rodrigo Almeida"
 <ul>
 <li>Technical consultancy for prospective customers.</li>
 <li>Developed internal tools for reporting and data visualisation.</li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://www.planet.com/resources/webinars/earth-observation-big-data-and-how-to-change-the-world/" target="_blank">Webinar - Earth Observation, Big Data and How to change the world?</a></li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">PyData Berlin - Python in the Mangroves: tracking ecosystem health from space</a></li>
 </ul>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Internship | Apr 2018 ─ Jun 2018</h6>
 <ul>
@@ -159,8 +162,22 @@ title = "Rodrigo Almeida"
 <h5><a href="https://agroop.net"><i class="fas fa-building" style="color: #8BE9FD;"></i> Agroop</a> | Oct 2015 ─ Aug 2016</h5>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Account Manager and Agronomist</h6>
 <ul>
+<li>Inbound and outbound sales and user support management.</li>
 <li>Agronomic technical assistance to customers.</li>
 <li>Supported the development team with user requirement reports.</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<h5><a href="https://www.mapfre.pt"><i class="fas fa-building" style="color: #8BE9FD;"></i> MAPFRE </a> | May 2014 ─ Apr 2015</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Telemarketing Operator</h6>
+</div>
+
+<div class="timeline-item">
+<h5><i class="fas fa-building" style="color: #8BE9FD;"></i> GO Youth Conference | Jan 2012 ─ Mar 2012</h5>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Head of Technical Support, Design Manager</h6>
+<ul>
+<li>Support with AV during the conference, graphic design, and brand development.</li>
 </ul>
 </div>
 </div>
@@ -174,6 +191,7 @@ title = "Rodrigo Almeida"
 <h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Wageningen University and Research - WUR</a></h6>
 <ul>
 <li><em>Cum laude</em>, 8.6/10 average score</li>
+<li>Course awarded with the <strong>Excellent Education prize</strong> (top 30 courses): Geoscripting (Period 3 2017)</li>
 <li>MSc thesis: <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <em><a href="{{< relref "projects/apples-drones.md" >}}">Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</a></em></li>
 <li>Assistant in conferences: KLV Alumni reunions, Competence 2016 and AGILE 2017</li>
 </ul>
