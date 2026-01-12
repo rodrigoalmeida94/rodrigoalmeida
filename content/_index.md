@@ -80,6 +80,7 @@ title = "Rodrigo Almeida"
         <ul>
             <li>Uncertainty quantification of global AI weather models, evaluating on extreme events.</li>
             <li>Climate and Weather AI applications.</li>
+            <li><i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">View Project Details</a></li>
         </ul>
     </div>
     
@@ -94,7 +95,10 @@ title = "Rodrigo Almeida"
 <ul>
 <li>Led a team of 2 engineers and worked closely with product.</li>
 <li>Ingested 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).</li>
-<li>Created live ETL pipelines for weather data using Prefect, deploying it using Pulumi in GCP.</li>
+<li>Created live ETL pipelines for weather data using Prefect, deploying it in GCP and AWS.</li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://techcrunch.com/2024/02/06/jua-raises-16m-to-build-a-foundational-ai-model-for-the-natural-world/" target="_blank">Jua raises $16M to build a foundational AI model for the natural world | TechCrunch</a></li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://arxiv.org/abs/2507.09703" target="_blank">A Foundational Model for Weather and Climate | ArXiv</a></li>
+<li><i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/jua.md" >}}">View Project Details</a></li>
 </ul>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Senior Data Engineer | Nov 2022 ─ Mar 2023</h6>
 <ul>
@@ -107,8 +111,8 @@ title = "Rodrigo Almeida"
 <h5><a href="https://developmentseed.org"><i class="fas fa-building" style="color: #8BE9FD;"></i> Development Seed</a> | Aug 2021 ─ Oct 2022</h5>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Cloud Software Engineer</h6>
 <ul>
-<li>Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. <a href="{{< relref "projects/cerulean.md" >}}">Cerulean</a></li>
-<li>Developed an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <a href="{{< relref "projects/similarity-search.md" >}}">Similarity Search</a></li>
+<li>Developed a multi cloud (AWS and GCP) and cost efficient cloud infrastructure for running deep learning based oil slick detection with Sentinel-1 images, in the entire archive, and automatically for newly available scenes. <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/cerulean.md" >}}">Cerulean</a></li>
+<li>Developed an ingestion pipeline and search API that is able to handle millions of images and return similarity, at scale. <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/similarity-search.md" >}}">Similarity Search</a></li>
 </ul>
 </div>
 
@@ -122,8 +126,10 @@ title = "Rodrigo Almeida"
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Data Science Engineer | Sep 2019 ─ Dec 2021</h6>
 <ul>
 <li>Developed processing chains for geospatial data in Python with Docker.</li>
+<li>Developed the <i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://github.com/up42/up42-py" target="_blank">up42-py</a> Python package for the UP42 API.</li>
 <li>Built requirements for compatibility service of different geospatial processing chains.</li>
 <li>Conceptualised and trained deep learning model for land cover classification with satellite images using TensorFlow.</li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://arxiv.org/abs/2002.00580v2" target="_blank">Super-resolution of multispectral satellite images using convolutional neural networks | ArXiv</a></li>
 </ul>
 </div>
 
@@ -168,16 +174,18 @@ title = "Rodrigo Almeida"
 <h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Wageningen University and Research - WUR</a></h6>
 <ul>
 <li><em>Cum laude</em>, 8.6/10 average score</li>
-<li>MSc thesis: <em><a href="{{< relref "projects/apples-drones.md" >}}">Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</a></em></li>
+<li>MSc thesis: <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <em><a href="{{< relref "projects/apples-drones.md" >}}">Potential use of unmanned aerial vehicles for estimating fruit maturity via electronic noses: Malus domestica case study</a></em></li>
 <li>Assistant in conferences: KLV Alumni reunions, Competence 2016 and AGILE 2017</li>
 </ul>
 </div>
 
 <div class="timeline-item">
 <h5><i class="fas fa-graduation-cap" style="color: #F1FA8C;"></i> BSc Agriculture Engineering | 2012 ─ 2015</h5>
-<h6><a href="https://wur.nl"><i class="fas fa-university" style="color: #8BE9FD;"></i> Instituto Superior de Agronomia - ISA, Lisbon University</a></h6>
+<h6><a href="https://www.isa.ulisboa.pt/en"><i class="fas fa-university" style="color: #8BE9FD;"></i> Instituto Superior de Agronomia - ISA, Lisbon University</a></h6>
 <ul>
 <li>14.1/20 average score</li>
+<li>Board Member of Núcleo de Agronómica (2013-2014)</li>
+<li>VP of the Board of Núcleo de Agronómica (2014-2015)</li>
 </ul>
 </div>
 </div>
@@ -188,22 +196,22 @@ title = "Rodrigo Almeida"
 <div class="timeline">
     <div class="timeline-item">
         <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification</h5>
-        <h6><a href="https://doi.org/10.48550/arXiv.2511.17176" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2511.17176</a></h6>
+        <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://doi.org/10.48550/arXiv.2511.17176" target="_blank">DOI:10.48550/arXiv.2511.17176</a></h6>
     </div>
 
 <div class="timeline-item">
     <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
-    <h6><a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.1007/s13580-020-00316-9</a></h6>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank">DOI:10.1007/s13580-020-00316-9</a></h6>
 </div>
 
 <div class="timeline-item">
     <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</h5>
-    <h6><a href="https://doi.org/10.3390/s19020372" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.3390/s19020372</a></h6>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://doi.org/10.3390/s19020372" target="_blank">DOI:10.3390/s19020372</a></h6>
 </div>
 
 <div class="timeline-item">
     <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Super-resolution of multispectral satellite images using convolutional neural networks</h5>
-    <h6><a href="https://doi.org/10.48550/arXiv.2002.00580" target="_blank"><i class="fas fa-barcode" style="color: #8BE9FD;"></i> DOI:10.48550/arXiv.2002.00580</a></h6>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://doi.org/10.48550/arXiv.2002.00580" target="_blank">DOI:10.48550/arXiv.2002.00580</a></h6>
 </div>
 </div>
 
@@ -213,14 +221,14 @@ title = "Rodrigo Almeida"
 
 <div class="timeline">
     <div class="timeline-item">
-        <h5><a href="https://www.climatechange.ai/papers/neurips2025/22"><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning</a> | 7 Dec 2025</h5>
+        <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://www.climatechange.ai/papers/neurips2025/22" target="_blank">NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning</a> | 7 Dec 2025</h5>
         <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
         <p><em>Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods</em></p>
         <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> San Diego, USA</p>
     </div>
 
 <div class="timeline-item">
-    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://cesoc.net/machine-learning-for-the-earth-system-programme/">3rd Workshop on Machine Learning for the Earth System</a> | 25 Aug 2025</h5>
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://cesoc.net/machine-learning-for-the-earth-system-programme/" target="_blank">3rd Workshop on Machine Learning for the Earth System</a> | 25 Aug 2025</h5>
     <h6><i class="fas fa-microphone" style="color: #8BE9FD;"></i> Oral presentation</h6>
     <p><em>Can AI weather models capture rare events? A case study of the 2022 Pakistan floods</em></p>
     <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> Bonn, Germany</p>
@@ -246,4 +254,18 @@ title = "Rodrigo Almeida"
 <div class="timeline-item">
 <p><i class="fas fa-handshake" style="color: #50FA7B;"></i> President of the Board, Agronomy Students' Association of ISA | Dec 2014 ─ Sep 2015</p>
 </div>
+</div>
+
+---
+
+## Honors & Awards
+<div class="timeline">
+    <div class="timeline-item">
+        <h5><i class="fas fa-trophy" style="color: #F1FA8C;"></i> Official Recognition for achievements in the Students' Union</h5>
+        <h6>Board of Anselmo de Andrade High School | Oct 2012</h6>
+    </div>
+    <div class="timeline-item">
+        <h5><i class="fas fa-trophy" style="color: #F1FA8C;"></i> 1st Prize - 12 Hours of Management</h5>
+        <h6>ISCTE Business School | Mar 2012</h6>
+    </div>
 </div>
