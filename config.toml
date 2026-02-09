@@ -40,6 +40,10 @@ enableRobotsTXT = true
     icon = "fab fa-bluesky"
     title = "Bluesky"
     url = "https://bsky.app/profile/rodrigo-gtiff.bsky.social"
+  [[params.socialIcons]]
+    icon = "ai ai-google-scholar"
+    title = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=APdpikAAAAAJ"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
