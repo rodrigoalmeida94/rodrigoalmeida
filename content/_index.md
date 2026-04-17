@@ -238,12 +238,19 @@ title = "Rodrigo Almeida"
 ## Conferences and Workshops
 
 <div class="timeline">
-    <div class="timeline-item">
-        <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://www.climatechange.ai/papers/neurips2025/22" target="_blank">NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning</a> | 7 Dec 2025</h5>
-        <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
-        <p><em>Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods</em></p>
-        <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> San Diego, USA</p>
-    </div>
+<div class="timeline-item">
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://events.ecmwf.int/event/488/contributions/5732/attachments/3559/5998/Poster_Almeida.pdf" target="_blank">5th ECMWF-ESA Machine Learning Workshop</a> | 13 Apr 2026</h5>
+    <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
+    <p><em>Towards Disentangling Predictive Uncertainty in End-to-End AI Weather Forecasts</em></p>
+    <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C"></i> Bologna, Italy</p>
+</div>
+
+<div class="timeline-item">
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://www.climatechange.ai/papers/neurips2025/22" target="_blank">NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning</a> | 7 Dec 2025</h5>
+    <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
+    <p><em>Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods</em></p>
+    <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> San Diego, USA</p>
+</div>
 
 <div class="timeline-item">
     <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://cesoc.net/machine-learning-for-the-earth-system-programme/" target="_blank">3rd Workshop on Machine Learning for the Earth System</a> | 25 Aug 2025</h5>
