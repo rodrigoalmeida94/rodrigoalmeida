@@ -239,6 +239,13 @@ title = "Rodrigo Almeida"
 
 <div class="timeline">
 <div class="timeline-item">
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://doi.org/10.5194/egusphere-egu26-8109" target="_blank">EGU General Assembly 2026</a> | 5 May 2026</h5>
+    <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
+    <p><em>Deep Learning-Based Precipitation Nowcasting for Operational and Flash-Flood Applications</em></p>
+    <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C"></i> Vienna, Austria</p>
+</div>
+
+<div class="timeline-item">
     <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://events.ecmwf.int/event/488/contributions/5732/attachments/3559/5998/Poster_Almeida.pdf" target="_blank">5th ECMWF-ESA Machine Learning Workshop</a> | 13 Apr 2026</h5>
     <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
     <p><em>Towards Disentangling Predictive Uncertainty in End-to-End AI Weather Forecasts</em></p>
