@@ -1,3 +1,19 @@
+<div id="help-overlay">
+    <div id="help-box">
+        <div><span class="prompt-user">➜</span> <span class="prompt-path">~/rodrigoalmeida</span> <span class="prompt-command">help</span></div>
+        <pre>
+Available Commands:
+
+  [h]  Show this help
+  [a]  Home / About
+  [p]  Projects
+  [b]  Blog
+  [c]  Contact
+
+Press any key or click to close.</pre>
+    </div>
+</div>
+
 <div id="footer" class="mb-5">
     <hr style="border-top: 1px dashed #444;">
     {{ if .Site.Params.socialIcons }}
@@ -35,18 +51,23 @@
 
 <script>
     // Interactive Terminal Features
+    const helpOverlay = document.getElementById('help-overlay');
+
+    function showHelp() { helpOverlay.classList.add('active'); }
+    function hideHelp() { helpOverlay.classList.remove('active'); }
+
+    helpOverlay.addEventListener('click', hideHelp);
+
     document.addEventListener('keydown', function (e) {
-        // Only trigger if no input is focused
         if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
 
-        // Simple 'help' command simulator
-        if (e.key === 'h') {
-            alert("Available Commands:\n[h] - Show this help\n[a] - Home (About)\n[p] - Projects\n[b] - Blog (Posts)\n[c] - Contact");
-        }
-        if (e.key === 'a') window.location.href = "/rodrigoalmeida/";
-        if (e.key === 'p') window.location.href = "/rodrigoalmeida/projects/";
-        if (e.key === 'b') window.location.href = "/rodrigoalmeida/posts/";
-        if (e.key === 'c') window.location.href = "/rodrigoalmeida/contact/";
+        if (helpOverlay.classList.contains('active')) { hideHelp(); return; }
+
+        if (e.key === 'h') showHelp();
+        if (e.key === 'a') window.location.href = "{{ "/" | relURL }}";
+        if (e.key === 'p') window.location.href = "{{ "/projects/" | relURL }}";
+        if (e.key === 'b') window.location.href = "{{ "/posts/" | relURL }}";
+        if (e.key === 'c') window.location.href = "{{ "/contact/" | relURL }}";
     });
 
     function copyEmail() {

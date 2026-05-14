@@ -859,6 +859,37 @@ input:checked+.slider:before {
     background-color: var(--accent-blue);
 }
 
+// Help Overlay
+#help-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+
+    &.active {
+        display: flex;
+    }
+}
+
+#help-box {
+    background: var(--bg-color);
+    border: 1px dashed var(--timeline-border);
+    padding: 1.5rem 2rem;
+    max-width: 380px;
+    width: 90%;
+
+    pre {
+        color: var(--text-color);
+        background: transparent;
+        border: none;
+        padding: 0;
+        margin-top: 0.5rem;
+    }
+}
+
 // Terminal Button Style
 .btn-terminal {
     background-color: transparent;
