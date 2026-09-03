@@ -22,7 +22,11 @@ description = "Get in touch with Rodrigo Almeida, a Geo-Information, AI and Clou
                 <br>
                 <span class="json-key">"github"</span>: <span class="json-string"><a href="https://github.com/rodrigoalmeida94" target="_blank">"rodrigoalmeida94"</a></span>,
                 <br>
-                <span class="json-key">"bluesky"</span>: <span class="json-string"><a href="https://bsky.app/profile/rodrigo-gtiff.bsky.social" target="_blank">"@rodrigo-gtiff"</a></span>
+                <span class="json-key">"bluesky"</span>: <span class="json-string"><a href="https://bsky.app/profile/rodrigo-gtiff.bsky.social" target="_blank">"@rodrigo-gtiff"</a></span>,
+                <br>
+                <span class="json-key">"orcid"</span>: <span class="json-string"><a href="https://orcid.org/0009-0002-6218-8785" target="_blank">"0009-0002-6218-8785"</a></span>,
+                <br>
+                <span class="json-key">"scholar"</span>: <span class="json-string"><a href="https://scholar.google.com/citations?user=APdpikAAAAAJ" target="_blank">"APdpikAAAAAJ"</a></span>
             </div>
             <span class="json-brace">}</span>,
             <br>

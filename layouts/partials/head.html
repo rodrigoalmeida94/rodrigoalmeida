@@ -50,9 +50,9 @@
         "@type": "Person",
         "name": "{{ .Site.Params.author }}",
         "url": "{{ .Site.BaseURL }}",
-        "sameAs": [
-            {{ range $index, $element := .Site.Params.socialIcons }}{{ if $index }}, {{ end }}"{{ $element.url }}"{{ end }}
-        ],
+        {{- $profiles := slice }}
+        {{- range .Site.Params.socialIcons }}{{ if not (hasPrefix .url "mailto:") }}{{ $profiles = $profiles | append .url }}{{ end }}{{ end }}
+        "sameAs": {{ $profiles | jsonify | safeJS }},
         "jobTitle": "{{ .Site.Params.description }}",
         "image": "{{ .Site.Params.social_image | absURL }}"
     }

@@ -47,6 +47,10 @@ enableRobotsTXT = true
     icon = "ai ai-google-scholar"
     title = "Google Scholar"
     url = "https://scholar.google.com/citations?user=APdpikAAAAAJ"
+  [[params.socialIcons]]
+    icon = "ai ai-orcid"
+    title = "ORCID"
+    url = "https://orcid.org/0009-0002-6218-8785"
 
 [outputFormats.llms]
   mediaType = "text/plain"

@@ -211,32 +211,87 @@ title = "Rodrigo Almeida"
 ---
 
 ## Publications
+
 <div class="timeline">
-    <div class="timeline-item">
-        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions</h5>
-        <h6><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.48550/arXiv.2608.30795" target="_blank">DOI:10.48550/arXiv.2608.30795</a> | Preprint, 2026 | <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/uq-e2e-weather.md" >}}">Project</a></h6>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions <span class="pub-tag pub-selected">selected</span></h5>
+        <p class="pub-authors"><strong>Rodrigo Almeida</strong>, Noelia Otero, Jost Arndt, Simon Baur, Wojciech Samek, Jackie Ma</p>
+        <p class="pub-venue"><em>arXiv preprint</em>, 2026</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.48550/arXiv.2608.30795" target="_blank">DOI</a> | <a href="https://arxiv.org/pdf/2608.30795" target="_blank">PDF</a> | <a href="https://huggingface.co/datasets/rodrigoalmeida1994/uqe2e" target="_blank">Data</a> | <a href="{{< relref "projects/uq-e2e-weather.md" >}}">Project</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{almeida2026uncertainty,
+  title   = {Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions},
+  author  = {Almeida, Rodrigo and Otero, Noelia and Arndt, Jost and Baur, Simon and Samek, Wojciech and Ma, Jackie},
+  journal = {arXiv preprint arXiv:2608.30795},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2608.30795}
+}</code></pre></details>
     </div>
-
-<div class="timeline-item">
-    <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification</h5>
-    <h6><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://journals.ametsoc.org/view/journals/aies/5/3/AIES-D-25-0113.1.xml" target="_blank">DOI:10.1175/AIES-D-25-0113.1</a> | Artificial Intelligence for the Earth Systems, 5(3), 2026 | <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">Project</a></h6>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification <span class="pub-tag pub-selected">selected</span></h5>
+        <p class="pub-authors"><strong>Rodrigo Almeida</strong>, Noelia Otero, Miguel-Ángel Fernández-Torres, Jackie Ma</p>
+        <p class="pub-venue"><em>Artificial Intelligence for the Earth Systems</em>, 5(3), American Meteorological Society, 2026</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1175/AIES-D-25-0113.1" target="_blank">DOI</a> | <a href="https://journals.ametsoc.org/view/journals/aies/5/3/AIES-D-25-0113.1.xml" target="_blank">Journal</a> | <a href="{{< relref "projects/uq-ai-weather.md" >}}">Project</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{almeida2026predictive,
+  title     = {On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification},
+  author    = {Almeida, Rodrigo and Otero, Noelia and Fern{\'a}ndez-Torres, Miguel-{\'A}ngel and Ma, Jackie},
+  journal   = {Artificial Intelligence for the Earth Systems},
+  volume    = {5},
+  number    = {3},
+  year      = {2026},
+  publisher = {American Meteorological Society},
+  doi       = {10.1175/AIES-D-25-0113.1}
+}</code></pre></details>
+    </div>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
+        <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
+        <p class="pub-venue"><em>Horticulture, Environment, and Biotechnology</em>, 62(2), 213–224, Springer, 2021</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank">DOI</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{valente2021inferring,
+  title   = {Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor},
+  author  = {Valente, Jo{\~a}o and Almeida, Rodrigo and Kooistra, Lammert},
+  journal = {Horticulture, Environment, and Biotechnology},
+  volume  = {62},
+  number  = {2},
+  pages   = {213--224},
+  year    = {2021},
+  doi     = {10.1007/s13580-020-00316-9}
+}</code></pre></details>
+    </div>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</h5>
+        <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
+        <p class="pub-venue"><em>Sensors</em>, 19(2), 372, MDPI, 2019</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.3390/s19020372" target="_blank">DOI</a> | <a href="{{< relref "projects/apples-drones.md" >}}">Project</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{valente2019comprehensive,
+  title   = {A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards},
+  author  = {Valente, Jo{\~a}o and Almeida, Rodrigo and Kooistra, Lammert},
+  journal = {Sensors},
+  volume  = {19},
+  number  = {2},
+  pages   = {372},
+  year    = {2019},
+  doi     = {10.3390/s19020372}
+}</code></pre></details>
+    </div>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Super-Resolution of Multispectral Satellite Images Using Convolutional Neural Networks</h5>
+        <p class="pub-authors">M. U. Müller, N. Ekhtiari, <strong>R. M. Almeida</strong>, C. Rieke</p>
+        <p class="pub-venue"><em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, V-1-2020, 33–40, 2020</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.5194/isprs-annals-V-1-2020-33-2020" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2002.00580" target="_blank">arXiv</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{muller2020superresolution,
+  title   = {Super-Resolution of Multispectral Satellite Images Using Convolutional Neural Networks},
+  author  = {M{\"u}ller, M. U. and Ekhtiari, N. and Almeida, R. M. and Rieke, C.},
+  journal = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume  = {V-1-2020},
+  pages   = {33--40},
+  year    = {2020},
+  doi     = {10.5194/isprs-annals-V-1-2020-33-2020}
+}</code></pre></details>
+    </div>
 </div>
 
-<div class="timeline-item">
-    <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
-    <h6><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank">DOI:10.1007/s13580-020-00316-9</a></h6>
-</div>
-
-<div class="timeline-item">
-    <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</h5>
-    <h6><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.3390/s19020372" target="_blank">DOI:10.3390/s19020372</a></h6>
-</div>
-
-<div class="timeline-item">
-    <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Super-resolution of multispectral satellite images using convolutional neural networks</h5>
-    <h6><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.48550/arXiv.2002.00580" target="_blank">DOI:10.48550/arXiv.2002.00580</a></h6>
-</div>
-</div>
+<p class="pub-more"><i class="ai ai-google-scholar" style="color: var(--accent-cyan);"></i> <a href="https://scholar.google.com/citations?user=APdpikAAAAAJ" target="_blank">All publications on Google Scholar</a></p>
 
 ---
 
