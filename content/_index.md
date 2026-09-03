@@ -76,11 +76,11 @@ title = "Rodrigo Almeida"
 <div class="timeline">
     <div class="timeline-item">
         <h5><a href="https://www.hhi.fraunhofer.de/en/index.html"><i class="fas fa-building" style="color: #8BE9FD;"></i> Fraunhofer HHI</a> | Feb 2025 ─ Present</h5>
-        <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Machine Learning Researcher, Applied AI group</h6>
+        <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Machine Learning Researcher & PhD Candidate, Department of AI, Applied Machine Learning group</h6>
         <ul>
-            <li>Uncertainty quantification of global AI weather models, evaluating on extreme events.</li>
-            <li>Climate and Weather AI applications.</li>
-            <li><i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">View Project Details</a></li>
+            <li>Uncertainty quantification of global AI weather models, evaluating on extreme events. <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">UQ for AI Weather Models</a></li>
+            <li>Probabilistic end-to-end AI weather forecasting, disentangling observation and model uncertainty. <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/uq-e2e-weather.md" >}}">UQ for End-to-End AI Weather Models</a></li>
+            <li>AI and Robotics.</li>
         </ul>
     </div>
     
@@ -213,9 +213,14 @@ title = "Rodrigo Almeida"
 ## Publications
 <div class="timeline">
     <div class="timeline-item">
-        <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification</h5>
-        <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://doi.org/10.48550/arXiv.2511.17176" target="_blank">DOI:10.48550/arXiv.2511.17176</a></h6>
+        <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions</h5>
+        <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://doi.org/10.48550/arXiv.2608.30795" target="_blank">DOI:10.48550/arXiv.2608.30795</a> | Preprint, 2026 | <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/uq-e2e-weather.md" >}}">Project</a></h6>
     </div>
+
+<div class="timeline-item">
+    <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification</h5>
+    <h6><i class="fas fa-barcode" style="color: #8BE9FD;"></i> <a href="https://journals.ametsoc.org/view/journals/aies/5/3/AIES-D-25-0113.1.xml" target="_blank">DOI:10.1175/AIES-D-25-0113.1</a> | Artificial Intelligence for the Earth Systems, 5(3), 2026 | <i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">Project</a></h6>
+</div>
 
 <div class="timeline-item">
     <h5><i class="fas fa-file-alt" style="color: #FF79C6;"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
@@ -238,6 +243,13 @@ title = "Rodrigo Almeida"
 ## Conferences and Workshops
 
 <div class="timeline">
+<div class="timeline-item">
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://meetingorganizer.copernicus.org/EMS2026/session/58792" target="_blank">EMS Annual Meeting 2026</a> | 10 Sep 2026</h5>
+    <h6><i class="fas fa-users" style="color: #8BE9FD;"></i> Session convener</h6>
+    <p><em>OSA1.5 Machine Learning in Weather and Climate</em></p>
+    <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C"></i> Utrecht, Netherlands</p>
+</div>
+
 <div class="timeline-item">
     <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://doi.org/10.5194/egusphere-egu26-8109" target="_blank">EGU General Assembly 2026</a> | 5 May 2026</h5>
     <h6><i class="fas fa-image" style="color: #8BE9FD;"></i> Poster presentation</h6>
