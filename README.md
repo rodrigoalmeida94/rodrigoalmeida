@@ -11,7 +11,8 @@ Personal website of Rodrigo Almeida, built with [Hugo](https://gohugo.io/) and t
 - `static/` – images, favicon, CNAME and the generated CV PDF.
 - `latex/` – LaTeX sources for the CV and cover letter.
 - `scripts/` – `generate_cv.sh` and `generate_cover_letter.sh`, which compile the LaTeX into `static/`.
-- `layouts/` – overrides of the theme templates and shortcodes.
+- `layouts/` – overrides of the theme templates and shortcodes, including
+  `robots.txt` and `index.llms.txt`, which generate `/robots.txt` and `/llms.txt`.
 
 ## Local development
 
@@ -37,6 +38,15 @@ LaTeX error leaves the previous PDF in place without a message.
 
 Pushing to `main` runs `.github/workflows/hugo.yml`, which regenerates the CV,
 builds the site and publishes it to GitHub Pages.
+
+## Machine-readable outputs
+
+- `/llms.txt` – plain-text summary for AI agents, generated from the `llms`
+  output format in `config.toml` and the `llms_summary` site parameter. Update
+  that parameter when the role or focus changes.
+- `/robots.txt` – allows all crawlers, lists common AI crawlers explicitly and
+  points to the sitemap.
+- `/index.json` – full-text index of all projects and posts.
 
 ## Editing notes
 

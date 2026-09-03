@@ -1,0 +1,28 @@
+# {{ .Site.Params.author }}
+
+> {{ .Site.Params.long_description }}
+
+{{ .Site.Params.llms_summary }}
+
+This file follows the llms.txt convention (https://llmstxt.org). The site is {{ .Site.BaseURL }}.
+
+## Projects
+{{ range where .Site.RegularPages "Section" "projects" }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}{{ with .Params.tags }} Tags: {{ delimit . ", " }}.{{ end }}{{ end }}
+
+## Blog posts
+{{ range where .Site.RegularPages "Section" "posts" }}
+- [{{ .Title }}]({{ .Permalink }}) ({{ .Date.Format "2006-01-02" }}){{ with .Description }}: {{ . }}{{ end }}{{ end }}
+
+## Profiles
+{{ range .Site.Params.socialIcons }}
+- [{{ .title }}]({{ .url }}){{ end }}
+
+## Machine-readable resources
+
+- [Home page (HTML)]({{ .Site.BaseURL }}): experience, education, publications with DOIs, conferences.
+- [Contact]({{ "contact/" | absURL }})
+- [CV (PDF)]({{ "RODRIGO_ALMEIDA_CV.pdf" | absURL }})
+- [Full-text JSON index of all projects and posts]({{ "index.json" | absURL }})
+- [RSS feed]({{ "index.xml" | absURL }})
+- [Sitemap]({{ "sitemap.xml" | absURL }})
