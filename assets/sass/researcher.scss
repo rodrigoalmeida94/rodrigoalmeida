@@ -23,6 +23,12 @@ $black: #222222;
     --blockquote-border: #FF5555;
     --code-bg: #222222;
     --table-border: #444;
+    --muted-color: #888;
+    --accent-yellow: #F1FA8C;
+    --accent-cyan: #8BE9FD;
+    --accent-purple: #BD93F9;
+    --accent-pink: #FF79C6;
+    --accent-green: #50FA7B;
 }
 
 [data-theme="light"] {
@@ -38,6 +44,12 @@ $black: #222222;
     --blockquote-border: #D70000;
     --code-bg: #f5f5f5;
     --table-border: #ccc;
+    --muted-color: #666;
+    --accent-yellow: #8a7a00;
+    --accent-cyan: #0069a8;
+    --accent-purple: #6b3fbf;
+    --accent-pink: #b0246f;
+    --accent-green: #006600;
 }
 
 // Animations
@@ -180,7 +192,7 @@ h6 {
 }
 
 %table-cell {
-    border: 1px solid #444;
+    border: 1px solid var(--table-border);
     padding: 6px 12px;
     text-align: left;
 }
@@ -296,7 +308,7 @@ body {
 
     .timeline {
         position: relative;
-        border-left: 2px solid #444;
+        border-left: 2px solid var(--timeline-border);
         margin-left: 10px;
         padding-left: 20px;
         margin-top: 1rem;
@@ -430,7 +442,7 @@ body {
         all: unset;
         display: block;
         padding: 1rem;
-        border: 1px dashed #444;
+        border: 1px dashed var(--table-border);
     }
 
     .highlight {
@@ -453,7 +465,7 @@ body {
     }
 
     .status-line {
-        color: #666;
+        color: var(--muted-color);
     }
 }
 

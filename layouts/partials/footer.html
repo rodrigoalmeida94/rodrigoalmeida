@@ -7,7 +7,6 @@ Available Commands:
   [h]  Show this help
   [a]  Home / About
   [p]  Projects
-  [b]  Blog
   [c]  Contact
 
 Press any key or click to close.</pre>
@@ -15,7 +14,7 @@ Press any key or click to close.</pre>
 </div>
 
 <div id="footer" class="mb-5">
-    <hr style="border-top: 1px dashed #444;">
+    <hr style="border-top: 1px dashed var(--timeline-border);">
     {{ if .Site.Params.socialIcons }}
     <div class="container text-center">
         {{ range $item := .Site.Params.socialIcons }}
@@ -36,11 +35,11 @@ Press any key or click to close.</pre>
                 <a href="https://github.com/rodrigoalmeida94/rodrigoalmeida" target="_blank"
                     style="color: inherit; text-decoration: underline;"><i class="fab fa-github"></i> Source
                     Code</a><br>
-                Made with <i class="fas fa-heart" style="color: #FF79C6;"></i> with Gemini 3
+                Made with <i class="fas fa-heart" style="color: var(--accent-pink);"></i> with Gemini 3
             </p>
             <p style="font-size: 0.8rem; opacity: 0.7;">
                 [ Hint: Press <strong>'h'</strong> for command help | <strong>'p'</strong>: projects,
-                <strong>'b'</strong>: blog, <strong>'c'</strong>: contact, <strong>'a'</strong>: home ]
+                <strong>'c'</strong>: contact, <strong>'a'</strong>: home ]
             </p>
             <p>
                 &copy; {{ now.Year }} {{ .Site.Params.author }} | <a href="/impressum">Impressum</a>
@@ -66,7 +65,6 @@ Press any key or click to close.</pre>
         if (e.key === 'h') showHelp();
         if (e.key === 'a') window.location.href = "{{ "/" | relURL }}";
         if (e.key === 'p') window.location.href = "{{ "/projects/" | relURL }}";
-        if (e.key === 'b') window.location.href = "{{ "/posts/" | relURL }}";
         if (e.key === 'c') window.location.href = "{{ "/contact/" | relURL }}";
     });
 

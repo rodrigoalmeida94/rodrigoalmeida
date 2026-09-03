@@ -10,10 +10,10 @@ This file follows the llms.txt convention (https://llmstxt.org). The site is {{ 
 {{ range where .Site.RegularPages "Section" "projects" }}
 - [{{ .Title }}]({{ .Permalink }}): {{ .Description }}{{ with .Params.tags }} Tags: {{ delimit . ", " }}.{{ end }}{{ end }}
 
-## Blog posts
-{{ range where .Site.RegularPages "Section" "posts" }}
+{{ with where .Site.RegularPages "Section" "posts" }}## Blog posts
+{{ range . }}
 - [{{ .Title }}]({{ .Permalink }}) ({{ .Date.Format "2006-01-02" }}){{ with .Description }}: {{ . }}{{ end }}{{ end }}
-
+{{ end }}
 ## Profiles
 {{ range .Site.Params.socialIcons }}
 - [{{ .title }}]({{ .url }}){{ end }}
@@ -23,6 +23,6 @@ This file follows the llms.txt convention (https://llmstxt.org). The site is {{ 
 - [Home page (HTML)]({{ .Site.BaseURL }}): experience, education, publications with DOIs, conferences.
 - [Contact]({{ "contact/" | absURL }})
 - [CV (PDF)]({{ "RODRIGO_ALMEIDA_CV.pdf" | absURL }})
-- [Full-text JSON index of all projects and posts]({{ "index.json" | absURL }})
+- [Full-text JSON index of all projects]({{ "index.json" | absURL }})
 - [RSS feed]({{ "index.xml" | absURL }})
 - [Sitemap]({{ "sitemap.xml" | absURL }})
