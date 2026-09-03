@@ -19,5 +19,5 @@ At Jua.ai, I worked on building a foundational AI model for the natural world. T
 
 ### Press & Publications
 
-- **[Jua raises $16M to build a foundational AI model for the natural world](https://techcrunch.com/2024/02/06/jua-raises-16m-to-build-a-foundational-ai-model-for-the-natural-world/)** - TechCrunch
+- **[Jua raises $16M to build a foundational AI model for the natural world](https://techcrunch.com/2024/02/05/jua-raises-16m-to-build-a-foundational-ai-model-for-the-natural-world-starting-with-the-weather/)** - TechCrunch
 - **[A Foundational Model for Weather and Climate](https://arxiv.org/abs/2507.09703)** - ArXiv (2025)

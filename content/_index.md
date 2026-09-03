@@ -67,7 +67,7 @@ title = "Rodrigo Almeida"
     <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> cogeo/rio-tiler #431</span>
     <span class="contribution-description">Use httpx</span>
 </a>
-<a href="https://github.com/pulls?q=is%3Apr+author%3Arodrigoalmeida94+is%3Aclosed+is%3Apublic" target="_blank" class="contribution-item badge-link">
+<a href="https://github.com/search?q=author%3Arodrigoalmeida94+is%3Apr+is%3Amerged&type=pullrequests" target="_blank" class="contribution-item badge-link">
     <span class="badge-cli badge-git-merged">...</span>
 </a>
 </div>
@@ -97,7 +97,7 @@ title = "Rodrigo Almeida"
 <li>Ingested 30 different sources of historical weather observation data into a common data warehouse, using Zarr and Parquet (> 500 TB).</li>
 <li>Created live ETL pipelines for weather data using Prefect, deploying it in GCP and AWS.</li>
 <li>Lead efforts to assess data quality of weather observation data and cross-validate between sources.</li>
-<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://techcrunch.com/2024/02/06/jua-raises-16m-to-build-a-foundational-ai-model-for-the-natural-world/" target="_blank">Jua raises $16M to build a foundational AI model for the natural world | TechCrunch</a></li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://techcrunch.com/2024/02/05/jua-raises-16m-to-build-a-foundational-ai-model-for-the-natural-world-starting-with-the-weather/" target="_blank">Jua raises $16M to build a foundational AI model for the natural world | TechCrunch</a></li>
 <li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://arxiv.org/abs/2507.09703" target="_blank">A Foundational Model for Weather and Climate | ArXiv</a></li>
 <li><i class="fas fa-folder-open" style="color: #F1FA8C;"></i> <a href="{{< relref "projects/jua.md" >}}">View Project Details</a></li>
 </ul>
@@ -124,10 +124,10 @@ title = "Rodrigo Almeida"
 <li>Used FastAPI to develop asynchronous micro services to estimate resource consumption of geospatial workflows.</li>
 <li>Developed full CI/CD pipeline for dockerized geospatial processing tools, including live and end to end tests.</li>
 </ul>
-<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Data Science Engineer | Sep 2019 ─ Dec 2021</h6>
+<h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Data Science Engineer | Sep 2019 ─ Dec 2020</h6>
 <ul>
 <li>Developed processing chains for geospatial data in Python with Docker.</li>
-<li>Developed the <i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://github.com/up42/up42-py" target="_blank">up42-py</a> Python package for the UP42 API and contributed to <a href="https://github.com/up42/up42-blockutils" target="_blank">up42-blockutils</a>.</li>
+<li>Developed the <i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://github.com/up42/up42-py" target="_blank">up42-py</a> Python package for the UP42 API and contributed to up42-blockutils.</li>
 <li>Built requirements for compatibility service of different geospatial processing chains.</li>
 <li>Conceptualised and trained deep learning model for land cover classification with satellite images using TensorFlow.</li>
 <li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://arxiv.org/abs/2002.00580v2" target="_blank">Super-resolution of multispectral satellite images using convolutional neural networks | ArXiv</a></li>
@@ -140,8 +140,8 @@ title = "Rodrigo Almeida"
 <ul>
 <li>Technical consultancy for prospective customers.</li>
 <li>Developed internal tools for reporting and data visualisation.</li>
-<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://www.planet.com/resources/webinars/earth-observation-big-data-and-how-to-change-the-world/" target="_blank">Webinar - Earth Observation, Big Data and How to change the world?</a></li>
-<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">PyData Berlin - Python in the Mangroves: tracking ecosystem health from space</a></li>
+<li><i class="fas fa-external-link-alt" style="color: #BD93F9;"></i> <a href="https://copernicus-masters.com/events/webinar-earth-observation-big-data-and-how-to-change-the-world/" target="_blank">Webinar - Earth Observation, Big Data and How to change the world?</a></li>
+<li><i class="fas fa-microphone" style="color: #BD93F9;"></i> PyData Berlin - Python in the Mangroves: tracking ecosystem health from space</li>
 </ul>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Internship | Apr 2018 ─ Jun 2018</h6>
 <ul>
@@ -169,7 +169,7 @@ title = "Rodrigo Almeida"
 </div>
 
 <div class="timeline-item">
-<h5><a href="https://www.mapfre.pt"><i class="fas fa-building" style="color: #8BE9FD;"></i> MAPFRE </a> | May 2014 ─ Apr 2015</h5>
+<h5><a href="https://www.mapfre.pt"><i class="fas fa-building" style="color: #8BE9FD;"></i> MAPFRE</a> | May 2014 ─ Apr 2015</h5>
 <h6><i class="fas fa-terminal" style="color: #FF79C6;"></i> Telemarketing Operator</h6>
 </div>
 
@@ -272,7 +272,7 @@ title = "Rodrigo Almeida"
 </div>
 
 <div class="timeline-item">
-    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://cesoc.net/machine-learning-for-the-earth-system-programme/" target="_blank">3rd Workshop on Machine Learning for the Earth System</a> | 25 Aug 2025</h5>
+    <h5><i class="fas fa-chalkboard-teacher" style="color: #BD93F9;"></i> <a href="https://cesoc.net/key-insights-from-mlesm25/" target="_blank">3rd Workshop on Machine Learning for the Earth System</a> | 25 Aug 2025</h5>
     <h6><i class="fas fa-microphone" style="color: #8BE9FD;"></i> Oral presentation</h6>
     <p><em>Can AI weather models capture rare events? A case study of the 2022 Pakistan floods</em></p>
     <p><i class="fas fa-map-marker-alt" style="color: #F1FA8C;"></i> Bonn, Germany</p>

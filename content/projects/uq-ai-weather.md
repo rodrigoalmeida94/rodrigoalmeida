@@ -39,6 +39,6 @@ The follow-up project [UQ for End-to-End AI Weather Models]({{< relref "projects
 *December 7, 2025, San Diego, USA*  
 Poster: "Can Artificial Intelligence Global Weather Forecasting Models Capture Extreme Events? A Case Study of the 2022 Pakistan Floods"
 
-**[3rd Workshop on Machine Learning for the Earth System](https://cesoc.net/3rd-workshop-on-machine-learning-for-the-earth-system/)**  
+**[3rd Workshop on Machine Learning for the Earth System](https://cesoc.net/key-insights-from-mlesm25/)**  
 *August 25, 2025, Bonn, Germany*  
 Oral Presentation: "Can AI weather models capture rare events? A case study of the 2022 Pakistan floods"
