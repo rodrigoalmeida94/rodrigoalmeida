@@ -14,7 +14,7 @@ title = "Rodrigo Almeida"
     <p>I’m <strong>Rodrigo Almeida</strong>, a <strong>Geo-Information, AI Researcher and Cloud Engineer</strong> focused on one of the biggest challenges and opportunities of our time: using AI to understand, predict and adapt to a changing climate. <i class="fas fa-satellite" style="color: var(--accent-cyan);"></i> <i class="fas fa-cloud-sun" style="color: var(--accent-yellow);"></i> <i class="fas fa-globe-europe" style="color: var(--accent-green);"></i> <i class="fas fa-robot" style="color: var(--accent-purple);"></i></p>
     <p>I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.</p>
     <p>I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.</p>
-    <p>Here is a brief overview of my professional experience, my education background and also some non-profits I've worked with over the years.</p>
+    <p>Below you'll find my publications, professional experience, education and open source work, along with some non-profits I've worked with over the years.</p>
     <p>If you have any questions, feel free to reach out - I am always happy to chat!</p>
 </div>
 <div class="clearfix mb-5 text-left" style="margin-top: 2rem;">
