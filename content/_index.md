@@ -53,7 +53,20 @@ title = "Rodrigo Almeida"
   doi       = {10.1175/AIES-D-25-0113.1}
 }</code></pre></details>
     </div>
-<details class="section-collapse"><summary>show other publications (3 more)</summary>
+<details class="section-collapse"><summary>show other publications (4 more)</summary>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> SoftSEEPS Improves ML-Based Precipitation Forecasting</h5>
+        <p class="pub-authors">Jost Arndt, Utku Isil, Noelia Otero, <strong>Rodrigo Almeida</strong>, Wojciech Samek, Jackie Ma</p>
+        <p class="pub-venue"><em>arXiv preprint</em>, 2026</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.48550/arXiv.2610.09752" target="_blank">DOI</a> | <a href="https://arxiv.org/pdf/2610.09752" target="_blank">PDF</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{arndt2026softseeps,
+  title   = {SoftSEEPS improves ML-based precipitation forecasting},
+  author  = {Arndt, Jost and Isil, Utku and Otero, Noelia and Almeida, Rodrigo and Samek, Wojciech and Ma, Jackie},
+  journal = {arXiv preprint arXiv:2610.09752},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2610.09752}
+}</code></pre></details>
+    </div>
     <div class="timeline-item publication">
         <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
         <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
