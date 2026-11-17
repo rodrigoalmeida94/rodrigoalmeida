@@ -21,56 +21,92 @@ title = "Rodrigo Almeida"
     <a href="./RODRIGO_ALMEIDA_CV.pdf" class="btn-terminal" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
 </div>
 
-## Skills
+## Publications
 
-{{< badge "badge-xarray" "fas fa-cubes" >}} Xarray{{< /badge >}}
-{{< badge "badge-zarr" "fas fa-cubes" >}} Zarr{{< /badge >}}
-{{< badge "badge-parquet" "fas fa-columns" >}} Parquet{{< /badge >}}
-{{< badge "badge-gdal" "fas fa-database" >}} GDAL{{< /badge >}}
-{{< badge "badge-postgis" "fas fa-layer-group" >}} PostGIS{{< /badge >}}
-{{< badge "badge-cv" "fas fa-eye" >}} Computer Vision{{< /badge >}}
-{{< badge "badge-dl" "fas fa-network-wired" >}} Deep Learning{{< /badge >}}
-{{< badge "badge-ml" "fas fa-brain" >}} Machine Learning{{< /badge >}}
-{{< badge "badge-geo" "fas fa-globe-americas" >}} Geospatial Analysis{{< /badge >}}
-{{< badge "badge-pulumi" "fas fa-cloud-upload-alt" >}} Pulumi{{< /badge >}}
-{{< badge "badge-prefect" "fas fa-tasks" >}} Prefect{{< /badge >}}
-{{< badge "badge-slurm" "fas fa-server" >}} Slurm{{< /badge >}}
-{{< badge "badge-fastapi" "fas fa-bolt" >}} FastAPI{{< /badge >}}
-{{< badge "badge-dask" "fas fa-project-diagram" >}} Dask{{< /badge >}}
-{{< badge "badge-pytorch" "fas fa-cubes" >}} PyTorch{{< /badge >}}
-{{< badge "badge-docker" "fab fa-docker" >}} Docker{{< /badge >}}
-{{< badge "badge-aws" "fab fa-aws" >}} AWS{{< /badge >}}
-{{< badge "badge-gcp" "fab fa-google" >}} GCP{{< /badge >}}
-{{< badge "badge-cicd" "fas fa-sync-alt" >}} CI/CD{{< /badge >}}
-{{< badge "badge-cloud" "fas fa-cloud" >}} Cloud Engineering{{< /badge >}}
-{{< badge "badge-python" "fab fa-python" >}} Python{{< /badge >}}
-## Open Source Contributions
-
-<div class="clearfix" style="display: block;">
-<a href="https://github.com/nvidia/earth2studio/pull/500" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #500</span>
-    <span class="contribution-description">Add AIFS ENS</span>
-</a>
-<a href="https://github.com/nvidia/earth2studio/pull/256" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #256</span>
-    <span class="contribution-description">Add GraphCast (1 degree model)</span>
-</a>
-<a href="https://github.com/SkyTruth/cerulean-cloud/pull/60" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> SkyTruth/cerulean-cloud #60</span>
-    <span class="contribution-description">Prepare production deployment</span>
-</a>
-<a href="https://github.com/NASA-IMPACT/csdap-cumulus/pull/8" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NASA-IMPACT/csdap-cumulus #8</span>
-    <span class="contribution-description">Use AWS Cognito instead of TEA</span>
-</a>
-<a href="https://github.com/cogeotiff/rio-tiler/pull/431" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> cogeo/rio-tiler #431</span>
-    <span class="contribution-description">Use httpx</span>
-</a>
-<a href="https://github.com/search?q=author%3Arodrigoalmeida94+is%3Apr+is%3Amerged&type=pullrequests" target="_blank" class="contribution-item badge-link">
-    <span class="badge-cli badge-git-merged">...</span>
-</a>
+<div class="timeline">
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions <span class="pub-tag pub-selected">selected</span></h5>
+        <p class="pub-authors"><strong>Rodrigo Almeida</strong>, Noelia Otero, Jost Arndt, Simon Baur, Wojciech Samek, Jackie Ma</p>
+        <p class="pub-venue"><em>arXiv preprint</em>, 2026</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.48550/arXiv.2608.30795" target="_blank">DOI</a> | <a href="https://arxiv.org/pdf/2608.30795" target="_blank">PDF</a> | <a href="https://huggingface.co/datasets/rodrigoalmeida1994/uqe2e" target="_blank">Data</a> | <a href="{{< relref "projects/uq-e2e-weather.md" >}}">Project</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{almeida2026uncertainty,
+  title   = {Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions},
+  author  = {Almeida, Rodrigo and Otero, Noelia and Arndt, Jost and Baur, Simon and Samek, Wojciech and Ma, Jackie},
+  journal = {arXiv preprint arXiv:2608.30795},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2608.30795}
+}</code></pre></details>
+    </div>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification <span class="pub-tag pub-selected">selected</span></h5>
+        <p class="pub-authors"><strong>Rodrigo Almeida</strong>, Noelia Otero, Miguel-Ángel Fernández-Torres, Jackie Ma</p>
+        <p class="pub-venue"><em>Artificial Intelligence for the Earth Systems</em>, 5(3), American Meteorological Society, 2026</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1175/AIES-D-25-0113.1" target="_blank">DOI</a> | <a href="https://journals.ametsoc.org/view/journals/aies/5/3/AIES-D-25-0113.1.xml" target="_blank">Journal</a> | <a href="{{< relref "projects/uq-ai-weather.md" >}}">Project</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{almeida2026predictive,
+  title     = {On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification},
+  author    = {Almeida, Rodrigo and Otero, Noelia and Fern{\'a}ndez-Torres, Miguel-{\'A}ngel and Ma, Jackie},
+  journal   = {Artificial Intelligence for the Earth Systems},
+  volume    = {5},
+  number    = {3},
+  year      = {2026},
+  publisher = {American Meteorological Society},
+  doi       = {10.1175/AIES-D-25-0113.1}
+}</code></pre></details>
+    </div>
+<details class="section-collapse"><summary>show other publications (3 more)</summary>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
+        <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
+        <p class="pub-venue"><em>Horticulture, Environment, and Biotechnology</em>, 62(2), 213–224, Springer, 2021</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank">DOI</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{valente2021inferring,
+  title   = {Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor},
+  author  = {Valente, Jo{\~a}o and Almeida, Rodrigo and Kooistra, Lammert},
+  journal = {Horticulture, Environment, and Biotechnology},
+  volume  = {62},
+  number  = {2},
+  pages   = {213--224},
+  year    = {2021},
+  doi     = {10.1007/s13580-020-00316-9}
+}</code></pre></details>
+    </div>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</h5>
+        <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
+        <p class="pub-venue"><em>Sensors</em>, 19(2), 372, MDPI, 2019</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.3390/s19020372" target="_blank">DOI</a> | <a href="{{< relref "projects/apples-drones.md" >}}">Project</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{valente2019comprehensive,
+  title   = {A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards},
+  author  = {Valente, Jo{\~a}o and Almeida, Rodrigo and Kooistra, Lammert},
+  journal = {Sensors},
+  volume  = {19},
+  number  = {2},
+  pages   = {372},
+  year    = {2019},
+  doi     = {10.3390/s19020372}
+}</code></pre></details>
+    </div>
+    <div class="timeline-item publication">
+        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Super-Resolution of Multispectral Satellite Images Using Convolutional Neural Networks</h5>
+        <p class="pub-authors">M. U. Müller, N. Ekhtiari, <strong>R. M. Almeida</strong>, C. Rieke</p>
+        <p class="pub-venue"><em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, V-1-2020, 33–40, 2020</p>
+        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.5194/isprs-annals-V-1-2020-33-2020" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2002.00580" target="_blank">arXiv</a></p>
+        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{muller2020superresolution,
+  title   = {Super-Resolution of Multispectral Satellite Images Using Convolutional Neural Networks},
+  author  = {M{\"u}ller, M. U. and Ekhtiari, N. and Almeida, R. M. and Rieke, C.},
+  journal = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume  = {V-1-2020},
+  pages   = {33--40},
+  year    = {2020},
+  doi     = {10.5194/isprs-annals-V-1-2020-33-2020}
+}</code></pre></details>
+    </div>
+</details>
 </div>
+
+<p class="pub-more"><i class="ai ai-google-scholar" style="color: var(--accent-cyan);"></i> <a href="https://scholar.google.com/citations?user=APdpikAAAAAJ" target="_blank">All publications on Google Scholar</a></p>
+
+---
 
 ## Experience
 <div class="timeline">
@@ -213,88 +249,59 @@ title = "Rodrigo Almeida"
 
 ---
 
-## Publications
+## Open Source Contributions
 
-<div class="timeline">
-    <div class="timeline-item publication">
-        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions <span class="pub-tag pub-selected">selected</span></h5>
-        <p class="pub-authors"><strong>Rodrigo Almeida</strong>, Noelia Otero, Jost Arndt, Simon Baur, Wojciech Samek, Jackie Ma</p>
-        <p class="pub-venue"><em>arXiv preprint</em>, 2026</p>
-        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.48550/arXiv.2608.30795" target="_blank">DOI</a> | <a href="https://arxiv.org/pdf/2608.30795" target="_blank">PDF</a> | <a href="https://huggingface.co/datasets/rodrigoalmeida1994/uqe2e" target="_blank">Data</a> | <a href="{{< relref "projects/uq-e2e-weather.md" >}}">Project</a></p>
-        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{almeida2026uncertainty,
-  title   = {Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions},
-  author  = {Almeida, Rodrigo and Otero, Noelia and Arndt, Jost and Baur, Simon and Samek, Wojciech and Ma, Jackie},
-  journal = {arXiv preprint arXiv:2608.30795},
-  year    = {2026},
-  doi     = {10.48550/arXiv.2608.30795}
-}</code></pre></details>
-    </div>
-    <div class="timeline-item publication">
-        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification <span class="pub-tag pub-selected">selected</span></h5>
-        <p class="pub-authors"><strong>Rodrigo Almeida</strong>, Noelia Otero, Miguel-Ángel Fernández-Torres, Jackie Ma</p>
-        <p class="pub-venue"><em>Artificial Intelligence for the Earth Systems</em>, 5(3), American Meteorological Society, 2026</p>
-        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1175/AIES-D-25-0113.1" target="_blank">DOI</a> | <a href="https://journals.ametsoc.org/view/journals/aies/5/3/AIES-D-25-0113.1.xml" target="_blank">Journal</a> | <a href="{{< relref "projects/uq-ai-weather.md" >}}">Project</a></p>
-        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{almeida2026predictive,
-  title     = {On the Predictive Skill of Artificial Intelligence-Based Weather Models for Extreme Events Using Uncertainty Quantification},
-  author    = {Almeida, Rodrigo and Otero, Noelia and Fern{\'a}ndez-Torres, Miguel-{\'A}ngel and Ma, Jackie},
-  journal   = {Artificial Intelligence for the Earth Systems},
-  volume    = {5},
-  number    = {3},
-  year      = {2026},
-  publisher = {American Meteorological Society},
-  doi       = {10.1175/AIES-D-25-0113.1}
-}</code></pre></details>
-    </div>
-    <div class="timeline-item publication">
-        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus Domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor</h5>
-        <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
-        <p class="pub-venue"><em>Horticulture, Environment, and Biotechnology</em>, 62(2), 213–224, Springer, 2021</p>
-        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.1007/s13580-020-00316-9" target="_blank">DOI</a></p>
-        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{valente2021inferring,
-  title   = {Inferring Ethylene Temporal and Spatial Distribution in an Apple Orchard (Malus domestica Borkh): A Pilot Study for Optimal Sampling with a Gas Sensor},
-  author  = {Valente, Jo{\~a}o and Almeida, Rodrigo and Kooistra, Lammert},
-  journal = {Horticulture, Environment, and Biotechnology},
-  volume  = {62},
-  number  = {2},
-  pages   = {213--224},
-  year    = {2021},
-  doi     = {10.1007/s13580-020-00316-9}
-}</code></pre></details>
-    </div>
-    <div class="timeline-item publication">
-        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards</h5>
-        <p class="pub-authors">João Valente, <strong>Rodrigo Almeida</strong>, Lammert Kooistra</p>
-        <p class="pub-venue"><em>Sensors</em>, 19(2), 372, MDPI, 2019</p>
-        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.3390/s19020372" target="_blank">DOI</a> | <a href="{{< relref "projects/apples-drones.md" >}}">Project</a></p>
-        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{valente2019comprehensive,
-  title   = {A Comprehensive Study of the Potential Application of Flying Ethylene-Sensitive Sensors for Ripeness Detection in Apple Orchards},
-  author  = {Valente, Jo{\~a}o and Almeida, Rodrigo and Kooistra, Lammert},
-  journal = {Sensors},
-  volume  = {19},
-  number  = {2},
-  pages   = {372},
-  year    = {2019},
-  doi     = {10.3390/s19020372}
-}</code></pre></details>
-    </div>
-    <div class="timeline-item publication">
-        <h5><i class="fas fa-file-alt" style="color: var(--accent-pink);"></i> Super-Resolution of Multispectral Satellite Images Using Convolutional Neural Networks</h5>
-        <p class="pub-authors">M. U. Müller, N. Ekhtiari, <strong>R. M. Almeida</strong>, C. Rieke</p>
-        <p class="pub-venue"><em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, V-1-2020, 33–40, 2020</p>
-        <p class="pub-links"><i class="fas fa-barcode" style="color: var(--accent-cyan);"></i> <a href="https://doi.org/10.5194/isprs-annals-V-1-2020-33-2020" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2002.00580" target="_blank">arXiv</a></p>
-        <details class="bibtex"><summary>BibTeX</summary><pre><code>@article{muller2020superresolution,
-  title   = {Super-Resolution of Multispectral Satellite Images Using Convolutional Neural Networks},
-  author  = {M{\"u}ller, M. U. and Ekhtiari, N. and Almeida, R. M. and Rieke, C.},
-  journal = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
-  volume  = {V-1-2020},
-  pages   = {33--40},
-  year    = {2020},
-  doi     = {10.5194/isprs-annals-V-1-2020-33-2020}
-}</code></pre></details>
-    </div>
+<div class="clearfix" style="display: block;">
+<a href="https://github.com/nvidia/earth2studio/pull/500" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #500</span>
+    <span class="contribution-description">Add AIFS ENS</span>
+</a>
+<a href="https://github.com/nvidia/earth2studio/pull/256" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NVIDIA/earth2studio #256</span>
+    <span class="contribution-description">Add GraphCast (1 degree model)</span>
+</a>
+<a href="https://github.com/SkyTruth/cerulean-cloud/pull/60" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> SkyTruth/cerulean-cloud #60</span>
+    <span class="contribution-description">Prepare production deployment</span>
+</a>
+<a href="https://github.com/NASA-IMPACT/csdap-cumulus/pull/8" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> NASA-IMPACT/csdap-cumulus #8</span>
+    <span class="contribution-description">Use AWS Cognito instead of TEA</span>
+</a>
+<a href="https://github.com/cogeotiff/rio-tiler/pull/431" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged"><i class="fas fa-code-branch"></i> cogeo/rio-tiler #431</span>
+    <span class="contribution-description">Use httpx</span>
+</a>
+<a href="https://github.com/search?q=author%3Arodrigoalmeida94+is%3Apr+is%3Amerged&type=pullrequests" target="_blank" class="contribution-item badge-link">
+    <span class="badge-cli badge-git-merged">...</span>
+</a>
 </div>
 
-<p class="pub-more"><i class="ai ai-google-scholar" style="color: var(--accent-cyan);"></i> <a href="https://scholar.google.com/citations?user=APdpikAAAAAJ" target="_blank">All publications on Google Scholar</a></p>
+---
+
+## Skills
+
+{{< badge "badge-xarray" "fas fa-cubes" >}} Xarray{{< /badge >}}
+{{< badge "badge-zarr" "fas fa-cubes" >}} Zarr{{< /badge >}}
+{{< badge "badge-parquet" "fas fa-columns" >}} Parquet{{< /badge >}}
+{{< badge "badge-gdal" "fas fa-database" >}} GDAL{{< /badge >}}
+{{< badge "badge-postgis" "fas fa-layer-group" >}} PostGIS{{< /badge >}}
+{{< badge "badge-cv" "fas fa-eye" >}} Computer Vision{{< /badge >}}
+{{< badge "badge-dl" "fas fa-network-wired" >}} Deep Learning{{< /badge >}}
+{{< badge "badge-ml" "fas fa-brain" >}} Machine Learning{{< /badge >}}
+{{< badge "badge-geo" "fas fa-globe-americas" >}} Geospatial Analysis{{< /badge >}}
+{{< badge "badge-pulumi" "fas fa-cloud-upload-alt" >}} Pulumi{{< /badge >}}
+{{< badge "badge-prefect" "fas fa-tasks" >}} Prefect{{< /badge >}}
+{{< badge "badge-slurm" "fas fa-server" >}} Slurm{{< /badge >}}
+{{< badge "badge-fastapi" "fas fa-bolt" >}} FastAPI{{< /badge >}}
+{{< badge "badge-dask" "fas fa-project-diagram" >}} Dask{{< /badge >}}
+{{< badge "badge-pytorch" "fas fa-cubes" >}} PyTorch{{< /badge >}}
+{{< badge "badge-docker" "fab fa-docker" >}} Docker{{< /badge >}}
+{{< badge "badge-aws" "fab fa-aws" >}} AWS{{< /badge >}}
+{{< badge "badge-gcp" "fab fa-google" >}} GCP{{< /badge >}}
+{{< badge "badge-cicd" "fas fa-sync-alt" >}} CI/CD{{< /badge >}}
+{{< badge "badge-cloud" "fas fa-cloud" >}} Cloud Engineering{{< /badge >}}
+{{< badge "badge-python" "fab fa-python" >}} Python{{< /badge >}}
 
 ---
 
