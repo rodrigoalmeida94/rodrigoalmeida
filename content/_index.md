@@ -117,6 +117,8 @@ title = "Rodrigo Almeida"
 </ul>
 </div>
 
+<details class="section-collapse"><summary>show earlier experience (6 more)</summary>
+
 <div class="timeline-item">
 <h5><a href="https://up42.com"><i class="fas fa-building" style="color: var(--accent-cyan);"></i> UP42, an Airbus company</a> | Sep 2019 ─ Jul 2021</h5>
 <h6><i class="fas fa-terminal" style="color: var(--accent-pink);"></i> Senior Data Science Engineer | Jan 2021 ─ Jul 2021</h6>
@@ -180,6 +182,7 @@ title = "Rodrigo Almeida"
 <li>Support with AV during the conference, graphic design, and brand development.</li>
 </ul>
 </div>
+</details>
 </div>
 
 ---

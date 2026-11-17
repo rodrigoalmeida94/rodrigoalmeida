@@ -1007,3 +1007,33 @@ input:checked+.slider:before {
     margin-top: -1rem;
     margin-bottom: 2rem;
 }
+
+// Collapsible homepage sections (e.g. Experience)
+#content .section-collapse {
+    > .timeline-item:first-of-type {
+        margin-top: 1.5rem;
+    }
+
+    > summary {
+        display: inline-block;
+        cursor: pointer;
+        color: var(--link-color);
+        list-style: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::before {
+            content: "[+] ";
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &[open] > summary::before {
+        content: "[-] ";
+    }
+}
