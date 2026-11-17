@@ -456,8 +456,12 @@ body {
     .highlight {
         margin: $y-medium auto;
 
+        // Hugo's highlighter inlines a dark (monokai) background on <pre>;
+        // override it so code blocks follow the light/dark theme.
         &>pre {
             padding: 8px 8px;
+            color: var(--text-color) !important;
+            background-color: var(--code-bg) !important;
         }
     }
 }
