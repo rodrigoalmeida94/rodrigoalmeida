@@ -76,7 +76,7 @@ title = "Rodrigo Almeida"
 <div class="timeline">
     <div class="timeline-item">
         <h5><a href="https://www.hhi.fraunhofer.de/en/index.html"><i class="fas fa-building" style="color: var(--accent-cyan);"></i> Fraunhofer HHI</a> | Feb 2025 ─ Present</h5>
-        <h6><i class="fas fa-terminal" style="color: var(--accent-pink);"></i> Machine Learning Researcher & PhD Candidate, Department of AI, Applied Machine Learning group</h6>
+        <h6><i class="fas fa-terminal" style="color: var(--accent-pink);"></i> Machine Learning Researcher & PhD Candidate, AI Department, Applied Machine Learning group</h6>
         <ul>
             <li>Uncertainty quantification of global AI weather models, evaluating on extreme events. <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">UQ for AI Weather Models</a></li>
             <li>Probabilistic end-to-end AI weather forecasting, disentangling observation and model uncertainty. <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/uq-e2e-weather.md" >}}">UQ for End-to-End AI Weather Models</a></li>
