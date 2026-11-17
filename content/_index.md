@@ -80,7 +80,7 @@ title = "Rodrigo Almeida"
         <ul>
             <li>Uncertainty quantification of global AI weather models, evaluating on extreme events. <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/uq-ai-weather.md" >}}">UQ for AI Weather Models</a></li>
             <li>Probabilistic end-to-end AI weather forecasting, disentangling observation and model uncertainty. <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/uq-e2e-weather.md" >}}">UQ for End-to-End AI Weather Models</a></li>
-            <li>Robotics: fully local robots running open models, for sovereign AI. <i class="fas fa-robot" style="color: var(--accent-yellow);"></i> <a href="{{< relref "posts/reachy-spark-local.md" >}}">Reachy Mini meets DGX Spark</a></li>
+            <li>Robotics: fully local robots running open models, for sovereign AI. <i class="fas fa-folder-open" style="color: var(--accent-yellow);"></i> <a href="{{< relref "projects/reachy-spark-local.md" >}}">Reachy Mini meets DGX Spark</a></li>
         </ul>
     </div>
     
