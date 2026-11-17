@@ -3,6 +3,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#222222">
 
+    <!-- Apply saved/system theme before first paint (prevents a dark flash in light mode) -->
+    <script>
+        (function () {
+            var theme = null;
+            try { theme = localStorage.getItem('theme'); } catch (e) { }
+            if (theme === 'light' || (theme !== 'dark' && window.matchMedia &&
+                window.matchMedia('(prefers-color-scheme: light)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+
     <!-- Canonical -->
     <link rel="canonical" href="{{ .Permalink }}">
 

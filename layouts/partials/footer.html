@@ -58,7 +58,11 @@ Press any key or click to close.</pre>
     helpOverlay.addEventListener('click', hideHelp);
 
     document.addEventListener('keydown', function (e) {
-        if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
+        // Leave browser/OS shortcuts alone (Cmd/Ctrl+C copy, Cmd/Ctrl+P print, …).
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+        const active = document.activeElement;
+        if (active && (['INPUT', 'TEXTAREA', 'SELECT'].includes(active.tagName) || active.isContentEditable)) return;
 
         if (helpOverlay.classList.contains('active')) { hideHelp(); return; }
 
@@ -117,37 +121,20 @@ Press any key or click to close.</pre>
 </script>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    // The theme itself is applied early in <head> (see head.html) to avoid a flash;
+    // here we only sync the toggle and handle changes.
+    (function () {
         const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+        if (!toggleSwitch) return;
         const html = document.documentElement;
 
-        const savedTheme = localStorage.getItem('theme');
-        const systemPrefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+        toggleSwitch.checked = html.getAttribute('data-theme') === 'light';
 
-        let isLight = false;
-        if (savedTheme === 'light') {
-            isLight = true;
-        } else if (savedTheme === 'dark') {
-            isLight = false;
-        } else if (systemPrefersLight) {
-            isLight = true;
-        }
-
-        if (isLight) {
-            html.setAttribute('data-theme', 'light');
-            toggleSwitch.checked = true;
-        }
-
-        function switchTheme(e) {
-            if (e.target.checked) {
-                html.setAttribute('data-theme', 'light');
-                localStorage.setItem('theme', 'light');
-            } else {
-                html.removeAttribute('data-theme');
-                localStorage.setItem('theme', 'dark');
-            }
-        }
-
-        toggleSwitch.addEventListener('change', switchTheme, false);
-    });
+        toggleSwitch.addEventListener('change', function (e) {
+            const theme = e.target.checked ? 'light' : 'dark';
+            if (theme === 'light') html.setAttribute('data-theme', 'light');
+            else html.removeAttribute('data-theme');
+            try { localStorage.setItem('theme', theme); } catch (err) { }
+        });
+    })();
 </script>
