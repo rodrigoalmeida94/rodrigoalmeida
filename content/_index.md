@@ -15,7 +15,7 @@ title = "Rodrigo Almeida"
     <p>I’m driven by the hard problems that matter to everyone. The weather and climate systems shape our economies, food security, infrastructure and daily lives and advancing AI in this space has the potential to build a safer, more resilient world.</p>
     <p>I love working with people who care deeply about their craft and who share this mission. Satellite imagery, geospatial data and AI give us unprecedented visibility into our planet. When combined responsibly, they can improve forecasting, strengthen climate adaptation and increase global transparency. My goal is to help make this future possible.</p>
     <p>Here is a brief overview of my professional experience, my education background and also some non-profits I've worked with over the years.</p>
-    <p>If you have any questions or remarks, feel free to reach out - I am always happy to chat!</p>
+    <p>If you have any questions, feel free to reach out - I am always happy to chat!</p>
 </div>
 <div class="clearfix mb-5 text-left" style="margin-top: 2rem;">
     <a href="./RODRIGO_ALMEIDA_CV.pdf" class="btn-terminal" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
