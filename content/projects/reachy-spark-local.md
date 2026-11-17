@@ -1,5 +1,5 @@
 +++
-title = "Reachy Mini meets DGX Spark: a robot that never phones home"
+title = "Reachy Mini meets DGX Spark"
 date = 2026-11-17
 description = "A fully local voice and vision assistant on a Reachy Mini robot, powered by a DGX Spark. Open models, no cloud, no API keys."
 tags = ["Robotics", "Sovereign AI", "Local LLMs", "Reachy Mini", "DGX Spark"]
