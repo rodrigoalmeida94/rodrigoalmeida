@@ -16,7 +16,7 @@ enableRobotsTXT = true
   favicon = "./favicon.svg"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   twitter = "@rodrigo_gtiff"
-  social_image = "./social.webp"
+  social_image = "./social.jpg"
   # Plain-text summary served at /llms.txt for AI agents and crawlers.
   llms_summary = "Rodrigo Almeida is a Machine Learning Researcher and PhD candidate at Fraunhofer HHI in Berlin, working on uncertainty quantification of AI weather models, including end-to-end forecasting systems, with a focus on extreme events. Previously Engineering Manager of the data team at Jua.ai, Cloud Software Engineer at Development Seed, Data Science Engineer at UP42 and Pre-Sales Engineer at Planet. MSc Geo-Information Science (Wageningen University, cum laude)."
 

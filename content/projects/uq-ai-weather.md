@@ -3,6 +3,8 @@ title = "UQ for AI Weather Models"
 date = 2025-11-21
 lastmod = 2026-08-25
 description = "Evaluating the predictive skill of AI weather models for extreme events using uncertainty quantification. Published in Artificial Intelligence for the Earth Systems (AMS)."
+image = "/uq-ai-weather-aies-fig4-social.jpg"
+image_alt = "ROCSS of AI weather models by percentile threshold, model and perturbation method"
 tags = ["AI for Science", "Weather Forecasting", "Uncertainty Quantification", "Deep Learning", "Climate Change"]
 +++
 

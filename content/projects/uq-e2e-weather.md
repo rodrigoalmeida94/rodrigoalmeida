@@ -3,6 +3,8 @@ title = "UQ for End-to-End AI Weather Models"
 date = 2026-08-31
 lastmod = 2026-11-17
 description = "Making end-to-end AI weather forecasting probabilistic and disentangling observation and model uncertainty."
+image = "/uq-e2e-weather-architecture-social.jpg"
+image_alt = "End-to-end ensemble architecture with encoder noise and processor dropout"
 tags = ["AI for Science", "Weather Forecasting", "Uncertainty Quantification", "End-to-End Forecasting", "Deep Learning"]
 +++
 
