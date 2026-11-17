@@ -1037,3 +1037,55 @@ input:checked+.slider:before {
         content: "[-] ";
     }
 }
+
+// Section list pages (ls -latR style)
+#content .ls-list,
+.ls-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    > li:before {
+        content: none;
+    }
+}
+
+.ls-row {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    column-gap: 10px;
+    align-items: baseline;
+    padding: 2px 0;
+}
+
+.ls-perms,
+.ls-date {
+    color: var(--muted-color);
+    white-space: nowrap;
+}
+
+.ls-name {
+    color: var(--accent-green);
+    overflow-wrap: anywhere;
+    min-width: 0;
+}
+
+@media (max-width: 600px) {
+    .ls-row {
+        grid-template-columns: 1fr;
+        padding: 6px 0;
+        border-bottom: 1px dashed var(--timeline-border);
+    }
+
+    .ls-row:last-child {
+        border-bottom: none;
+    }
+
+    .ls-perms {
+        display: none;
+    }
+
+    .ls-date {
+        font-size: 0.85rem;
+    }
+}

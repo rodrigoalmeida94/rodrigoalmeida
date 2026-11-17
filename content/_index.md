@@ -119,7 +119,6 @@ title = "Rodrigo Almeida"
 
 <p class="pub-more"><i class="ai ai-google-scholar" style="color: var(--accent-cyan);"></i> <a href="https://scholar.google.com/citations?user=APdpikAAAAAJ" target="_blank">All publications on Google Scholar</a></p>
 
----
 
 ## Experience
 <div class="timeline">
@@ -234,7 +233,6 @@ title = "Rodrigo Almeida"
 </details>
 </div>
 
----
 
 ## Education
 <div class="timeline">
@@ -260,7 +258,6 @@ title = "Rodrigo Almeida"
 </div>
 </div>
 
----
 
 ## Open Source Contributions
 
@@ -290,7 +287,6 @@ title = "Rodrigo Almeida"
 </a>
 </div>
 
----
 
 ## Skills
 
@@ -316,7 +312,6 @@ title = "Rodrigo Almeida"
 {{< badge "badge-cloud" "fas fa-cloud" >}} Cloud Engineering{{< /badge >}}
 {{< badge "badge-python" "fab fa-python" >}} Python{{< /badge >}}
 
----
 
 ## Conferences and Workshops
 
@@ -357,7 +352,6 @@ title = "Rodrigo Almeida"
 </div>
 </div>
 
----
 
 ## Volunteering
 <div class="timeline">
@@ -378,7 +372,6 @@ title = "Rodrigo Almeida"
 </div>
 </div>
 
----
 
 ## Honors & Awards
 <div class="timeline">
